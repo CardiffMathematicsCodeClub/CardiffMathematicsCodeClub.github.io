@@ -1,0 +1,14 @@
+body{                       /* Sets the background image for the site */
+    background-image: url('../res/background.png');
+}
+.main {                     /* This controls the "main" part of the page i.e. what goes in the centre column */
+    background-color: #ffffec;
+    position: absolute;
+    margin-top: 50px;
+    left: 20%;
+    padding-right: 20%;
+}
+
+.main_body {                /* This controls the "body" of the main central column i.e. not the title */
+    margin-top: 50px;
+}
