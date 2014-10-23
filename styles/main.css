@@ -2,11 +2,13 @@ body{                       /* Sets the background image for the site */
     background-image: url('../res/background.png');
 }
 .main {                     /* This controls the "main" part of the page i.e. what goes in the centre column */
-    background-color: #ffffec;
+    background-color: #000000;
     position: absolute;
     margin-top: 50px;
     left: 20%;
-    padding-right: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: #00FF00;
 }
 
 .main_body {                /* This controls the "body" of the main central column i.e. not the title */
