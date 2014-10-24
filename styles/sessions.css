@@ -1,0 +1,11 @@
+div.session i{
+    color: #0066FF;
+}
+
+div.session b{
+    color: gray;
+}
+
+div.session {
+    color: red;
+}
