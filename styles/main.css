@@ -25,3 +25,13 @@ a:visited{
     margin-top: 50px;
     color: #FFFFFF;
 }
+
+.menu {
+    background-color: #000000;
+    position: absolute;
+    margin-top: 60px;
+    width: 10%;
+    left: 0%;
+    padding-left: 2%;
+    color: #00FF00
+}
