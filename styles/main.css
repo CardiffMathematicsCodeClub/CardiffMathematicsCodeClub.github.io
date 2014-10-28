@@ -13,6 +13,10 @@ body{                       /* Sets the background image for the site */
     color: #00FF00;
 }
 
+h1, h2, h3 {
+    color: #00FF00;
+}
+
 a:link{
 	color: #FFFF00;
 }
