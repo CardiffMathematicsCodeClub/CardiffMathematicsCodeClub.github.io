@@ -26,10 +26,12 @@ a:visited{
 }
 
 .main_body {                /* This controls the "body" of the main central column i.e. not the title */
-    margin-top: 50px;
+    margin-top: 20px;
     color: #FFFFFF;
 }
-
+.quote {
+  color: #FF8000;
+}
 .menu {
     background-color: #000000;
     position: absolute;
