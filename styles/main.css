@@ -30,7 +30,8 @@ a:visited{
     color: #FFFFFF;
 }
 .quote {
-  color: #FF8000;
+	color: #FF8000;
+	text-align: center;
 }
 .menu {
     background-color: #000000;
