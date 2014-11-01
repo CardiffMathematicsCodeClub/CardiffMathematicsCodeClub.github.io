@@ -7,6 +7,7 @@ body{                       /* Sets the background image for the site */
     position: absolute;
     margin-top: 50px;
 	width: 50%;
+    #min-width: 500px;
 	left: 21%;
     padding-left: 4%;
     padding-right: 4%;
@@ -38,8 +39,9 @@ a:visited{
     position: absolute;
     margin-top: 50px;
     width: 10%;
+    min-width: 120px;
     left: 0%;
-    padding-left: 2%;
+    padding-left: 15px;
     padding-bottom: 15px;
     color: #00FF00
 }
