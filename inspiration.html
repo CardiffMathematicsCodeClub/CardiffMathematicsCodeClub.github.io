@@ -2,14 +2,52 @@
 <html>
 <head>
     <title>Inspiration</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+  
+     <!-- jQuery JavaScript -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!-- bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"> 
+    
+    <!-- old CSS -->
+    <!--  
+    <link rel="stylesheet" type="text/css" href="styles/main.css"/>  
+    ->       
+     <!-- new CSS -->
+    <link rel="stylesheet" href="styles/Custom_formating.css"/>
+    
 </head>
-<body>
+<body style="background-image: url(res/background.png);">
+    <div class="container">  
+    <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                       <li> <a href="index.html">Home</a></li> 
+                       <li> <a href="sessions.html">Past Sessions</a></li>
+                       <li> <a href="inspiration.html">Inspiration</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </nav>
 
-    <div class="main">
-        <h1>Inspiration</h1>
+    <div class="mainText" style="padding-top: 50px;">
+        <h1 style="font-size: 6vh; text-align: center;">Inspiration</h1>
 
-        <div class="main_body">
+        <div class="well">
             <p> There is so much you can do during your time at Code Club anything
                 from learning a new programming languages such as <a href="languages/java.html">Java</a>
                 or <a href="languages/haskell.html">Haskell</a> to usefull tools such
@@ -17,7 +55,8 @@
                 for text editing to hacking away in <a href="http://pi.minecraft.net/?page_id=14">Minecraft</a>
                 for the Raspberry Pi! You are only limited by your imagination!
             </p>
-
+            
+            <div class="well">
             <h3>Programming Languages</h3>
 
             <p>There are more programming languages than stars in the galaxy... OK
@@ -25,12 +64,13 @@
                possible purpose imaginable from building video games to driving rovers on Mars or
                simply trying to <a href="languages/brainfuck.html">confuse</a> the programmer using them!
             </p>
-
+            </div>
             <p>Some of the more popular languages include <a href="languages/java.html">Java</a>,
               <a href="languages/python.html">Python</a> and <a href="languages/cpp.html">C++</a>.
               However there are many more than that! Be sure to look at the full list on the left.
             </p>
 
+            <div class="well">
             <h3>Programming Challenges</h3>
 
             <p>Many places on the interest provide enthusatic programmers with excercises and challenges
@@ -47,14 +87,16 @@
                 <li><a href="http://programmingpraxis.com/">Programming Praxis</a> - A blog with new excercies posted every few days
                     on a range of topics. Many of them are presented as a word problem.
             </ul>
-
+            </div>
+            
             <h3>Stay Tuned</h3>
 
             <p>Watch this space, more coming soon...</p>
         </div>
     </div>
-
+</div>
     <!-- Navigation Menu -->
+   <!-- 
     <div class="menu">
         <h3>Menu</h3>
         <a href="index.html">Home</a> <br/>
@@ -70,5 +112,6 @@
         <a href="languages/python.html">Python</a> <br/>
         </p>
     </div>
+   -->
 </body>
 </html>
