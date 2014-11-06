@@ -2,35 +2,66 @@
 <html>
 <head>
     <title>Code Club Home</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    
+    <!-- jQuery JavaScript -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!-- bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    
+    <!-- old CSS -->
+    <!--  
+    <link rel="stylesheet" type="text/css" href="styles/main.css"/>  
+    ->       
+    <!- new CSS -->
+    <link rel="stylesheet" href="styles/Custom_formating.css"/>
+     
 </head>
 <body>
-
-<div class="main">
-    <h1 id="cardiff-school-of-mathematics-code-club">Cardiff School of Mathematics Code Club</h1>
-
-    <div class="main_body">
-        <p>Code Club is a place where like minded people who are passionate about programming can get together
+<div class="container">
+    
+        <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                       <li> <a href="index.html">Home</a></li> 
+                       <li> <a href="sessions.html">Past Sessions</a></li>
+                       <li> <a href="inspiration.html">Inspiration</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </nav>
+    
+    <div class="mainText">
+        <h1>Cardiff School of Mathematics Code Club</h1>
+         
+        <p class="well">Code Club is a place where like minded people who are passionate about programming can get together
            and hang out, talk about coding in general and work on any projects that they have
            in mind, whether it be solo or part of a team. Code Club is the ideal place to
            improve your skills as a programmer while enjoying the pleasant company of others who share your interests.</p>
 
-        <p>Can't wait to come along? Well we meet every Thursday in M/0.33 in the School of Mathematics building at 16:00.</p>
-
-        <p>Do you think it sounds like a great idea, but are looking for an excuse to turn up? Then be sure to check out
-           our <a href="inspiration.html">Inspiration</a> page.</p>
+        <p class="well">
+           Can't wait to come along? Well we meet every Thursday in M/0.33 in the School of Mathematics building at 16:00. <br/>
+           Do you think it sounds like a great idea, but are looking for an excuse to turn up? Then be sure to check out our <a href="inspiration.html">Inspiration</a> page.
+        </p>
 
         <p><i><b>Disclaimer:</b> This website was made by programmers for programmers - please forgive any spelling mistakes!</i></p>
     </div>
 
 </div>
-    <!-- Navigation Menu -->
-    <div class="menu">
-        <h3>Menu</h3>
-        <a href="index.html">Home</a> <br/>
-        <a href="sessions.html">Past Sessions</a> <br/>
-        <a href="inspiration.html">Inspiration</a>
-        <p></p>
-    </div>
+    
 </body>
 </html>
