@@ -7,6 +7,7 @@ body{                       /* Sets the background image for the site */
     position: absolute;
     margin-top: 50px;
 	width: 50%;
+    #min-width: 500px;
 	left: 21%;
     padding-left: 4%;
     padding-right: 4%;
@@ -26,16 +27,21 @@ a:visited{
 }
 
 .main_body {                /* This controls the "body" of the main central column i.e. not the title */
-    margin-top: 50px;
+    margin-top: 20px;
     color: #FFFFFF;
 }
-
+.quote {
+	color: #FF8000;
+	text-align: center;
+}
 .menu {
     background-color: #000000;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 50px;
     width: 10%;
+    min-width: 120px;
     left: 0%;
-    padding-left: 2%;
+    padding-left: 15px;
+    padding-bottom: 15px;
     color: #00FF00
 }

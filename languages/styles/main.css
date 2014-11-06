@@ -33,9 +33,11 @@ a:visited{
 .menu {
     background-color: #000000;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 50px;
     width: 10%;
+    min-width: 120px;
     left: 0%;
-    padding-left: 2%;
+    padding-left: 15px;
+    padding-bottom: 15px;
     color: #00FF00
 }

@@ -19,3 +19,9 @@ and open the template in the editor.
 body{
     background-image: url(res/background.png)
 }
+
+.quote {
+    color: orangered;
+    text-align: center;
+    
+}
