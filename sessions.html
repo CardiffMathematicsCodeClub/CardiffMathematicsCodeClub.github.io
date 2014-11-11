@@ -28,41 +28,45 @@
 </head>
 <body style="background-image: url(res/Background-\ negative.png)">
     <div class="container">
-        <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-               <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="nav navbar-nav">
-                        <li> <a href="index.html">Home</a></li>
-                        <li> <a href="sessions.html">Past Sessions</a></li>
-						<li> <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Inspiration <span class="caret"></span> </a>
-						  <ul class="dropdown-menu multi-level">
-							<!-- dropdown menu links -->
-	                        <li class="nav-header"> <a href="inspiration.html">Inspiration</a></li>
-							<li class="dropdown-submenu">
-								<a tabindex="-1" href="#">Languages</a>
-								<ul class="dropdown-menu">
-									<li> <a href="languages/C++.html"> C++ </a> </li>
-									<li> <a href="languages/C.html"> C </a> </li>
-									<li> <a href="languages/brainfk.html"> Brainf**k </a> </li>
-									<li> <a href="languages/haskell.html"> Haskell </a> </li>
-									<li> <a href="languages/java.html"> Java </a> </li>
-									<li> <a href="languages/python.html"> Python </a> </li>
-								</ul>
-						    </li>
-						  </ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				 	</button>
+				  	<a class="navbar-brand" href="/index.html">Home</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/sessions.html">Past Sessions</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Inspiration<span class="caret"></span></a>
+							<ul class="dropdown-menu multi-level" role="menu">
+							<li><a href="/inspiration.html">Inspiration</a></li>
+								<li class="dropdown-submenu">
+									<a tabindex="-1" href="#">Languages</a>
+									<ul class="dropdown-menu">
+										<li> <a href="languages/C++.html"> C++ </a> </li>
+										<li> <a href="languages/C.html"> C </a> </li>
+										<li> <a href="languages/brainfk.html"> Brainf**k </a> </li>
+										<li> <a href="languages/haskell.html"> Haskell </a> </li>
+										<li> <a href="languages/java.html"> Java </a> </li>
+										<li> <a href="languages/python.html"> Python </a> </li>
+									</ul>
+								</li>
+								<li><a href="#">Editors</a></li>
+							</ul>
 						</li>
-                </div>
-            </div>
-        </nav>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
 
         <div class="mainText">
             <h1 style="font-size: 6vh; color: #FF0000; text-align: center;">Past Sessions</h1>
@@ -95,8 +99,6 @@
                             <b>Week 5:</b> <i>"Oh Mongodb"</i><br/>
                             <b>Quote of the Session</b> <i>"I'm 100% onboard but why are we using Mongodb again?"</i> - Vince, Computing for Mathematics lecturer
                         </li>
-                    </div>
-                    <div class="well">
                         <li>
                             <b>Week 6:</b> <i>"Well 4 out of 5 work"</i><br/>
                             <b>Quote of the Session</b> <i>"For once it's Vince's fault"</i> - Jason, PostGrad
@@ -107,15 +109,6 @@
             </div>
         </div>
     </div>
-    <!-- Navigation Menu -->
-    <!--
-        <div class="menu">
-            <h3>Menu</h3>
-            <a href="index.html">Home</a> <br/>
-            <a href="sessions.html">Past Sessions</a> <br/>
-            <a href="inspiration.html">Inspiration</a>
-        </div>
-    -->
 </body>
 
 </html>
