@@ -5,7 +5,8 @@ A repository for the Cardiff School of Mathematics Code Club: an extra curricula
 Website here - http://cardiffmathematicscodeclub.github.io/
 
 Meeting time: Thursdays at 16:00 in room M/0.33.
-(There might be doughnuts)
+
+NOTE - There might be some CSS issues with the background when editing locally, from CSS url issues.
 
 ## Contributing
 
