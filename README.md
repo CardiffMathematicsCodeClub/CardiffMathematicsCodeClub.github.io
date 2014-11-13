@@ -6,8 +6,6 @@ Website here - http://cardiffmathematicscodeclub.github.io/
 
 Meeting time: Thursdays at 16:00 in room M/0.33.
 
-NOTE - There might be some CSS issues with the background when editing locally, from CSS url issues.
-
 ## Contributing
 
 You are welcome to contribute to the code club website, we need as much
