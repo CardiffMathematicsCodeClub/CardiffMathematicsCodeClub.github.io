@@ -9,32 +9,32 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand active" href="index.html">Home</a>
+                    <a class="navbar-brand active" href="{{ site.baseurl }}/index.html">Home</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li {% if page.categories contains 'sessions' %}class="active"{% endif %}><a href="sessions.html">Past Sessions</a></li>
+                        <li {% if page.categories contains 'sessions' %}class="active"{% endif %}><a href="{{ site.baseurl }}/sessions.html">Past Sessions</a></li>
                         <li class="dropdown{% if page.categories contains 'inspiration' %} active{% endif%}">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inspiration<span class="caret"></span></a>
                             <ul class="dropdown-menu multi-level" role="menu">
-                            <li {% if page.title 'Inspiration' %}class="active"{% endif %}><a href="inspiration.html">Inspiration</a></li>
-                                <li class="dropdown-submenu">
+                            <li {% if page.title == 'Inspiration' %}class="active"{% endif %}><a href="{{ site.baseurl }}/inspiration.html">Inspiration</a></li>
+                                <li class="dropdown-submenu{% if page.categories contains 'languages' %} active{% endif%}">
                                     <a tabindex="-1" href="#">Languages</a>
                                     <ul class="dropdown-menu">
-                                        <li> <a href="languages/C++.html"> C++ </a> </li>
-                                        <li> <a href="languages/C.html"> C </a> </li>
-                                        <li> <a href="languages/brainfk.html"> Brainf**k </a> </li>
-                                        <li> <a href="languages/haskell.html"> Haskell </a> </li>
-                                        <li> <a href="languages/java.html"> Java </a> </li>
-                                        <li> <a href="languages/python.html"> Python </a> </li>
+                                        <li {% if page.title == 'C++' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/C++.html"> C++ </a> </li>
+                                        <li {% if page.title == 'C' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/C.html"> C </a> </li>
+                                        <li {% if page.title == 'Brainf**k' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/brainfk.html"> Brainf**k </a> </li>
+                                        <li {% if page.title == 'Haskell' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/haskell.html"> Haskell </a> </li>
+                                        <li {% if page.title == 'Java' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/java.html"> Java </a> </li>
+                                        <li {% if page.title == 'Python' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/python.html"> Python </a> </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a tabindex="-1" href="#">Editors</a>
                                     <ul class='dropdown-menu'>
-                                        <li> <a href="editors/vim.html">Vim</a> </li>
+                                        <li> <a href="{{ site.baseurl }}/editors/vim.html">Vim</a> </li>
                                     </ul>
                                 </li>
                             </ul>
