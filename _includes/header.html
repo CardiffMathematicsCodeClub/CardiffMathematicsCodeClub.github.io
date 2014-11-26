@@ -20,7 +20,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inspiration<span class="caret"></span></a>
                             <ul class="dropdown-menu multi-level" role="menu">
                             <li {% if page.title == 'Inspiration' %}class="active"{% endif %}><a href="{{ site.baseurl }}/inspiration.html">Inspiration</a></li>
-                                <li class="dropdown-submenu{% if page.categories contains 'languages' %} active{% endif%}">
+                                <li class="dropdown-submenu{% if page.categories contains 'languages' %} active{% endif %}">
                                     <a tabindex="-1" href="#">Languages</a>
                                     <ul class="dropdown-menu">
                                         {% for page1 in site.pages %}
@@ -30,7 +30,7 @@
                                         {% endfor %}
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
+                                <li class="dropdown-submenu{% if page.categories contains 'editors' %} active{% endif %}">
                                     <a tabindex="-1" href="#">Editors</a>
                                     <ul class='dropdown-menu'>
                                         {% for page1 in site.pages %}
