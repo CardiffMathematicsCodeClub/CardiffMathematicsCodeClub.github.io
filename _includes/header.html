@@ -23,18 +23,21 @@
                                 <li class="dropdown-submenu{% if page.categories contains 'languages' %} active{% endif%}">
                                     <a tabindex="-1" href="#">Languages</a>
                                     <ul class="dropdown-menu">
-                                        <li {% if page.title == 'C++' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/C++.html"> C++ </a> </li>
-                                        <li {% if page.title == 'C' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/C.html"> C </a> </li>
-                                        <li {% if page.title == 'Brainf**k' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/brainfk.html"> Brainf**k </a> </li>
-                                        <li {% if page.title == 'Haskell' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/haskell.html"> Haskell </a> </li>
-                                        <li {% if page.title == 'Java' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/java.html"> Java </a> </li>
-                                        <li {% if page.title == 'Python' %}class="active"{% endif %}> <a href="{{ site.baseurl }}/languages/python.html"> Python </a> </li>
+                                        {% for page1 in site.pages %}
+                                            {% if page1.categories contains 'languages' %}
+                                                <li {% if page.title == page1.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ page1.url }}">{{ page1.title }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a tabindex="-1" href="#">Editors</a>
                                     <ul class='dropdown-menu'>
-                                        <li> <a href="{{ site.baseurl }}/editors/vim.html">Vim</a> </li>
+                                        {% for page1 in site.pages %}
+                                            {% if page1.categories contains 'editors' %}
+                                                <li {% if page.title == page1.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ page1.url }}">{{ page1.title }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
                                     </ul>
                                 </li>
                             </ul>
