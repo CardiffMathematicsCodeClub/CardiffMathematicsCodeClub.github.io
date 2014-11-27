@@ -1,0 +1,17 @@
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.mainbody{
+    padding-top: 45px
+}
+
+body{
+    background-image: url(../res/background.png)
+}
+
+.quote {
+    color: orangered;
+    text-align: center;
+}
