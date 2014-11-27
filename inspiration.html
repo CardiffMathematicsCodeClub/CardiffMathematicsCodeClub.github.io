@@ -26,8 +26,15 @@ categories: inspiration
     </p>
     <p> Some of the more popular languages include <a href="languages/java.html">Java</a>,
         <a href="languages/python.html">Python</a> and <a href="languages/C++.html">C++</a>.
-        However there are many more than that! Be sure to look at the full list on the left.
+        However there are many more than that! Below are just a sample of them.
     </p>
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'languages' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
 </div>
 
 <div class="well">
