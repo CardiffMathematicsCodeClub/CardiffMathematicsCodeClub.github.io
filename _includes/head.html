@@ -1,0 +1,20 @@
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- jQuery JavaScript -->
+    <script src="{{ site.baseurl }}/js/jquery-2.1.1.js"></script>
+    <!-- bootstrap JavaScript -->
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+    <!-- bootstrap theme -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css"/>
+
+    {% if page.categories contains 'sessions' %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/sessions.css"/> 
+    {% endif %}
+
+</head>

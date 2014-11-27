@@ -3,7 +3,7 @@ body{
     background-color: #000000;
 }
 
-h1{
+h1, h2, h3{
     color: #f7ff00;
 }
 
@@ -20,6 +20,3 @@ div.session {
     color: #4000ff;
 }
 
-div.boo i{
-	color: #ffffff;
-}
