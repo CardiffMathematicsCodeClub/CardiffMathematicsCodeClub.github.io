@@ -19,3 +19,12 @@ body{
     color: orangered;
     text-align: center;
 }
+
+ul.double{
+	overflow:hidden;
+}
+
+li.double{ 
+	float:left;
+    width:50%;
+}

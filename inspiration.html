@@ -28,10 +28,10 @@ categories: inspiration
         <a href="languages/python.html">Python</a> and <a href="languages/C++.html">C++</a>.
         However there are many more than that! Below are just a sample of them.
     </p>
-    <ul>
+    <ul class="double">
         {% for pages in site.pages %}
             {% if pages.categories contains 'languages' %}
-                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+                <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
             {% endif %}
         {% endfor %}
     </ul>
