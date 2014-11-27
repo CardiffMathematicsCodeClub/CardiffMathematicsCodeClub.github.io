@@ -6,6 +6,13 @@ Website here - http://cardiffmathematicscodeclub.github.io/
 
 Meeting time: Thursdays at 16:00 in room M/0.33.
 
+## Runing the website locally
+In order to run the website locally you need to have jeykll installed.
+Then ```cd``` into the directory where the website is located and run from terminal.
+```
+    $ jekyll serve --watch
+```
+
 ## Contributing
 
 You are welcome to contribute to the code club website, we need as much
