@@ -22,9 +22,9 @@
                                 <li class="dropdown-submenu{% if page.categories contains 'languages' %} active{% endif %}">
                                     <a tabindex="-1" href="#">Languages</a>
                                     <ul class="dropdown-menu">
-                                        {% for page1 in site.pages %}
-                                            {% if page1.categories contains 'languages' %}
-                                                <li {% if page.title == page1.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ page1.url }}">{{ page1.title }}</a></li>
+                                        {% for pages in site.pages %}
+                                            {% if pages.categories contains 'languages' %}
+                                                <li {% if page.title == pages.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a></li>
                                             {% endif %}
                                         {% endfor %}
                                     </ul>
@@ -32,9 +32,9 @@
                                 <li class="dropdown-submenu{% if page.categories contains 'editors' %} active{% endif %}">
                                     <a tabindex="-1" href="#">Editors</a>
                                     <ul class='dropdown-menu'>
-                                        {% for page1 in site.pages %}
-                                            {% if page1.categories contains 'editors' %}
-                                                <li {% if page.title == page1.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ page1.url }}">{{ page1.title }}</a></li>
+                                        {% for pages in site.pages %}
+                                            {% if pages.categories contains 'editors' %}
+                                                <li {% if page.title == pages.title %}class="active"{% endif %}> <a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a></li>
                                             {% endif %}
                                         {% endfor %}
                                     </ul>
