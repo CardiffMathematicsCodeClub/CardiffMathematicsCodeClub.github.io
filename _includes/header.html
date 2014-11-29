@@ -25,4 +25,18 @@
 
   </div>
 
+<ul>
+{% for i in site.data.menu %}
+    <li><a class="page-link" href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a></li>
+            {% for j in i.subitems %}
+                <li><a class="page-link" href="{{ j.url | prepend: site.baseurl }}">{{ j.text }}</a></li>
+                    {% for k in j.subitems %}
+                        <li><a class="page-link" href="{{ k.url | prepend: site.baseurl }}">{{ k.text }}</a></li>
+                    {% endfor %}
+                
+            {% endfor %}
+    
+{% endfor %}
+</ul>
+
 </header>

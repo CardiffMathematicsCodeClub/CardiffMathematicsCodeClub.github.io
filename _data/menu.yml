@@ -1,0 +1,20 @@
+- text: Home
+  url: /
+- text: Past Sessions
+  url: /sessions.html
+- text: Inspiration
+  url: /inspiration.html
+  subitems:
+    - text: Languages
+      url: /#
+      subitems:
+        - text: C
+          url: /languages/C.html
+        - text: C++
+          url: /languages/C++.html
+    - text: Editors
+      url: /#
+      subitems:
+        - text: Vim
+          url: /editors/vim.html
+
