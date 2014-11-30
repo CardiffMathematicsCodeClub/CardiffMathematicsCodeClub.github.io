@@ -8,10 +8,18 @@
     - text: Languages
       url: /#
       subitems:
+        - text: Brainf**k
+          url: /languages/brainfk.html
         - text: C
           url: /languages/C.html
         - text: C++
           url: /languages/C++.html
+        - text: Haskell
+          url: /languages/haskell.html
+        - text: Java
+          url: /languages/java.html
+        - text: Python
+          url: /languages/python.html
     - text: Editors
       url: /#
       subitems:
