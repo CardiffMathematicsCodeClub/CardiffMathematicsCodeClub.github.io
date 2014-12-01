@@ -59,3 +59,49 @@
   </div>
 
 </footer>
+    <script>
+        $(".flexnav").flexNav();
+    </script>
+    <script src="js/jquery.flexnav.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		
+		var Video = {};
+
+		Video.videoControls = function() {
+			var $v = $('#video'),
+				$play_button = $(".controls button");			
+			$v.get(0).volume=0;
+			$play_button.hide();
+		  	$play_button.on("click", function() {
+				if ( $(this).hasClass("play") ) {
+					$v.get(0).play();
+					$(this).removeClass("play").addClass("pause");
+				} else if ( $(this).hasClass("pause") ) {
+					$v.get(0).pause();
+					$(this).removeClass("pause").addClass("play");
+				}
+			});
+
+		    if ($v.attr('controls') !== 'true') {
+		        $v.attr('controls', 'true');                    
+		    }
+		    $v.get(0).play();
+		    $v.removeAttr('controls');
+			$v.on("timeupdate", function() {
+				if ($v.get(0).duration > 0) {
+			        setTimeout(function() {
+			          $play_button.fadeIn('slow');
+			        }, 2000);				
+				}
+			});
+		};
+
+		jQuery(document).ready(function($) {
+			// initialize video
+			Video.videoControls();
+			
+			// initialize FlexNav
+			$(".flexnav").flexNav();
+		});
+		
+    </script>

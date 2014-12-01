@@ -2,7 +2,7 @@
 
   <div class="wrap">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<!--    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -21,22 +21,26 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endfor %}
       </div>
-    </nav>
+    </nav> -->
 
-  </div>
-
-<ul>
+<ul class="flexnav" data-breakpoint="600">
 {% for i in site.data.menu %}
-    <li><a class="page-link" href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a></li>
+    <li><a class="page-link" href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a>
+        <ul>
             {% for j in i.subitems %}
-                <li><a class="page-link" href="{{ j.url | prepend: site.baseurl }}">{{ j.text }}</a></li>
+                <li><a class="page-link" href="{{ j.url | prepend: site.baseurl }}">{{ j.text }}</a>
+                    <ul>
                     {% for k in j.subitems %}
                         <li><a class="page-link" href="{{ k.url | prepend: site.baseurl }}">{{ k.text }}</a></li>
                     {% endfor %}
-                
+                    </ul>
+                </li>
             {% endfor %}
-    
+        </ul>
+    </li>
 {% endfor %}
 </ul>
+<div class="menu-button">Menu</div>
 
+  </div>
 </header>
