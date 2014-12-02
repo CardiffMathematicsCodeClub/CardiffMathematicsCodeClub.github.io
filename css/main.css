@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-image: url(../images/background.png)
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 200%; font-weight: 400; }
@@ -44,7 +44,6 @@ a:visited { color: #205caa; }
   border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: white;
 }
 
 .site-title,
@@ -137,9 +136,13 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0;
-  background-color: #fff;
 }
 
+
+.quote {
+    color: orangered;
+    text-align: center;
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/

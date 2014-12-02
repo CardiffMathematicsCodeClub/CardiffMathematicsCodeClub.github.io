@@ -1,21 +1,22 @@
 body{
-    background-image: url(../res/Background-\ negative.png);
+    background-image: url(../images/Background-\ negative.png);
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 h1, h2, h3{
     color: #f7ff00;
 }
 
-div.session i{
+i{
     color: #ff0800;
 }
 
-div.session b{
+b{
     color: #22ff00;
 }
 
-div.session {
+ {
     background-color: #000000;
     color: #4000ff;
 }
