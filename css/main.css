@@ -13,7 +13,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-image: url(../images/background.png)
+  background-image: url(../images/background.png);
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 200%; font-weight: 400; }
@@ -41,9 +42,9 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
+  /*border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  min-height: 56px;*/
 }
 
 .site-title,

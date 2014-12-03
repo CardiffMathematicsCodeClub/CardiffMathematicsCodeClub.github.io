@@ -30,7 +30,7 @@
   .flexnav li a {
     position: relative;
     display: block;
-    padding: .96em;
+    padding: .5em;
     z-index: 2;
     overflow: hidden;
     color: #222222;
@@ -73,7 +73,7 @@
 .menu-button {
   position: relative;
   display: block;
-  padding: 1em;
+  padding: .75em;
   background: #a6a6a2;
   color: #222222;
   cursor: pointer;
