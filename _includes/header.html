@@ -30,7 +30,7 @@
     <li><a class="page-link" href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a>
         {% if i.subitems %}<ul>
             {% for j in i.subitems %}
-                <li><a class="page-link" href="{{ j.url | prepend: site.baseurl }}">{{ j.text }}</a>
+                <li> <a class="page-link" href="{{ j.url | prepend: site.baseurl }}">{{ j.text }}</a>
                     <ul>
                     {% for k in j.subitems %}
                         <li><a class="page-link" href="{{ k.url | prepend: site.baseurl }}">{{ k.text }}</a></li>

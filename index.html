@@ -30,30 +30,11 @@ title: Cardiff School of Mathematics Code Club
         <b>Contributors to this wesite are:</b>
     </center>
     <ul>
-        <li>
-            <b>Adam Pohl</b> <i>(Flamboyant Coder)</i>
-        </li>
-        <li>
-            <b>Alex Carney</b> <i>(Real Coder)</i>
-        </li>
-        <li>
-            <b>Andy Wilson</b> <i>(Backround Graphics Manager)</i>
-        </li>
-        <li>
-            <b>Batduck</b> <i>(gramma correction for the real coder)<i>
-        </li>
-        <li>
-            <b>Jason Young</b> <i>(If there is a problem then it's his fault)</i>
-        </li>
-        <li>
-            <b>Tim Standen</b> <i>(The Code Janitor)</i>
-        </li>
-        <li>
-            <b>Toby</b> <i>(The drive-by Bootstraper)</i>
-        </li>
-        <li>
-            <b>Vince Knight</b> <i>(Also Known as Colonel Sarge)</i>
-        </li>
+    {% for contributor in site.data.contributors%}
+       <li>
+        <b>{{contributor.name}}</b> <i>({{contributor.title}})</i> 
+       </li>
+    {% endfor %}
     </ul>
     <center>
     <i>Disclamer: This is NOT done in any particular order. It's definitly not in alphabetical order.</i>
