@@ -11,6 +11,7 @@ html, body { height: 100%; }
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
+  color: #FFFFFF;
   line-height: 1.5;
   font-weight: 300;
   background-image: url(../images/background.png);
@@ -76,7 +77,6 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
   padding: 30px 0;
 }
 
@@ -407,3 +407,9 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+.main{ 
+    background-color: #000000;
+    padding: 10px
+}
+
