@@ -34,7 +34,7 @@
     z-index: 2;
     overflow: hidden;
     color: #FFFFFF;
-    background: #000000;
+    background: #111111;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .flexnav li ul {
     width: 100%; }
@@ -46,11 +46,11 @@
     overflow: visible; }
   .flexnav li ul li a {
     display: block;
-    background: #111111; }
-  .flexnav ul li ul li a {
     background: #222222; }
-  .flexnav ul li ul li ul li a {
+  .flexnav ul li ul li a {
     background: #333333; }
+  .flexnav ul li ul li ul li a {
+    background: #444444; }
   .flexnav .touch-button {
     position: absolute;
     z-index: 999;

@@ -139,10 +139,31 @@ a:visited { color: #205caa; }
   padding: 30px 0;
 }
 
+.main{ 
+    background-color: #000000;
+    padding: 10px
+}
 
 .quote {
     color: orangered;
     text-align: center;
+}
+
+a:link{
+	color: #FFFF00;
+}
+
+a:visited{
+	color: #FFFF50;
+}
+
+ul.double{
+	overflow:hidden;
+}
+
+li.double{ 
+	float:left;
+    width:50%;
 }
 
 /* Home styles */
@@ -406,10 +427,5 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
-}
-
-.main{ 
-    background-color: #000000;
-    padding: 10px
 }
 
