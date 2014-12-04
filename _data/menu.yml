@@ -1,0 +1,28 @@
+- text: Home
+  url: /
+- text: Past Sessions
+  url: /sessions.html
+- text: Inspiration
+  url: /inspiration.html
+  subitems:
+    - text: Languages
+      url: /#
+      subitems:
+        - text: Brainf**k
+          url: /languages/brainfk.html
+        - text: C
+          url: /languages/C.html
+        - text: C++
+          url: /languages/C++.html
+        - text: Haskell
+          url: /languages/haskell.html
+        - text: Java
+          url: /languages/java.html
+        - text: Python
+          url: /languages/python.html
+    - text: Editors
+      url: /#
+      subitems:
+        - text: Vim
+          url: /editors/vim.html
+

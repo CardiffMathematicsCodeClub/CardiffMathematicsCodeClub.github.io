@@ -1,21 +1,17 @@
 ---
-layout: default
+layout: page
+title: Cardiff School of Mathematics Code Club
 ---
 
-<h1>Cardiff School of Mathematics Code Club</h1>
-
-<p class="well quote">
-    <i>Three Functions for the Windows under the sky,<br>
+    <p class="quote"><i>Three Functions for the Windows under the sky,<br>
     Seven for the Linux in their halls of stone,<br>
     Nine for Apple doomed to die,<br>
     One for the Dark Lord on his dark kernel<br>
     In the Land of Arch where the Json lie.<br>
     One Function to rule them all, One Function to find them,<br>
     One Function to bring them all and in the darkness bind them<br>
-    In the Land of Arch where the Json lie.</i>
-</p>
+    In the Land of Arch where the Json lie.</i></p>
 
-<div class="well">
     <p>Code Club is a place where like minded people who are passionate about programming can get together
     and hang out, talk about coding in general and work on any projects that they have
     in mind, whether it be solo or part of a team. Code Club is the ideal place to
@@ -29,42 +25,18 @@ layout: default
     </p>
 
     <p><i><b>Disclaimer:</b> This website was made by programmers for programmers - please forgive any spelling mistakes!</i></p>
-</div>
 
-<div class="well contributors">
     <center>
         <b>Contributors to this website are:</b>
     </center>
     <ul>
-      <li>
-          <b>Adam Pohl</b> <i>(Flamboyant Coder)</i>
-      </li>
-        <li>
-            <b>Alex Carney</b> <i>(Real Coder)</i>
-        </li>
-        <li>
-            <b>Andy Wilson</b> <i>(Backround Graphics Manager)</i>
-        </li>
-        <li>
-            <b>Batduck</b> <i>(gramma correction for the real coder)<i>
-          </li>
-          <li>
-            <b>Jason Young</b> <i>(If there is a problem then it's his fault)</i>
-          </li>
-            <li>
-              <b>Tim Standen</b> <i>(The Code Janitor)</i>
-            </li>
-            <li>
-              <b>Toby</b> <i>(The drive-by Bootstraper)</i>
-            </li>
-            <li>
-              <b>Vince Knight</b> <i>(Also Known as Colonel Sarge)</i>
-            </li>
-            <li>
-              <b>Ambrose Law</b> <i>(The Padawan)</i>
-            </li>
-            
-            <center>
-            <i>Disclamer: This is NOT done in any particular order. It is definitly not in alphabetical order.</i>
-            </center>
-    </div>
+    {% for contributor in site.data.contributors%}
+       <li>
+        <b>{{contributor.name}}</b> <i>({{contributor.title}})</i> 
+       </li>
+    {% endfor %}
+    </ul>
+    <center>
+    <i>Disclamer: This is NOT done in any particular order. It's definitly not in alphabetical order.</i>
+    </center>
+
