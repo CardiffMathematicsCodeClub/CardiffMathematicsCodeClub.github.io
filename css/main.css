@@ -46,6 +46,7 @@ a:visited { color: #205caa; }
   /*border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;*/
+  background: #111111;
 }
 
 .site-title,
