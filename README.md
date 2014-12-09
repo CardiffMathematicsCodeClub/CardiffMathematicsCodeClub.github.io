@@ -19,20 +19,20 @@ You are welcome to contribute to the code club website, we need as much
 help as possible in making this the best site on the internet! Below is
 a short list of tasks that need completing:
 
-    - Pages that give a short introduction to most of the popular programming languages
-      would be good. These pages should give a should give a short piece on the history
-      of the language, what it is used for giving well known programs as examples where possible.
-      Also include a "Hello world!" snippet (see below) and some links to further resources, tutorials etc.
+- Pages that give a short introduction to most of the popular programming languages
+  would be good. These pages should give a should give a short piece on the history
+  of the language, what it is used for giving well known programs as examples where possible.
+  Also include a "Hello world!" snippet (see below) and some links to further resources, tutorials etc.
 
-    - We should think about maintaining a list of past and current projects that have been worked
-      on at code club. Linking to source code and/or demos when possible
+- We should think about maintaining a list of past and current projects that have been worked
+  on at code club. Linking to source code and/or demos when possible
 
-    - We will always need help making the site looking as good as possible
+- We will always need help making the site looking as good as possible
 
-    - Maybe we could go for a terminal theme? Making the text boxes look like output from
-      terminal commands, e.g. the menu could be the output from a "$ ls" command. We could
-      also look at experimenting with CSS animations to add blinking cursors, typing commands etc.
-      Or of anyone has other ideas then I'm open to discussion :)
+- Maybe we could go for a terminal theme? Making the text boxes look like output from
+  terminal commands, e.g. the menu could be the output from a "$ ls" command. We could
+  also look at experimenting with CSS animations to add blinking cursors, typing commands etc.
+  Or of anyone has other ideas then I'm open to discussion :)
 
 ### Code snippets
 
