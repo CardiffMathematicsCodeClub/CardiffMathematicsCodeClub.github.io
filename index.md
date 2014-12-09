@@ -4,7 +4,7 @@ title: Cardiff School of Mathematics Code Club
 permalink: /test/
 ---
 
-_Three Functions for the Windows under the sky,
+Three Functions for the Windows under the sky,
     
 Seven for the Linux in their halls of stone,
 
@@ -18,7 +18,7 @@ One Function to rule them all, One Function to find them,
 
 One Function to bring them all and in the darkness bind them
 
-In the Land of Arch where the Json lie._
+In the Land of Arch where the Json lie.
 
 Code Club is a place where like minded people who are passionate about programming can get together
 and hang out, talk about coding in general and work on any projects that they have
@@ -32,13 +32,15 @@ Do you think it sounds like a great idea, but are looking for an excuse to turn 
 
 _**Disclaimer:** This website was made by programmers for programmers - please forgive any spelling mistakes!_
 
-<center>
-    **Contributors to this website are:**
-</center>
+**Contributors to this website are:**
 
 {% for contributor in site.data.contributors %}
 *   **{{contributor.name}}** _({{contributor.title}})_ 
 {% endfor %}
-<center>
-    _Disclamer: This is NOT done in any particular order. It's definitly NOT in ALPHABETICAL order._
-</center>
+
+ _Disclamer: This is NOT done in any particular order. It's definitly NOT in ALPHABETICAL order._ 
+
+Here is a video that shows the various contributors so far (as of 4th of December 2014):
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/UdbXWZJSwnE/0.jpg)](http://www.youtube.com/watch?v=UdbXWZJSwnE)
+
