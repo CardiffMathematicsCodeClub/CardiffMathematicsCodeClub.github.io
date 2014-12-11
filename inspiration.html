@@ -31,6 +31,17 @@ categories: inspiration
     {% endfor %}
 </ul>
 
+<h3>Editors</h3>
+<p>There are many editors you can use below is just a sample.</p>
+<ul class="double">
+    {% for pages in site.pages %}
+        {% if pages.categories contains 'editors' %}
+            <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+
 <h3>Programming Challenges</h3>
 <p>
     Many places on the interest provide enthusiastic programmers with exercises and challenges
