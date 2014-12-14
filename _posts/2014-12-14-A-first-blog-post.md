@@ -4,7 +4,7 @@ title      : "A first blog post"
 categories : website
 tags       : blog
 author     : Vince
-comments   : false
+comments   : true
 ---
 
 The end of a busy term has given me a bit of time to add a blog to this site.
