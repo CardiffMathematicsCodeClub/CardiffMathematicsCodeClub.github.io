@@ -27,5 +27,5 @@
           url: /editors/vim.html
         - text: Atom
           url: /editors/Atom.html
-    - text: Blog
-      url: /blog/
+- text: Blog
+  url: /blog/
