@@ -25,4 +25,5 @@
       subitems:
         - text: Vim
           url: /editors/vim.html
-
+        - text: Atom
+          url: /editors/Atom.html
