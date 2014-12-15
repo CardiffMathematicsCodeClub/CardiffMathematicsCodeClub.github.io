@@ -6,7 +6,7 @@
   url: /inspiration.html
   subitems:
     - text: Languages
-      url: /#
+      url: '#'
       subitems:
         - text: Brainf**k
           url: /languages/brainfk.html
@@ -21,9 +21,11 @@
         - text: Python
           url: /languages/python.html
     - text: Editors
-      url: /#
+      url: '#'
       subitems:
         - text: Vim
           url: /editors/vim.html
         - text: Atom
           url: /editors/Atom.html
+    - text: Blog
+      url: /blog/

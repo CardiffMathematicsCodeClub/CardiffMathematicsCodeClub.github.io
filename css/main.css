@@ -47,7 +47,6 @@ a:visited { color: #205caa; }
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;*/
   background: #111111;
-  position: fixed;
   width: 100%;
 }
 
@@ -139,10 +138,10 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 75px 0;
+  padding: 25px 0;
 }
 
-.main{ 
+.main{
     background-color: #000000;
     padding: 10px
 }
@@ -164,7 +163,7 @@ ul.double{
 	overflow:hidden;
 }
 
-li.double{ 
+li.double{
 	float:left;
     width:50%;
 }
@@ -436,3 +435,9 @@ li.double{
 .video figure { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
 
 .video iframe, .video object, .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+img { border: 0;
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;}
