@@ -36,7 +36,7 @@ a short list of tasks that need completing:
 
 ### Code snippets
 
-To embed code snippets into a page it's best to create a [Gist][https://gist.github.com] containing
+To embed code snippets into a page it's best to create a [Gist](https://gist.github.com) containing
 the code, and sice we are using Jekyll you can simply add the following to the markdown for that particular
 page
 
