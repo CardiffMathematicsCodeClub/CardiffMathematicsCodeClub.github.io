@@ -49,10 +49,10 @@ Below is a list of applications that use C:
 ### Some Code
 
 Hello World:
-{% gist 249466469521937d78c8 %}
+{% gist alcarney/249466469521937d78c8 %}
 
 A little program that will count the number of lines in a file
-{% gist aae3b583a956d92861b1 %}
+{% gist alcarney/aae3b583a956d92861b1 %}
 
 ### Some Useful Libraries/Tools
 
