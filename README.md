@@ -36,11 +36,13 @@ a short list of tasks that need completing:
 
 ### Code snippets
 
-To embed code snippets from this repository into a webpage you can use the
-following code
+To embed code snippets into a page it's best to create a [Gist][https://gist.github.com] containing
+the code, and sice we are using Jekyll you can simply add the following to the markdown for that particular
+page
 
 ```
-    <script src="http://gist-it.appspot.com/github/robertkrimen/gist-it-example/blob/master/example.js?footer=0"></script>
+{% gist <gist-id> %}
 ```
-where you replace everything after github/ with the address of the repository and the file within the repository that contains
-the code you wish to add
+where ```<gist-id>``` is the random string of letters and numbers in the url of the gist. For example, if the url to
+a particluar gist was ```https://gist.github.com/username/6f68df68dv68v8 ``` then the ```<gist-id>``` in this case
+would be ```6f68df68dv68v8```
