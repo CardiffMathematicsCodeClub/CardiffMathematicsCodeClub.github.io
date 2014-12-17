@@ -1,5 +1,7 @@
 - text: Home
   url: /
+- text: Blog
+  url: /blog/
 - text: Past Sessions
   url: /sessions.html
 - text: Inspiration
@@ -23,9 +25,7 @@
     - text: Editors
       url: '#'
       subitems:
-        - text: Vim
-          url: /editors/vim.html
         - text: Atom
           url: /editors/Atom.html
-- text: Blog
-  url: /blog/
+        - text: Vim
+          url: /editors/vim.html
