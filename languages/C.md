@@ -59,6 +59,7 @@ A little program that will count the number of lines in a file
 - [GCC Compiler][gcc]
 - [CLang Compiler][clang] also provides static analysis tools
 - [GDB Debugger][gdb]
+- [Perf][perf] a Linux tool that profiles your code's performance with stats like cache usage and instruction throughput on the CPU
 - [Valgrind][valgrind] a tool to help debug/optimise C code helps spot memory leaks, race conditions also includes heap, cache and branch predicion profilers
 - [Check][check] a unit testing library for C
 
@@ -72,5 +73,6 @@ A little program that will count the number of lines in a file
 [gcc]: https://gcc.gnu.org
 [gdb]: http://www.gnu.org/software/gdb
 [kernel]: https://kernel.org
+[perf]: http://www.brendangregg.com/perf.html
 [valgrind]: http://valgrind.org
 [vim]: http://www.vim.org
