@@ -15,3 +15,6 @@ Vim is different from many other editors thay you see since it's a modal editor.
 key combinations will do something different depending on which mode you are in, this allows
 vim not to use any menus. This greatly increases the learning curve but once, you have grasped
 the basics it arguably makes you much more efficient at editing text.
+
+[unix]: http://www.unix.org/
+[vim]: http://www.vim.org
