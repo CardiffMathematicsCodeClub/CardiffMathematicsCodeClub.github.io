@@ -2,16 +2,22 @@
 
 A repository for the Cardiff School of Mathematics Code Club: an extra curricular club open to all.
 
-Website here - http://cardiffmathematicscodeclub.github.io/
+The website for code club is located here - http://cardiffmathematicscodeclub.github.io/
 
 Meeting time: Thursdays at 16:00 in room M/0.33.
 
 ## Runing the website locally
 In order to run the website locally you need to have jeykll installed.
-Then ```cd``` into the directory where the website is located and run from terminal.
+
+Once you have jekyll installed, then ```cd``` into the directory where the website is located and from the terminal run the following.
+
 ```
-    $ jekyll serve --watch
+$ jekyll serve --watch
 ```
+
+Then open the url given in a web browser to view the site. 
+
+Any changes you make to a page should automatically updated when viewing locally. If nothing changes, check the terminal from where jekyll has been run to see if there are any errors. 
 
 ## Contributing
 
