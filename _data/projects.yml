@@ -1,0 +1,4 @@
+- name: 'The Code Club website'
+  github: https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io
+- name: 'A module planner'
+  github: https://github.com/alcarney/Module-Planner
