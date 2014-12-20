@@ -120,7 +120,7 @@
       overflow: visible;
       width: 20%; }
     .flexnav li a {
-      border-left: 1px solid #acaca1;
+      border-left: 1px solid #ffff00;
       border-bottom: none; }
     .flexnav li > ul {
       position: absolute;
