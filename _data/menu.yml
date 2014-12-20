@@ -4,6 +4,8 @@
   url: /blog/
 - text: Past Sessions
   url: /sessions.html
+- text: Projects
+  url: /projects/
 - text: Inspiration
   url: /inspiration.html
   subitems:

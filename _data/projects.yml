@@ -1,0 +1,6 @@
+- name: 'The Code Club website'
+  github: https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io
+  description: 'The very website you are currently looking at.'
+- name: 'A module planner'
+  github: https://github.com/alcarney/Module-Planner
+  description: 'A web based tool to graphically display course choice options.'
