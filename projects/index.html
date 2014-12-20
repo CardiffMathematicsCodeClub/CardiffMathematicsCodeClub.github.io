@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+
+<h1>Projects</h1>
+
+<ul class="posts">
+{% for project in site.data.projects %}
+  <li>
+  {{project.name}} - <a href={{project.github}}>Github repo</a>
+  </li>
+{% endfor %}
+</ul>
