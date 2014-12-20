@@ -1,12 +1,14 @@
 - text: Home
   url: /
+- text: Blog
+  url: /blog/
 - text: Past Sessions
   url: /sessions.html
 - text: Inspiration
   url: /inspiration.html
   subitems:
     - text: Languages
-      url: /#
+      url: '#'
       subitems:
         - text: Brainf**k
           url: /languages/brainfk.html
@@ -21,8 +23,9 @@
         - text: Python
           url: /languages/python.html
     - text: Editors
-      url: /#
+      url: '#'
       subitems:
+        - text: Atom
+          url: /editors/Atom.html
         - text: Vim
           url: /editors/vim.html
-

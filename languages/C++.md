@@ -1,7 +1,8 @@
 ---
-layout: page
-title: C
+layout: languages
+title: C++
 categories: inspiration languages
 ---
     
+
 

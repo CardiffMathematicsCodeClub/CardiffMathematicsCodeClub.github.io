@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: languages
 title: Python
 categories: inspiration languages
 ---

@@ -1,8 +1,7 @@
 ---
-layout: page
-title: Brainf**k
+layout: languages
+title: Haskell
 categories: inspiration languages
 ---
     
-
 
