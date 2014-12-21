@@ -56,18 +56,46 @@ A little program that will count the number of lines in a file
 
 ### Some Useful Libraries/Tools
 
+Many tools and libraries have sprung up over the years to make working with C easier, so below we've compiled a 
+list that gives you an idea of what is available.
+
+_Disclaimer:_ Since I have only ever developed on Linux for Linux, this list will have a heavy bias towards Linux, not everything below will be available for Windows and/or Mac.
+
+__Compilers__
+
+C is what is known as a compiled language, where the code you write is translated into machine code and then stored in a binary file ready to be run. So to be able to develop in C it is absolutely essential that you use a compiler.
+
 - [GCC Compiler][gcc]
 - [CLang Compiler][clang] also provides static analysis tools
+
+__Debuggers and Profiliers__
+
+Because C is so low level (by today's standards) there are many places where bugs can appear in your program, so tools have been developed to help you find and fix many of the most common bugs and help you hunt down a few of the more obscure ones.
+Profilers help you find out which parts of your code are slowing your program down and help you find ways to speed it up.
+
 - [GDB Debugger][gdb]
 - [Perf][perf] a Linux tool that profiles your code's performance with stats like cache usage and instruction throughput on the CPU
 - [Valgrind][valgrind] a tool to help debug/optimise C code helps spot memory leaks, race conditions also includes heap, cache and branch predicion profilers
+
+__Libraries__
+
+A library is a collection of code written by a third party designed to make your life easier by performing certain tasks for you.
+This could be anything from drawing graphics on screen to reading a certain type of file for you.
+
 - [Check][check] a unit testing library for C
+
+__Build Tools__
+
+Compiling large C programs can be a pain, it often requires performing multiple commands over 10s to 1000s of source files, not to mention including all the correct references to libraries etc. Fortanately there are tools out there that help to automate this process for you: 
+
+- [CMake][cmake] a cross platform build system that writes build scripts for whichever platform it's currently being used on.
 
 [bell-labs]: http://en.wikipedia.org/wiki/Bell_Labs
 [blender]: https://www.blender.org
 [c11]: http://en.wikipedia.org/wiki/C11_(C_standard_revision)
 [check]: http://check.sourceforge.net
 [clang]: http://clang.llvm.org
+[cmake]: http://cmake.org
 [cwiki]: http://en.wikipedia.org/wiki/C_(programming_language)
 [gba]: http://www.coranac.com/tonc/text/toc.htm
 [gcc]: https://gcc.gnu.org
