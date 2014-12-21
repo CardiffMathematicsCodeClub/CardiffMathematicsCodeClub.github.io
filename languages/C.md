@@ -95,7 +95,7 @@ automate this process for you:
 
 - [CMake][cmake] a cross platform build system that writes build scripts for whichever platform it's currently being used on.
 
-[ansi-c]: http://flash-gorden.me.uk/ansi-c.txt
+[ansi-c]: http://www.flash-gordon.me.uk/ansi.c.txt
 [bell-labs]: http://en.wikipedia.org/wiki/Bell_Labs
 [blender]: https://www.blender.org
 [c99]: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
