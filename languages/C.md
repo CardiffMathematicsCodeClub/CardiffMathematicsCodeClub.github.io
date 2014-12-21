@@ -13,8 +13,8 @@ years have progressed with the most recent edition [C11][c11] released early in 
 However due to the way C is developed, where a committee drafts a standard with C's rules
 and features and it's up to the compiler developers to implement them. This mean that
 many of the more recent features are still not available for certain compilers/platforms
-so many people try to adhere to the C99 or even ANSI (the original release) standards to increase
-portability.
+so many people try to adhere to the [C99][c99]
+or even [ANSI][ansi-c] (the original release) standards to increase portability.
 
 C has been a hugely influential language and has inspired the design of many of newer languages
 including C++, Java, Go, Python and many, many more. C has and still is so popular due
@@ -95,9 +95,11 @@ automate this process for you:
 
 - [CMake][cmake] a cross platform build system that writes build scripts for whichever platform it's currently being used on.
 
+[ansi-c]: http://flash-gorden.me.uk/ansi-c.txt
 [bell-labs]: http://en.wikipedia.org/wiki/Bell_Labs
 [blender]: https://www.blender.org
-[c11]: http://en.wikipedia.org/wiki/C11_(C_standard_revision)
+[c99]: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
+[c11]: http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1570.pdf
 [check]: http://check.sourceforge.net
 [clang]: http://clang.llvm.org
 [cmake]: http://cmake.org
@@ -109,3 +111,4 @@ automate this process for you:
 [perf]: http://www.brendangregg.com/perf.html
 [valgrind]: http://valgrind.org
 [vim]: http://www.vim.org
+
