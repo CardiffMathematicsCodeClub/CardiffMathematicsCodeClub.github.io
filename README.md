@@ -47,8 +47,7 @@ the code, and sice we are using Jekyll you can simply add the following to the m
 page
 
 ```
-{% gist <gist-id> %}
+{% gist <username>/<gist-id> %}
 ```
-where ```<gist-id>``` is the random string of letters and numbers in the url of the gist. For example, if the url to
-a particluar gist was ```https://gist.github.com/username/6f68df68dv68v8 ``` then the ```<gist-id>``` in this case
-would be ```6f68df68dv68v8```
+so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
+in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
