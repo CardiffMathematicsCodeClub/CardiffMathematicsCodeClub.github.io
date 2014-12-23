@@ -25,23 +25,26 @@ class NewVisitorTest(unittest.TestCase):
 
     def test_can_click_on_blog(self):
         # Thomas want to read the blog page from the homepage
-        # Thomas open the browser at the blog page
+        # He open the browser at the blog page
         self.browser.get('http://0.0.0.0:4000/')
         self.browser.implicitly_wait(3)
 
 
-        # Thomas finds the link to the blog
+        # He finds the link to the blog
         link = self.browser.find_element_by_link_text('blog')
-        # Thomas clicks on the link
+        # He clicks on the link
         link.click()
         self.browser.implicitly_wait(3)
 
-        # Thomas checks that the correct url is located
+        # He checks that the correct url is located
         self.assertEquals('http://0.0.0.0:4000/blog/', self.browser.current_url)
 
-        # Thomas then checks that the correct header is in place
+        # He checks that the title shows that he's in the correct place
+        self.assertIn('Code Club Blog', self.browser.title)
+
+        # He then checks that the correct header is in place
         header_text = self.browser.find_element_by_tag_name('h1').text
-        self.assertIn('Posts', header_text)
+        self.assertIn('Code Club Blog', header_text)
 
 if __name__ == '__main__':
     #unittest.main(warnings='ignore')
