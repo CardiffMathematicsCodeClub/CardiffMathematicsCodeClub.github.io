@@ -1,6 +1,7 @@
 from selenium import webdriver
 from itertools import izip
 import unittest
+import yaml
 
 class VisitorTest(unittest.TestCase):
 
@@ -108,6 +109,22 @@ class PastSessionsReaderTest(VisitorTest):
         # He then checks that the correct header is in place
         header_text = self.browser.find_element_by_tag_name('h1').text
         self.assertIn('Past Sessions', header_text)
+
+    def test_that_have_correct_number_of_session(self):
+        # Meryl wants to read through the past session quotes
+        # She opens up the browser at the past session page
+        self.browser.get('http://0.0.0.0:4000/sessions.html')
+        self.browser.implicitly_wait(3)
+
+        # She looks at all the quotes
+        quotes = self.browser.find_elements_by_class_name('session-quote')
+
+        # She checks that the number of quotes is the same as in the database
+        data_file = open('./_data/past_sessions.yml', 'r')
+        quotes_in_data = yaml.load(data_file)
+        data_file.close()
+        self.assertEqual(len(quotes), len(quotes_in_data))
+
 
 if __name__ == '__main__':
     #unittest.main(warnings='ignore')
