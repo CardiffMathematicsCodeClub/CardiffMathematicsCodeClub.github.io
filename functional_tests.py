@@ -1,22 +1,23 @@
 from selenium import webdriver
+import unittest
 
-browser = webdriver.Firefox()
+class NewVisitorTest(unittest.TestCase):
 
+    def setUp(self):
+        self.browser = webdriver.Firefox()
+        self.browser.implicitly_wait(3)
 
-# Zoe wants to take a look at the code club site.
-# She opens up the browser at the homepage:
-browser.get('http://0.0.0.0:4000/')
+    def tearDown(self):
+        self.browser.quit()
 
-# She checks that the title shows that she's in the correct place.
-assert 'Cardiff School of Mathematics Code Club' in browser.title
+    def test_can_check_the_blog(self):
+        # Zoe wants to take a look at the code club site.
+        # She opens up the browser at the homepage:
+        self.browser.get('http://0.0.0.0:4000/')
 
-# She clicks on the Blog page
+        # She checks that the title shows that she's in the correct place.
+        assert 'Cardiff School of Mathematics Code Club' in self.browser.title
 
-# She then clicks on the Past sessions page
-
-# She then clicks on the project page
-
-# She then takes a look at the inspiration page
-
-# After all this she closes the browser (she now knows everything about code)
-browser.close()
+if __name__ == '__main__':
+    #unittest.main(warnings='ignore')
+    unittest.main()
