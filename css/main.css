@@ -159,13 +159,10 @@ a:visited{
   color: #FFFF50;
 }
 
-ul.double{
-  overflow:hidden;
-}
-
-li.double{
-  float:left;
-  width:50%;
+.two-cols {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
 /* Home styles */

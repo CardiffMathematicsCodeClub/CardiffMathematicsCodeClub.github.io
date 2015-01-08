@@ -23,24 +23,27 @@ categories: inspiration
     <a href="{{site.baseurl}}/languages/python.html">Python</a> and <a href="{{site.baseurl}}/languages/C++.html">C++</a>.
     However there are many more than that! Below are just a sample of them.
 </p>
-<ul class="double">
-    {% for pages in site.pages %}
-        {% if pages.categories contains 'languages' %}
-            <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div class="two-cols">
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'languages' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
 
 <h3>Editors</h3>
 <p>There are many editors you can use below is just a sample.</p>
-<ul class="double">
-    {% for pages in site.pages %}
-        {% if pages.categories contains 'editors' %}
-            <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
-        {% endif %}
-    {% endfor %}
-</ul>
-
+<div class="two-cols">
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'editors' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
 
 <h3>Programming Challenges</h3>
 <p>
