@@ -48,6 +48,7 @@ a:visited { color: #205caa; }
   min-height: 56px;*/
   background: #111111;
   width: 100%;
+  position:fixed;
 }
 
 .site-title,
@@ -138,7 +139,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 25px 0;
+  padding: 75px 0;
 }
 
 .main{
@@ -347,7 +348,6 @@ a:visited{
 /* media queries */
 /* ----------------------------------------------------------*/
 
-
 @media screen and (max-width: 750px) {
 
   .footer-col-1 { width: 50%; }
@@ -367,6 +367,10 @@ a:visited{
     clear: both;
   }
 
+
+  .site-header {
+    position:absolute;
+  }
 }
 
 @media screen and (max-width: 600px) {
