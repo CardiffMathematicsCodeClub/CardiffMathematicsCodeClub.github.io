@@ -28,6 +28,21 @@ class NewVisitorTest(VisitorTest):
         header_text = self.browser.find_element_by_tag_name('h1').text
         self.assertIn('Cardiff School of Mathematics Code Club', header_text)
 
+    def test_that_have_correct_num_of_contributors(self):
+        # Bob wants to see who contributed to the website
+        # He opens up the browser at the homepage:
+        self.browser.get('http://0.0.0.0:4000/')
+        self.browser.implicitly_wait(3)
+
+        # He looks at all the contributors
+        contributors = self.browser.find_elements_by_class_name('contributor')
+
+        # He checks that the number of contributor's is the same as in the database
+        data_file = open('./_data/contributors.yml', 'r')
+        contributor_in_data = yaml.load(data_file)
+        data_file.close()
+        self.assertEqual(len(contributors), len(contributor_in_data))
+
 
 class BlogReaderTest(VisitorTest):
 
