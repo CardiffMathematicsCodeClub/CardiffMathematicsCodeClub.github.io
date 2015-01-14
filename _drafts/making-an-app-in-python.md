@@ -8,8 +8,8 @@ comments   : false
 ---
 
 In the summer semester for the Computing for Mathematics module we were required to create 'companies' of 4. 
-The goal was for us to create a 'product' which involes programming and mathematics. 
-For this our company decided to make an mobile app, to aid with learning mathematics through giving content and quiz. 
+The goal was for each company to create a 'product' which involes programming and mathematics. 
+For this my company decided to make an mobile app, to aid with learning mathematics through giving content and quiz. 
 
 Once we have decided to make the app I looked at varies [GUI frameworks](https://wiki.python.org/moin/GuiProgramming) based on python which we could use.
 From this list we decided that [Kivy](http://kivy.org/) would be best suited for what we required. 
@@ -32,6 +32,9 @@ The main app takes 1 widget when built.
 Kivy includes examples of how to use each of the widgets. 
 I would recommened looking through these to identify the best widget to use for each element of the app. 
 
+In the above Hello World example we see that on line 5 I imported the label widget, so that it can be used in line 11 to create an label. 
+For each widget you want to use it is needed to be imported. 
+
 ### Screen Manager 
 
 In most apps you will require a different layout for each type of page. 
@@ -41,6 +44,8 @@ although there are other options such as [carousel](http://kivy.org/docs/api-kiv
 Below is a sample of the different screens we used in our group last year. 
 
 ![Screen Manager]({{site.baseurl}}/blog/static/images/kivy-screen-manager.png)
+
+
 
 ### Layouts 
 
