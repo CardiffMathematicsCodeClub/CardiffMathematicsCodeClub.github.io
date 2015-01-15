@@ -24,6 +24,22 @@ The output is rather simple
 
 ![Hello World]({{site.baseurl}}/blog/static/images/kivy-hello-world.png)
 
+## Kv Language
+
+Kivy uses it's own [Kv Language](http://kivy.org/docs/guide/lang.html) in order to create widget trees. 
+When testing out different layouts using the Kv language makes it easier for you to experment with different widgets. 
+
+For example the equilevent of the Hello World using KV from above is.
+
+
+Depending on your needs you can do either of the following:
+
+- Just use python code and ignore the KV lang. 
+- Mix python code and KV lang for layouts. 
+- Use KV lang for all layouts. 
+
+I found this useful to only use the python code as I was building the layout depended on how many items there were in a database.
+
 ## Widgets
 
 In Kivy widgets are the building blocks of the GUI interface, which we created for our app. 
@@ -62,7 +78,3 @@ There are 6 different [layout widgets](http://kivy.org/docs/guide/widgets.html#o
 
 Of the different layouts in our we used boxlayout the most and grid for tables. 
 
-## Kv Language
-
-Kivy uses it's own [Kv Language](http://kivy.org/docs/guide/lang.html) in order to create widget trees. 
-When testing out different layouts using the Kv language makes it easier for you to experment with different widgets. 
