@@ -61,7 +61,8 @@ Below is a sample of the different screens we used in our group last year.
 
 ![Screen Manager]({{site.baseurl}}/blog/static/images/kivy-screen-manager.png)
 
-
+Note that the screen manager doesn't need to change the wholescreen.
+You can put an header at the top which stays the same and have the screen manager below for example.
 
 ### Layouts 
 
