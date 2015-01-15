@@ -4,7 +4,7 @@ title      : "New Computers for Code Club"
 categories : website
 tags       : blog 
 author     : Jason
-comments   : false
+comments   : true
 ---
 
 An exciting new addition for the code club is two new computers!
