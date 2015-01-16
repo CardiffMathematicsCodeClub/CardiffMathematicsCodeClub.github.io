@@ -4,7 +4,7 @@ title      : "Making an App in python using Kivy - Part 1"
 categories : blog kivy
 tags       : blog
 author     : Timothy
-comments   : false
+comments   : true
 ---
 
 In the summer semester for the Computing for Mathematics module we were required to create 'companies' of 4. 
