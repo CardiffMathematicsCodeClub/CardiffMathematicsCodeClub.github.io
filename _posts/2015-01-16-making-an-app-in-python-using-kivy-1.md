@@ -46,9 +46,13 @@ Firstly we see that the root widget is call Demo which is a grid layout with 1 c
 Next looking at the .kv file we can see that the widget Demo has 2 children. Both of which are boxlayouts. 
 
 The first boxlayout has been set to vertical, the default is horizontal. 
-Then 3 buttons have been added.
+Then 3 buttons have been added. As shown below.
 
-The second boxlayout is left to it's default settings and have 3 buttons as it's children. 
+![]({{site.baseurl}}/blog/static/images/kivy-boxlayout-example-1.png)
+
+The second boxlayout is left to it's default settings and have 3 buttons as it's children. As shown below.
+
+![]({{site.baseurl}}/blog/static/images/kivy-boxlayout-example-2.png)
 
 More about the different widgets will be explained in a later part. 
 
