@@ -32,7 +32,7 @@ class NewVisitorTest(VisitorTest):
 class BlogReaderTest(VisitorTest):
 
     def test_can_click_on_blog(self):
-        # Thomas want to read the blog page from the homepage
+        # Thomas wants to read the blog page from the homepage
         # He open the browser at the home page
         self.browser.get('http://0.0.0.0:4000/')
         self.browser.implicitly_wait(3)
@@ -127,5 +127,4 @@ class PastSessionsReaderTest(VisitorTest):
 
 
 if __name__ == '__main__':
-    #unittest.main(warnings='ignore')
     unittest.main()
