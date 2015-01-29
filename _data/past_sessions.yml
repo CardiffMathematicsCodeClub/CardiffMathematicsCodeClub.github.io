@@ -1,5 +1,12 @@
-- term: Autumn
-  info:
+- term: "2014-2015: Spring"
+  sessions:
+    - week   : 1
+      name   : '?'
+      quote  : '?'
+      author : '?'
+
+- term: "2014-2015: Autumn"
+  sessions:
     - week   : 1
       name   : Real Coders
       quote  : Only real coders code in Arch
