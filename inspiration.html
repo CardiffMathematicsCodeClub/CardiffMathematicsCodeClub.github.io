@@ -5,9 +5,9 @@ categories: inspiration
 ---
 
 <p> There is so much you can do during your time at Code Club anything
-    from learning a new programming languages such as <a href="languages/java.html">Java</a>
-    or <a href="languages/haskell.html">Haskell</a> to useful tools such
-    as <a href="#">Git</a> for version control or <a href="editors/vim.html">Vim</a>
+    from learning a new programming languages such as <a href="{{site.baseurl}}/languages/java.html">Java</a>
+    or <a href="{{site.baseurl}}/languages/haskell.html">Haskell</a> to useful tools such
+    as <a href="#">Git</a> for version control or <a href="{{site.baseurl}}/editors/vim.html">Vim</a>
     for text editing to hacking away in <a href="http://pi.minecraft.net/?page_id=14">Minecraft</a>
     for the Raspberry Pi! You are only limited by your imagination!
 </p>
@@ -17,30 +17,33 @@ categories: inspiration
     There are more programming languages than stars in the galaxy... OK
     <i>slight</i> exaggeration but there are a lot of them. Created for any
     possible purpose imaginable from building video games to driving rovers on Mars or
-    simply trying to <a href="languages/brainfk.html">confuse</a> the programmer using them!
+    simply trying to <a href="{{site.baseurl}}/languages/brainfk.html">confuse</a> the programmer using them!
 </p>
-<p> Some of the more popular languages include <a href="languages/java.html">Java</a>,
-    <a href="languages/python.html">Python</a> and <a href="languages/C++.html">C++</a>.
+<p> Some of the more popular languages include <a href="{{site.baseurl}}/languages/java.html">Java</a>,
+    <a href="{{site.baseurl}}/languages/python.html">Python</a> and <a href="{{site.baseurl}}/languages/C++.html">C++</a>.
     However there are many more than that! Below are just a sample of them.
 </p>
-<ul class="double">
-    {% for pages in site.pages %}
-        {% if pages.categories contains 'languages' %}
-            <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div class="two-cols">
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'languages' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
 
 <h3>Editors</h3>
 <p>There are many editors you can use below is just a sample.</p>
-<ul class="double">
-    {% for pages in site.pages %}
-        {% if pages.categories contains 'editors' %}
-            <li class="double"><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
-        {% endif %}
-    {% endfor %}
-</ul>
-
+<div class="two-cols">
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'editors' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
 
 <h3>Programming Challenges</h3>
 <p>
