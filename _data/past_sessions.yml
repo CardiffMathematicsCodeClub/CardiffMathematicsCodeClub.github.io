@@ -1,54 +1,63 @@
-- week   : 1
-  name   : Real Coders
-  quote  : Only real coders code in Arch
-  author : Jason PostGrad
+- term: "2014-2015: Spring"
+  sessions:
+    - week   : 1
+      name   : Three beeps
+      quote  : Doesn't matter Tim will fix it.
+      author : Everyone (except Jason)
 
-- week   : 2
-  name   : On the Fly
-  quote  : Love the fact that I'm learning Vim on the fly!
-  author : Adam 2nd Year
+- term: "2014-2015: Autumn"
+  sessions:
+    - week   : 1
+      name   : Real Coders
+      quote  : Only real coders code in Arch
+      author : Jason PostGrad
 
-- week   : 3
-  name   : The one where Vince ran away
-  quote  : It's amazing how quiet it is without Jason
-  author : Tim 2nd Year
+    - week   : 2
+      name   : On the Fly
+      quote  : Love the fact that I'm learning Vim on the fly!
+      author : Adam 2nd Year
 
-- week   : 4
-  name   : What Django is for
-  quote  : I know that Pinterest uses it but I can't see the connection
-  author : Alex 2nd Year
+    - week   : 3
+      name   : The one where Vince ran away
+      quote  : It's amazing how quiet it is without Jason
+      author : Tim 2nd Year
 
-- week   : 5
-  name   : Oh MongoDB
-  quote  : I'm 100% onboard but why are we using Mongodb again?
-  author : Vince Computing for Mathematics Lecturer
+    - week   : 4
+      name   : What Django is for
+      quote  : I know that Pinterest uses it but I can't see the connection
+      author : Alex 2nd Year
 
-- week   : 6
-  name   : Well 4 out of 5 work
-  quote  : For once it's Vince's fault
-  author : Jason PostGrad
+    - week   : 5
+      name   : Oh MongoDB
+      quote  : I'm 100% onboard but why are we using Mongodb again?
+      author : Vince Computing for Mathematics Lecturer
 
-- week   : 7
-  name   : Jekyll and Hyde
-  quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-  author : Alex 2nd Year
+    - week   : 6
+      name   : Well 4 out of 5 work
+      quote  : For once it's Vince's fault
+      author : Jason PostGrad
 
-- week   : 8
-  name   : Atom
-  quote  : When your editor is finally done, it will be sooo good
-  author : Vince Computing for Mathematics Lecturer
+    - week   : 7
+      name   : Jekyll and Hyde
+      quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
+      author : Alex 2nd Year
 
-- week   : 9
-  name   : Why we need Python 3...
-  quote  : ("It comes with brackets!!!")
-  author :  Linux User and Developer Magazine
+    - week   : 8
+      name   : Atom
+      quote  : When your editor is finally done, it will be sooo good
+      author : Vince Computing for Mathematics Lecturer
 
-- week   : 10
-  name   : Gource
-  quote  : Guys come and look how cool this is!!!
-  author : Vince Computing for Mathematics Lecturer
+    - week   : 9
+      name   : Why we need Python 3...
+      quote  : ("It comes with brackets!!!")
+      author :  Linux User and Developer Magazine
 
-- week   : 11
-  name   : Risk
-  quote  : 6! You die.
-  author : Ellie 1st Year (Master dice roller)
+    - week   : 10
+      name   : Gource
+      quote  : Guys come and look how cool this is!!!
+      author : Vince Computing for Mathematics Lecturer
+
+    - week   : 11
+      name   : Risk
+      quote  : 6! You die.
+      author : Ellie 1st Year (Master dice roller)
