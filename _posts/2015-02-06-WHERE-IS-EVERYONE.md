@@ -7,7 +7,7 @@ author     : Adam
 comments   : true
 ---
 
-With Vince and Jason still at Python Nambia, it fell to me, ALex and Tim to run Code Club in their stead.  
+With Vince and Jason still at Python Nambia, it fell to me, Alex and Tim to run Code Club in their stead.  
 However, due to prior comitments Alex could not make it to code club. 
 
 ![]({{site.baseurl}}/blog/static/images/WHERE-IS-EVERYONE-pic1.jpg)
