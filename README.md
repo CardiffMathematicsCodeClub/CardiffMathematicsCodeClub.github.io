@@ -19,6 +19,14 @@ Then open the url given in a web browser to view the site.
 
 Any changes you make to a page should automatically updated when viewing locally. If nothing changes, check the terminal from where jekyll has been run to see if there are any errors.
 
+If you are making a draft post and want to preview it locally you can run the following.
+
+```
+$ jekyll serve --w --drafts
+```
+
+The draft blog post will appear as the latest post. 
+
 ## Contributing
 
 You are welcome to contribute to the code club website, we need as much
