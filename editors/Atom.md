@@ -5,7 +5,7 @@ categories: inspiration editors
 ---
 Atom is stated as the hackable editor for the 21<sup>st</sup> century. Unlike other editors such as vim, ed, vi or nano; atom cannot be run in the terminal.
 
-There are loads of cool packages that you can download for atom, such as '[Backround Matrix][matrix]' - see gif below, '[color picker][color]' - allows you to easily change the hex code, '[minimap][map]' - A preview of the full source code to name a few.  Cna't find the package that you need/want, just go ahead and [create it][makepackage].
+There are loads of cool packages that you can download for atom, such as '[Backround Matrix][matrix]' - see gif below, '[color picker][color]' - allows you to easily change the hex code, '[minimap][map]' - A preview of the full source code to name a few.  Can't find the package that you need/want, just go ahead and [create it][makepackage].
 
 ![]({{site.baseurl}}/res/gifs/Atom-background-matrix.gif)
 
