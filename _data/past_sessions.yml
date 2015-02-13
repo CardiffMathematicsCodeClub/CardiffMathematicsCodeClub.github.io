@@ -8,7 +8,13 @@
     - week   : 2
       name   : The session that was not a session
       quote  : Don't worry Vince will fix it.
-      author : Tim
+      author : Tim 2<sup>nd</sup> Year
+
+    - week   : 3
+      name   : The one where the Padawan rocked the comand line
+      quote  : Just a little joke to break the ice.
+      author : Not Anthoney (Sam) 1<sup>st</sup> Year
+
 
 - term: "2014-2015: Autumn"
   sessions:
@@ -20,17 +26,17 @@
     - week   : 2
       name   : On the Fly
       quote  : Love the fact that I'm learning Vim on the fly!
-      author : Adam 2nd Year
+      author : Adam 2<sup>nd</sup> Year
 
     - week   : 3
       name   : The one where Vince ran away
       quote  : It's amazing how quiet it is without Jason
-      author : Tim 2nd Year
+      author : Tim 2<sup>nd</sup> Year
 
     - week   : 4
       name   : What Django is for
       quote  : I know that Pinterest uses it but I can't see the connection
-      author : Alex 2nd Year
+      author : Alex 2<sup>nd</sup> Year
 
     - week   : 5
       name   : Oh MongoDB
@@ -45,7 +51,7 @@
     - week   : 7
       name   : Jekyll and Hyde
       quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-      author : Alex 2nd Year
+      author : Alex 2<sup>nd</sup> Year
 
     - week   : 8
       name   : Atom
@@ -65,4 +71,4 @@
     - week   : 11
       name   : Risk
       quote  : 6! You die.
-      author : Ellie 1st Year (Master dice roller)
+      author : Ellie 1<sup>st</sup> Year (Master dice roller)
