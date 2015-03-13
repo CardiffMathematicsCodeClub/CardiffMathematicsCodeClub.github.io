@@ -4,3 +4,6 @@
 - name: 'A module planner'
   github: https://github.com/alcarney/Module-Planner
   description: 'A web based tool to graphically display course choice options.'
+- name: 'Axelrod'
+  github: https://github.com/drvinceknight/Axelrod
+  description: '''A repository used to reproduce Axelrod's tournament http://axelrod.readthedocs.org/'''
