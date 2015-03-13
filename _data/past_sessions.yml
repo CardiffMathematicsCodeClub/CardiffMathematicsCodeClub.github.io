@@ -13,7 +13,7 @@
     - week   : 3
       name   : The one where the Padawan rocked the comand line
       quote  : Just a little joke to break the ice.
-      author : Not Anthoney (Sam) 1<sup>st</sup> Year
+      author : Not Anthony (Sam) 1<sup>st</sup> Year
 
     - week   : 4
       name   : Axelrod
@@ -29,6 +29,11 @@
       name   : Introducing Module Planner OS
       quote  : I will write it in Assembly for the Rasberry Pi
       author : Alex 2<sup>nd</sup> Year
+
+    - week   : 7
+      name   : the time that Jason licked his desk
+      quote  : Is that a one or an l
+      author : Tim 2<sup>nd</sup> Year
 
 
 
