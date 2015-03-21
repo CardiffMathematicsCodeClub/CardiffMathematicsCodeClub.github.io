@@ -6,11 +6,8 @@
   description: 'A web based tool to graphically display course choice options.'
 - name: 'Axelrod'
   github: https://github.com/drvinceknight/Axelrod
-  description: 'A repository used to reproduce Axelrods tournament [Read The Docs] '
+  description: 'A repository used to reproduce Axelrods tournament.'
+  link: http://axelrod.readthedocs.org/
 - name: 'The game has changed'
   github: https://github.com/CardiffMathematicsCodeClub/unknown-horizons
   description: 'A game challenge run by github (progress... ongoing...)'
-
-
-
-[Read The Docs]: http://axelrod.readthedocs.org/
