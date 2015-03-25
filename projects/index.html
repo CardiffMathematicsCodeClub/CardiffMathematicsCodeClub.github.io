@@ -8,7 +8,7 @@ layout: page
   <li>
   <p><b>{{project.name}}</b> - <a href={{project.github}}>Github repo</a></p>
   <p><i>{{project.description}}</i></p>
-  <p><a href={{project.link}}>More info</a></p>
+  {% if project.link %}<p><a href={{project.link}}>More info</a></p>{% endif %}
   </li>
 {% endfor %}
 </ul>
