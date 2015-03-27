@@ -9,7 +9,7 @@ categories: sessions
 <h2>{{term.term}}</h2>
 <ul>
 {% for session in term.sessions%}
-<li>
+<li class="session-quote">
     <b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
     <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}
 </li>
