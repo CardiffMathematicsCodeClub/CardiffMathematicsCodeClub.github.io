@@ -138,7 +138,7 @@ class PastSessionsReaderTest(VisitorTest):
         data_file = open('./_data/past_sessions.yml', 'r')
         quotes_in_data = yaml.load(data_file)
         data_file.close()
-        self.assertEqual(len(quotes), len(quotes_in_data))
+        self.assertEqual(len(quotes), sum([len(i['sessions']) for i in quotes_in_data]))
 
 
 if __name__ == '__main__':
