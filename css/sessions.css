@@ -4,8 +4,12 @@ body{
   color: #4000ff;
 }
 
-h1, h2, h3{
+h1, h2{
   color: #f7ff00;
+}
+
+h3{
+  color: #0077ff;
 }
 
 i{
