@@ -1,61 +1,14 @@
 - year: "2015-2016"
   term1: "Autumn"
-  sessions:
+  sessions1:
     - week   : 1
       name   : Test
       quote  : I hope this works.
       author : Adam 2<sup>nd</sup> Year
 
 - year: "2014-2015"
-  term2: "Spring"
-  sessions:
-    - week   : 1
-      name   : Three beeps
-      quote  : Doesn't matter Tim will fix it.
-      author : Everyone (except Jason)
-
-    - week   : 2
-      name   : The session that was not a session
-      quote  : Don't worry Vince will fix it.
-      author : Tim 2<sup>nd</sup> Year
-
-    - week   : 3
-      name   : The one where the Padawan rocked the comand line
-      quote  : Just a little joke to break the ice.
-      author : Not Anthony (Sam) 1<sup>st</sup> Year
-
-    - week   : 4
-      name   : Axelrod
-      quote  : Umm Alex... how easy would it be to install Arch on my home computer?
-      author : Jason PostGrad
-
-    - week   : 5
-      name   : Text Editor support group
-      quote  : My name is Adam, and I am addicted to editing Atom.
-      author : Adam 2<sup>nd</sup> Year
-
-    - week   : 6
-      name   : Introducing Module Planner OS
-      quote  : I will write it in Assembly for the Rasberry Pi
-      author : Alex 2<sup>nd</sup> Year
-
-    - week   : 7
-      name   : The time that Jason licked his desk
-      quote  : Is that a 1 or an l
-      author : Tim 2<sup>nd</sup> Year
-
-    - week   : 8
-      name   : Fife off!!!
-      quote  : Tim does not know everything sadly, why not try this new thing called the internet.
-      author : Adam 2<sup>nd</sup> Year
-
-    - week   : 9
-      name   : The one where Blender came in-to play
-      quote  : WHY IS THIS NOT WORKING?!?
-      author : Adam 2<sup>nd</sup> Year
-
   term1: "Autumn"
-  sessions:
+  sessions1:
     - week   : 1
       name   : Real Coders
       quote  : Only real coders code in Arch
@@ -110,3 +63,50 @@
       name   : Risk
       quote  : 6! You die.
       author : Ellie 1st Year (Master dice roller)
+      
+  term2: "Spring"
+  sessions2:
+    - week   : 1
+      name   : Three beeps
+      quote  : Doesn't matter Tim will fix it.
+      author : Everyone (except Jason)
+
+    - week   : 2
+      name   : The session that was not a session
+      quote  : Don't worry Vince will fix it.
+      author : Tim 2<sup>nd</sup> Year
+
+    - week   : 3
+      name   : The one where the Padawan rocked the comand line
+      quote  : Just a little joke to break the ice.
+      author : Not Anthony (Sam) 1<sup>st</sup> Year
+
+    - week   : 4
+      name   : Axelrod
+      quote  : Umm Alex... how easy would it be to install Arch on my home computer?
+      author : Jason PostGrad
+
+    - week   : 5
+      name   : Text Editor support group
+      quote  : My name is Adam, and I am addicted to editing Atom.
+      author : Adam 2<sup>nd</sup> Year
+
+    - week   : 6
+      name   : Introducing Module Planner OS
+      quote  : I will write it in Assembly for the Rasberry Pi
+      author : Alex 2<sup>nd</sup> Year
+
+    - week   : 7
+      name   : The time that Jason licked his desk
+      quote  : Is that a 1 or an l
+      author : Tim 2<sup>nd</sup> Year
+
+    - week   : 8
+      name   : Fife off!!!
+      quote  : Tim does not know everything sadly, why not try this new thing called the internet.
+      author : Adam 2<sup>nd</sup> Year
+
+    - week   : 9
+      name   : The one where Blender came in-to play
+      quote  : WHY IS THIS NOT WORKING?!?
+      author : Adam 2<sup>nd</sup> Year

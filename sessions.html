@@ -4,38 +4,42 @@ title: Past Sessions
 categories: sessions
 ---
 
+
+<link rel="stylesheet" href="../css/slicknavstyle.css">
+<link rel="stylesheet" href="../css/slicknavstyle.css">
+
 <ul>
 {% for year in site.data.past_sessions %}
-{% for term1 in year.term1 %}
-{% for term2 in year.term2 %}
 <ul id="menu">
-  <div class="demo">
+
     <li><h3>{{year.year}}</h3>
         <ul>
+          {% for term1 in year.term1 %}
             <li><h2>{{year.term1}}</h2>
                 <ul>
-                  {% for session in year.sessions%}
+                  {% for session in year.sessions1 %}
                   <li>
                       <b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
                       <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}
                   </li>
                   {% endfor %}
                 </ul>
+            {% endfor %}
             </li>
+            {% for term2 in year.term2 %}
             <li><h2>{{year.term2}}</h2>
                 <ul>
-                  {% for session in year.sessions%}
+                  {% for session in year.sessions2 %}
                   <li>
                       <b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
                       <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}
                   </li>
                   {% endfor %}
                 </ul>
+            {% endfor %}
             </li>
         </ul>
     </li>
 </ul>
-{% endfor %}
-{% endfor %}
 {% endfor %}
 </ul>
