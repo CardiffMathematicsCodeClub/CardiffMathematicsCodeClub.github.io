@@ -1,27 +1,20 @@
 ---
-layout: page
-title: Past Sessions
+layout: Sessions
 categories: sessions
 ---
+<link rel="stylesheet" href="../css/slicknav.css">
+<script src="../js/jquery.slicknav.js"></script>
 
-
-<link rel="stylesheet" href="../css/slicknavstyle.css">
-<link rel="stylesheet" href="../css/slicknavstyle.css">
-
-<ul>
-{% for year in site.data.past_sessions %}
-<ul id="menu">
-
+<ul id="past_sessions">
+  {% for year in site.data.past_sessions %}
     <li><h3>{{year.year}}</h3>
         <ul>
           {% for term1 in year.term1 %}
             <li><h2>{{year.term1}}</h2>
                 <ul>
                   {% for session in year.sessions1 %}
-                  <li>
-                      <b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
-                      <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}
-                  </li>
+                  <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
+                      <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
                   {% endfor %}
                 </ul>
             {% endfor %}
@@ -30,16 +23,20 @@ categories: sessions
             <li><h2>{{year.term2}}</h2>
                 <ul>
                   {% for session in year.sessions2 %}
-                  <li>
-                      <b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
-                      <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}
-                  </li>
+                  <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
+                      <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
                   {% endfor %}
                 </ul>
             {% endfor %}
             </li>
         </ul>
     </li>
+  {% endfor %}
 </ul>
-{% endfor %}
-</ul>
+
+<script>
+    $(function(){
+        $('#past_sessions').slicknav();
+    });
+
+</script>
