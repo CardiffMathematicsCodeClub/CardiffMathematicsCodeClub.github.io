@@ -6,12 +6,12 @@
 .slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
 .slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
 .slicknav_menu .slicknav_no-text { margin: 0 }
-.slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 1em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
 .slicknav_nav { clear: both }
 .slicknav_nav ul,
 .slicknav_nav li { display: block }
-.slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.slicknav_nav .slicknav_arrow { position: relative; font-size: 1em; margin: 0 0 0 0.4em; float: center; }
 .slicknav_nav .slicknav_item { cursor: pointer; }
 .slicknav_nav .slicknav_row { display: block; }
 .slicknav_nav a { display: block }
@@ -26,11 +26,9 @@
     User Default Style
     Change the following styles to modify the appearance of the menu.
 */
-.slicknav_menu {
-    font-size:16px;
-    box-sizing:border-box;
-}
+
 .slicknav_menu * {
+  font-size:h1;
   box-sizing:border-box;
 }
 /* Button */
@@ -41,7 +39,7 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    background-color: #222222;
+    background-color: #ec4d0b;
 }
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {
@@ -57,7 +55,7 @@
     background:#000000;
     padding:5px;
 }
-.slicknav_nav {    color:#fff;
+.slicknav_nav {    color:#4000ff;
     margin:0;
     padding:0;
     font-size:0.875em;
@@ -89,22 +87,22 @@
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background:#ccc;
-    color:#fff;
+    background:#ec4d0b;
+    color:#4000ff;
 }
 .slicknav_nav a:hover{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background:#ccc;
-    color:#222;
+    background:#4000ff;
+    color:#9e0303;
 }
 .slicknav_nav .slicknav_txtnode {
     margin-left:15px;
 }
 .slicknav_brand {
-	color:#fff;
-	font-size: 18px;
+	color:#4000ff;
+	font-size: 32px;
 	line-height:30px;
 	padding:7px 12px;
 	height:44px;
