@@ -2,16 +2,16 @@
     Mobile Menu Core Style
 */
 
-.slicknav_btn { position: relative; display: block; vertical-align: center; float: left; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.slicknav_btn { position: relative; display: block; vertical-align: center; float: left; line-height: 1em; cursor: pointer; }
 .slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
 .slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
 .slicknav_menu .slicknav_no-text { margin: 0 }
 .slicknav_menu .slicknav_icon-bar { display: block; width: 1em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
-.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.1em }
 .slicknav_nav { clear: both }
 .slicknav_nav ul,
 .slicknav_nav li { display: block }
-.slicknav_nav .slicknav_arrow { position: relative; font-size: 1em; margin: 0 0 0 0.4em; float: center; }
+.slicknav_nav .slicknav_arrow { position: relative; font-size: 10em; margin: 0 0 0 0.4em; float: center; }
 .slicknav_nav .slicknav_item { cursor: pointer; }
 .slicknav_nav .slicknav_row { display: block; }
 .slicknav_nav a { display: block }
@@ -27,13 +27,12 @@
     Change the following styles to modify the appearance of the menu.
 */
 
-.slicknav_menu * {
-  font-size:h1;
+.slicknav_menu {
   box-sizing:border-box;
 }
 /* Button */
 .slicknav_btn {
-    margin: 5px 5px 6px;
+    margin: 1px;
     text-decoration:none;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 4px;
@@ -55,7 +54,8 @@
     background:#000000;
     padding:5px;
 }
-.slicknav_nav {    color:#4000ff;
+.slicknav_nav {
+    color:#4000ff;
     margin:0;
     padding:0;
     font-size:0.875em;
@@ -84,9 +84,9 @@
     margin:0;
 }
 .slicknav_nav .slicknav_row:hover {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
     background:#ec4d0b;
     color:#4000ff;
 }
@@ -94,15 +94,17 @@
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background:#4000ff;
+    background:#ff0800;
     color:#9e0303;
 }
+
 .slicknav_nav .slicknav_txtnode {
-    margin-left:15px;
+  margin-left:15px;
 }
+
 .slicknav_brand {
 	color:#4000ff;
-	font-size: 32px;
+	font-size: 64px;
 	line-height:30px;
 	padding:7px 12px;
 	height:44px;

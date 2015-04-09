@@ -14,7 +14,7 @@
             easingClose: 'swing',
             closedSymbol: '&#9658;',
             openedSymbol: '&#9660;',
-            prependTo: 'body',
+            prependTo: ".post-content",
             parentTag: 'a',
             closeOnClick: false,
             allowParentLinks: false,
