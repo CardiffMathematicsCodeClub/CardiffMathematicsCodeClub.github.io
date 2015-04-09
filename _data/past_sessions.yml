@@ -1,11 +1,3 @@
-- year: "2015-2016"
-  term1: "Autumn"
-  sessions1:
-    - week   : 1
-      name   : Test
-      quote  : I hope this works.
-      author : Adam 2<sup>nd</sup> Year
-
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:
@@ -17,17 +9,17 @@
     - week   : 2
       name   : On the Fly
       quote  : Love the fact that I'm learning Vim on the fly!
-      author : Adam 2nd Year
+      author : Adam 2<sup>nd</sup> Year
 
     - week   : 3
       name   : The one where Vince ran away
       quote  : It's amazing how quiet it is without Jason
-      author : Tim 2nd Year
+      author : Tim 2<sup>nd</sup> Year
 
     - week   : 4
       name   : What Django is for
       quote  : I know that Pinterest uses it but I can't see the connection
-      author : Alex 2nd Year
+      author : Alex 2<sup>nd</sup> Year
 
     - week   : 5
       name   : Oh MongoDB
@@ -42,7 +34,7 @@
     - week   : 7
       name   : Jekyll and Hyde
       quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-      author : Alex 2nd Year
+      author : Alex 2<sup>nd</sup> Year
 
     - week   : 8
       name   : Atom
@@ -63,7 +55,7 @@
       name   : Risk
       quote  : 6! You die.
       author : Ellie 1st Year (Master dice roller)
-      
+
   term2: "Spring"
   sessions2:
     - week   : 1

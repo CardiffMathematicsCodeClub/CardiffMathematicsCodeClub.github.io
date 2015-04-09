@@ -4,3 +4,12 @@
 - name: 'A module planner'
   github: https://github.com/alcarney/Module-Planner
   description: 'A web based tool to graphically display course choice options.'
+  link: http://module-planner.readthedocs.org/en/latest/
+- name: 'Axelrod'
+  github: https://github.com/drvinceknight/Axelrod
+  description: 'A repository used to reproduce Axelrods tournament.'
+  link: http://axelrod.readthedocs.org/
+- name: 'The game has changed'
+  github: https://github.com/CardiffMathematicsCodeClub/unknown-horizons
+  description: 'A game challenge run by github (progress... ongoing...)'
+  link: https://github.com/blog/1972-the-game-has-changed

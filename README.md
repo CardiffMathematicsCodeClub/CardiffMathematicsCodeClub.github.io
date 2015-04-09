@@ -19,6 +19,15 @@ Then open the url given in a web browser to view the site.
 
 Any changes you make to a page should automatically updated when viewing locally. If nothing changes, check the terminal from where jekyll has been run to see if there are any errors.
 
+If you are making a draft post and want to preview it locally you can run the following.
+
+```
+$ jekyll serve --w --drafts
+```
+
+The draft blog post will appear as the latest post.
+
+
 ## Contributing
 
 You are welcome to contribute to the code club website, we need as much
@@ -51,3 +60,52 @@ page
 ```
 so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
 in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
+
+
+### Testing Framework
+
+#### Running tests:
+
+Functional tests have been written using [selenium](http://www.seleniumhq.org/).
+To run these you will need the selenium python package:
+
+    $ pip install selenium
+
+To run the tests set the dev server running:
+
+    $ jekyll serve
+
+then run the `functional_tests.py` file:
+
+    $ python functional_tests.py
+
+The output should look something like this:
+
+```
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 13.083s
+
+OK
+```
+
+Note that the testing framework requires [Firefox](https://www.mozilla.org/en-GB/firefox/new/) (it is possible to run other browsers but Firefox works out of the box).
+When running these functional tests the browser will open up and navigate as dictated by the tests.
+
+**Tests should be run after every pull and before every push (as well as throughout any other development).**
+
+#### Writing tests
+
+The functional tests are class based and all classes include a 'User Story'.
+Whenever a new feature/page is added to the site a corresponding test should be written (note that at present not all tests that are needed are written).
+In fact 'Test Driven Development' is the correct way to write any code:
+
+1. Write a test
+2. Check that tests fails
+3. Write feature that stops test from failing
+
+> Obey the Testing Goat! Do Nothing Until You Have a Test
+
+![](http://orm-chimera-prod.s3.amazonaws.com/1234000000754/images/twdp_0101.png)
+
+A great explanation of this process is given in [this book](http://chimera.labs.oreilly.com/books/1234000000754/ch01.html) (free to read online and where the goat image is taken from).
