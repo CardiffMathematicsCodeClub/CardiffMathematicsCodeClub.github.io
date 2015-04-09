@@ -1,11 +1,15 @@
 body{
-  background-image: url(../res/backround_images/Background-negative.png);
-  background-color: #000000;
+  background-image: url(../Graphics/images/Background-negative.png);
   color: #4000ff;
 }
 
-h1, h2, h3{
-  color: #f7ff00;
+h6{
+  color:#e2ff00;
+}
+
+u{
+  color: #ff0800;
+  font-size: 2em;
 }
 
 i{

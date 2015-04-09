@@ -31,7 +31,7 @@ Do you think it sounds like a great idea, but are looking for an excuse to turn 
 </center>
 <ul>
     {% for contributor in site.data.contributors%}
-        <li class="contributor"><b>{{contributor.name}}</b> <i>({{contributor.title}})</i></li>
+<li class="contributor"><b>{{contributor.name}}</b> <i>({{contributor.title}})</i> {{contributor.emoji}}</li>
     {% endfor %}
 </ul>
 <center>

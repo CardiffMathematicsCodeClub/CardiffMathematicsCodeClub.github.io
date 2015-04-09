@@ -18,7 +18,11 @@ body {
   background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 200%; font-weight: 400; }
+h1, h2, h3, h4, h5 { font-size: 200%; font-weight: 400; }
+
+h6 {
+  font-size: 2em;
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -215,12 +219,12 @@ a:visited{
 .post-content h2,
 .post-content h3,
 .post-content h4,
-.post-content h5,
-.post-content h6 {
+.post-content h5{
   line-height: 1;
   font-weight: 300;
   margin: 40px 0 20px;
 }
+
 
 .post-content h2 {
   font-size: 32px;
@@ -235,6 +239,13 @@ a:visited{
 .post-content h4 {
   font-size: 20px;
   letter-spacing: -1px;
+}
+
+.post-content h6 {
+  line-height: 1;
+  font-weight: 1;
+  font-size: 2em;
+  letter-spacing: 1px;
 }
 
 .post-content blockquote {

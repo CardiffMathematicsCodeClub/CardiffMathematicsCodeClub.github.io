@@ -25,7 +25,8 @@ If you are making a draft post and want to preview it locally you can run the fo
 $ jekyll serve --w --drafts
 ```
 
-The draft blog post will appear as the latest post. 
+The draft blog post will appear as the latest post.
+
 
 ## Contributing
 
