@@ -156,8 +156,10 @@ a:visited { color: #205caa; }
   text-align: center;
 }
 
-a:link{
-  color: #FFFF00;
+.slicknav_menutxt {
+  color: #22ff00;
+  font-size: 2em;
+  vertical-align: center;
 }
 
 a:visited{
