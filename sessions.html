@@ -13,7 +13,7 @@ categories: sessions
     <li><u>{{year.year}}</u>
         <ul>
           {% for term1 in year.term1 %}
-            <li><h6>{{year.term1}}</h6>
+            <li><em>{{year.term1}}</em>
                 <ul>
                   {% for session in year.sessions1 %}
                   <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
@@ -23,7 +23,7 @@ categories: sessions
             {% endfor %}
             </li>
             {% for term2 in year.term2 %}
-            <li><h6>{{year.term2}}</h6>
+            <li><em>{{year.term2}}</em>
                 <ul>
                   {% for session in year.sessions2 %}
                   <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
