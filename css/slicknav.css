@@ -11,10 +11,10 @@
 .slicknav_nav { clear: both }
 .slicknav_nav ul,
 .slicknav_nav li { display: block }
-.slicknav_nav .slicknav_arrow { position: relative; font-size: 10em; margin: 0 0 0 0.4em; float: center; }
+.slicknav_nav .slicknav_arrow { position: inline; font-size: 10em; margin: 0 0 0 0.4em; float: right; }
 .slicknav_nav .slicknav_item { cursor: pointer; }
-.slicknav_nav .slicknav_row { display: block; }
-.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_row { display: inline; }
+.slicknav_nav a { display: inline-block }
 .slicknav_nav .slicknav_item a,
 .slicknav_nav .slicknav_parent-link a { display: inline }
 .slicknav_brand { float:left }

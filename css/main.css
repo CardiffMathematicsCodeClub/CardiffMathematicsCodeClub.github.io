@@ -20,18 +20,16 @@ body {
 
 h1, h2, h3, h4, h5 { font-size: 200%; font-weight: 400; }
 
-h6 {
-  font-size: 2em;
-}
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #fbff00; text-decoration: none; }
+a:hover   { color: #fbff00; text-decoration: underline; }
+a:visited { color: #fbff00; }
 
 /* Utility */
 
 .wrap:before,
 .wrap:after { content:""; display:table; }
+
 .wrap:after { clear: both; }
 .wrap {
   max-width: 800px;
@@ -247,7 +245,8 @@ a:visited{
   line-height: 1;
   font-weight: 1;
   font-size: 2em;
-  letter-spacing: 1px;
+  margin: 0;
+  padding-left: 10px;
 }
 
 .post-content blockquote {
