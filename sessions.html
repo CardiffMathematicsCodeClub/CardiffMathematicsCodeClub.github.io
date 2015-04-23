@@ -1,5 +1,6 @@
 ---
 layout: Sessions
+title: Sessions
 categories: sessions
 ---
 
@@ -8,8 +9,8 @@ categories: sessions
 <link src="/css/slicknav.css" rel="stylesheet" type="text/css">
 
 
-<ul id="past_sessions">
-  {% for year in site.data.past_sessions %}
+{% for year in site.data.past_sessions %}
+  <ul id="past_sessions">
     <li><u>{{year.year}}</u>
         <ul>
           {% for term1 in year.term1 %}
@@ -34,8 +35,9 @@ categories: sessions
             </li>
         </ul>
     </li>
-  {% endfor %}
-<ul>
+  </ul>
+{% endfor %}
+
 
 <script>
     $(function(){
