@@ -7,7 +7,7 @@
     var
     // default settings object.
         defaults = {
-            label: 'Past Sessions',
+            label: 'Click here<i>...(go on you know you want to)</i>',
             duplicate: false,
             duration: 750,
             easingOpen: 'swing',
