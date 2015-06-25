@@ -15,6 +15,12 @@ There are loads of [syntax and UI themes][themes] for you to download to make yo
 
 For more information about how wonderful [Atom][Atom] is or to download this amazing editor please click the link and scroll down to the read me at the bottom.
 
+<div class="video">
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7aEiVwBAdk" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
+
 [makepackage]: https://atom.io/docs/latest/creating-a-package
 [maketheme]: https://atom.io/docs/latest/creating-a-theme
 [matrix]: https://atom.io/packages/background-matrix
