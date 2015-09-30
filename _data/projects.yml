@@ -6,7 +6,7 @@
   description: 'A web based tool to graphically display course choice options.'
   link: http://module-planner.readthedocs.org/en/latest/
 - name: 'Axelrod'
-  github: https://github.com/drvinceknight/Axelrod
+  github: https://github.com/Axelrod-Python/Axelrod
   description: 'A repository used to reproduce Axelrods tournament.'
   link: http://axelrod.readthedocs.org/
 - name: 'The game has changed'
