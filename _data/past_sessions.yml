@@ -1,3 +1,11 @@
+- year: "2015-2016"
+  term1: "Autumn"
+  sessions1:
+    - week   : 1
+      name   : Wales v Fiji
+      quote  : "Oh I didn't realise Django was used!"
+      author : Padawan
+
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:
