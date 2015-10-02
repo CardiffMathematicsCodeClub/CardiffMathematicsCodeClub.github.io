@@ -12,42 +12,42 @@
     - week   : 1
       name   : Real Coders
       quote  : Only real coders code in Arch
-      author : Jason PostGrad
+      author : Jason Young
 
     - week   : 2
       name   : On the Fly
       quote  : Love the fact that I'm learning Vim on the fly!
-      author : Adam 2<sup>nd</sup> Year
+      author : Flamboyant Coder
 
     - week   : 3
       name   : The one where Vince ran away
       quote  : It's amazing how quiet it is without Jason
-      author : Tim 2<sup>nd</sup> Year
+      author : The Code Janitor
 
     - week   : 4
       name   : What Django is for
       quote  : I know that Pinterest uses it but I can't see the connection
-      author : Alex 2<sup>nd</sup> Year
+      author : Real Coder
 
     - week   : 5
       name   : Oh MongoDB
       quote  : I'm 100% onboard but why are we using Mongodb again?
-      author : Vince Computing for Mathematics Lecturer
+      author : Colonel Sarge
 
     - week   : 6
       name   : Well 4 out of 5 work
       quote  : For once it's Vince's fault
-      author : Jason PostGrad
+      author : Jason Young
 
     - week   : 7
       name   : Jekyll and Hyde
       quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-      author : Alex 2<sup>nd</sup> Year
+      author : Real Coder
 
     - week   : 8
       name   : Atom
       quote  : When your editor is finally done, it will be sooo good
-      author : Vince Computing for Mathematics Lecturer
+      author : Colonel Sarge
 
     - week   : 9
       name   : Why we need Python 3...
@@ -57,7 +57,7 @@
     - week   : 10
       name   : Gource
       quote  : Guys come and look how cool this is!!!
-      author : Vince Computing for Mathematics Lecturer
+      author : Colonel Sarge
 
     - week   : 11
       name   : Risk
@@ -74,7 +74,7 @@
     - week   : 2
       name   : The session that was not a session
       quote  : Don't worry Vince will fix it.
-      author : Tim 2<sup>nd</sup> Year
+      author : The Code Janitor
 
     - week   : 3
       name   : The one where the Padawan rocked the comand line
@@ -84,29 +84,29 @@
     - week   : 4
       name   : Axelrod
       quote  : Umm Alex... how easy would it be to install Arch on my home computer?
-      author : Jason PostGrad
+      author : Jason Young
 
     - week   : 5
       name   : Text Editor support group
       quote  : My name is Adam, and I am addicted to editing Atom.
-      author : Adam 2<sup>nd</sup> Year
+      author : Flamboyant Coder
 
     - week   : 6
       name   : Introducing Module Planner OS
       quote  : I will write it in Assembly for the Rasberry Pi
-      author : Alex 2<sup>nd</sup> Year
+      author : Real Coder
 
     - week   : 7
       name   : The time that Jason licked his desk
       quote  : Is that a 1 or an l
-      author : Tim 2<sup>nd</sup> Year
+      author : The Code Janitor
 
     - week   : 8
       name   : Fife off!!!
       quote  : Tim does not know everything sadly, why not try this new thing called the internet.
-      author : Adam 2<sup>nd</sup> Year
+      author : Flamboyant Coder
 
     - week   : 9
       name   : The one where Blender came in-to play
       quote  : WHY IS THIS NOT WORKING?!?
-      author : Adam 2<sup>nd</sup> Year
+      author : Flamboyant Coder
