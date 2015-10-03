@@ -7,26 +7,26 @@ author     : Timothy
 comments   : true
 ---
 
-There have been a few of you trying to run a [python]({{site.baseurl}}/languages/python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
+There have been a few of you trying to run a [Python]({{site.baseurl}}/languages/Python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
 
-`'python' is not recognized as an internal or external command, operable program or batch file.`
+`'Python' is not recognized as an internal or external command, operable program or batch file.`
 
-The reason for this message is as Python isn't part of the PATH means that Atom can't find python to run the script.
+If you have installed Python, the reason for this message is as Python isn't part of the PATH means that Atom can't find Python to run the script.
 
 To add Python to the script, the following is one option.
 Other methods can be found online. 
 
-Locate the installation file used to install python which is called `python-2.7.*.msi` an run it.
+Locate the installation file used to install Python which is called `Python-2.7.*.msi` an run it.
 
 When it loads you will get the screen show below and select `Change Python 2.7.*`.
 
 ![Select Change Installation]({{site.baseurl}}/res/blog_pics/pythonpath1.png)
 
-On the customize Python screen click on the red cross next to `Add python.exe to PATH` and select `Will be installed on local hard drive`.
+On the customize Python screen click on the red cross next to `Add Python.exe to PATH` and select `Will be installed on local hard drive`.
 Then click next.
 
 ![Select Path to be installed]({{site.baseurl}}/res/blog_pics/pythonpath2.png)
 
 This will also take into account if you have changed the default installation folder. 
 
-Once you have done this **RESTART WINDOWS** then python should be working within Atom. 
+Once you have done this **RESTART WINDOWS** then Python should be working within Atom. 
