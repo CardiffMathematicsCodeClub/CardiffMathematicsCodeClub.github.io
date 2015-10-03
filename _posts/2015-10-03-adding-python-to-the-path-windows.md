@@ -18,11 +18,12 @@ Other methods can be found online.
 
 Locate the installation file used to install Python which is called `Python-2.7.*.msi` an run it.
 
-When it loads you will get the screen show below and select `Change Python 2.7.*`.
+When it loads you will get the screen show below and select `Change Python 2.7.*` and click Finish.
+Note: The finish button doesn't mean you finished as you will be taken to the next screen. 
 
 ![Select Change Installation]({{site.baseurl}}/res/blog_pics/pythonpath1.png)
 
-On the customize Python screen click on the red cross next to `Add Python.exe to PATH` and select `Will be installed on local hard drive`.
+Then on the customize Python screen click on the red cross next to `Add Python.exe to PATH` and select `Will be installed on local hard drive`.
 Then click next.
 
 ![Select Path to be installed]({{site.baseurl}}/res/blog_pics/pythonpath2.png)
