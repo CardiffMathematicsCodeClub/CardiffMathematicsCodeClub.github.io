@@ -19,9 +19,9 @@ categories: sessions
                         <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
                     {% endfor %}
                   </ul>
-              {% endfor %}
               </li>
-              {% for term2 in year.term2 %}
+            {% endfor %}
+            {% for term2 in year.term2 %}
               <li><em>{{year.term2}}</em>
                   <ul>
                     {% for session in year.sessions2 %}
@@ -29,8 +29,8 @@ categories: sessions
                         <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
                     {% endfor %}
                   </ul>
-              {% endfor %}
               </li>
+            {% endfor %}
           </ul>
       </li>
   {% endfor %}
