@@ -468,3 +468,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Code Tag */
+code {
+  color: #000000;
+}
