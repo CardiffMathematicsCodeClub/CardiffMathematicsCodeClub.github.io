@@ -7,17 +7,18 @@ author     : Timothy
 comments   : true
 ---
 
-There have been a few of you trying to run a python script within atom on windows and are getting the following error message.
+There have been a few of you trying to run a [python]({{site.baseurl}}/languages/python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
 
 `'python' is not recognized as an internal or external command, operable program or batch file.`
 
-The reason for this meassage is as Python isn't part of the PATH means that Atom can't find python to run the script.
+The reason for this message is as Python isn't part of the PATH means that Atom can't find python to run the script.
 
 To add Python to the script, the following is one option.
+Other methods can be found online. 
 
-Locate the installation file used to install python which is called python-2.7.*.msi an run it.
+Locate the installation file used to install python which is called `python-2.7.*.msi` an run it.
 
-When it loads you will get the screen show below and select Change Python 2.7.*
+When it loads you will get the screen show below and select `Change Python 2.7.*`.
 
 ![Select Change Installation]({{site.baseurl}}/res/blog_pics/pythonpath1.png)
 
