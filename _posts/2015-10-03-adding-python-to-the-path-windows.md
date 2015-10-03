@@ -13,7 +13,7 @@ There have been a few of you trying to run a [Python]({{site.baseurl}}/languages
 
 If you have installed Python, the reason for this message is as Python isn't part of the PATH means that Atom can't find Python to run the script.
 
-To add Python to the script, the following is one option.
+To add Python to the PATH, the following is one option.
 Other methods can be found online. 
 
 Locate the installation file used to install Python which is called `Python-2.7.*.msi` an run it.
