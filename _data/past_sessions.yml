@@ -6,6 +6,11 @@
       quote  : "Oh I didn't realise Django was used!"
       author : The Padawan
 
+    - week   : 2
+      name   : Editor Off
+      quote  : "Amazing physics going on"
+      author : The Real Coder
+
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:
