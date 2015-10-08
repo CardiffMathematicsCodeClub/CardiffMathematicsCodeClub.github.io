@@ -12,7 +12,7 @@
     - week   : 1
       name   : Real Coders
       quote  : Only real coders code in Arch
-      author : Jason Young
+      author : You Know Who
 
     - week   : 2
       name   : On the Fly
@@ -37,7 +37,7 @@
     - week   : 6
       name   : Well 4 out of 5 work
       quote  : For once it's Vince's fault
-      author : Jason Young
+      author : You Know Who
 
     - week   : 7
       name   : Jekyll and Hyde
@@ -84,7 +84,7 @@
     - week   : 4
       name   : Axelrod
       quote  : Umm Alex... how easy would it be to install Arch on my home computer?
-      author : Jason Young
+      author : You Know Who
 
     - week   : 5
       name   : Text Editor support group
