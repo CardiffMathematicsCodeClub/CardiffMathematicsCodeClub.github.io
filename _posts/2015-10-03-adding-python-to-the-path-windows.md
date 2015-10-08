@@ -7,7 +7,7 @@ author     : Timothy
 comments   : true
 ---
 
-There have been a few of you trying to run a [Python]({{site.baseurl}}/languages/Python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
+There have been a few of you trying to run a [Python]({{site.baseurl}}/languages/python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
 
 `'Python' is not recognized as an internal or external command, operable program or batch file.`
 
