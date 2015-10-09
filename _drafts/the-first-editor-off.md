@@ -58,7 +58,7 @@ has this set up as the default which is `\`.
 First, Sam showed how it is possible to run shell commands from within VIM using `:! <commands>`.
 Additionally, he showed how you can write the output from these commands into the current buffer using `:.! <commands>`.
 
-Vince added that a good use of this function could be reading the output of an `ls` command into a .gitignore file.
+Vince added that a good use of this feature could be creating or adding to a .gitignore file by writing the output of an `git status` command (the output being all the files that are not being tracked by git).
 
 ### Use of macros
 
