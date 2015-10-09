@@ -58,6 +58,8 @@ has this set up as the default which is `\`.
 First, Sam showed how it is possible to run shell commands from within VIM using `:! <commands>`.
 Additionally, he showed how you can write the output from these commands into the current buffer using `:.! <commands>`.
 
+Vince added that a good use of this function could be reading the output of an `ls` command into a .gitignore file.
+
 ### Use of macros
 
 Secondly, Sam showed how you can record macros in VIM to speed up repetitive tasks.
@@ -71,3 +73,5 @@ Secondly, Sam showed how you can record macros in VIM to speed up repetitive tas
 * To run your macro on multiple lines either:
   * End your macro by moving down a line (<kbd>j</kbd>) and then run the macro the for the desired number of times (e.g. <kbd>5</kbd><kbd>@</kbd><kbd>a</kbd>).
   * Select the lines in visual mode (<kbd>V</kbd>), and then run `:norm @a` (replacing 'a' for your key binding).
+
+Sam demonstrated this by formatting a few lines of csv format data into Python dictionary format.
