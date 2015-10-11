@@ -75,3 +75,33 @@ Secondly, Sam showed how you can record macros in VIM to speed up repetitive tas
   * Select the lines in visual mode (<kbd>V</kbd>), and then run `:norm @a` (replacing 'a' for your key binding).
 
 Sam demonstrated this by formatting a few lines of csv format data into Python dictionary format.
+
+## Alex
+
+### Butterfly Mode
+
+This was more of a joke than anything useful by claiming that emacs is the ultimate editor and emac's
+butterfly mode is a reference to the following [xkcd](xkcd.com) comic.
+
+![Butterfly-Power](http://imgs.xkcd.com/comics/real_programmers.png)
+
+Launching butterfly mode by typing ```M-x butterfly RET``` (M-x = Alt + x, RET = Enter) will see characters
+fly on from the edges of the screen and print the sentence ```Amazing physics going on``` in the centre of the
+screen.
+
+### Org-Babel, Tangling and Weaving
+
+On a more serious note Alex showed us Org-Babel, a facet or emac's Org-Mode which allows you to embed source code
+in your documents. How is this different from other formats such as Markdown? Well this source code can be
+"tangled" into other files.
+
+This allows us to follow a paradaigm called
+[Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
+where instead of writing the source code to a program in a format specified by the computer, you can write the
+source code in a way that makes sense to humans and then use Org-Babel to compile all the files from code
+snippets embedded in your document.
+
+I don't feel like I'm exaplaining this very well so let me point you in the direction of a few such programs.
+Alex's [Emacs Configuration](https://raw.githubusercontent.com/alcarney/emacs.d/master/README.org)
+is in fact a literate program using Org-Babel. While it isn't written using Org-Babel Donald Knuth's
+[TeX](http://mirrors.ctan.org/systems/knuth/dist/tex/texbook.tex) is probably _the_ example of a literate program.
