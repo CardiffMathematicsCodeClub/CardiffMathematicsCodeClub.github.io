@@ -3,8 +3,8 @@ layout     : post
 title      : "The first editor off"
 categories : website vim atom emacs
 tags       : blog
-author     : Vince, Alex, Sam, Adam
-comments   : false
+author     : Vince, Alex, Sam
+comments   : true
 ---
 
 During the second week of code club we held an editor off. Like a dance off or
