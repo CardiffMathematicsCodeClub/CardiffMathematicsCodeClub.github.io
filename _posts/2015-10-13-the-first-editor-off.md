@@ -20,7 +20,6 @@ lip syn battle but cooler:
 For this first battle we had 4 participants with 3 weapons of choice:
 
 - Vince: Vim
-- Adam: Atom
 - Alex: Emacs
 - Sam: Vim
 
@@ -42,7 +41,7 @@ docstring for a function:
 
 Simply hit `<leader> + d` and the docstring appears in a buffer.
 
-The second thing was `<leader> + K` which take you directly to the source code
+The second thing was `<leader> + K` which takes you directly to the source code
 for any given function. So Vince did this on the `random.choice` function to
 directly access the python source code. He then quickly modified the way that
 function worked so that he would always win at the simple game he programmed.
@@ -101,7 +100,7 @@ where instead of writing the source code to a program in a format specified by t
 source code in a way that makes sense to humans and then use Org-Babel to compile all the files from code
 snippets embedded in your document.
 
-I don't feel like I'm exaplaining this very well so let me point you in the direction of a few such programs.
+I don't feel like I'm explaining this very well so let me point you in the direction of a few such programs.
 Alex's [Emacs Configuration](https://raw.githubusercontent.com/alcarney/emacs.d/master/README.org)
 is in fact a literate program using Org-Babel. While it isn't written using Org-Babel Donald Knuth's
 [TeX](http://mirrors.ctan.org/systems/knuth/dist/tex/texbook.tex) is probably _the_ example of a literate program.
