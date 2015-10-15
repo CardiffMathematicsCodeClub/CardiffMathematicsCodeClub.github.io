@@ -8,7 +8,7 @@ comments   : true
 ---
 
 During the second week of code club we held an editor off. Like a dance off or
-lip syn battle but cooler:
+lip sync battle but cooler:
 
 
 <div class="video">
@@ -22,7 +22,7 @@ For this first battle we had 4 participants with 3 weapons of choice:
 - Vince: Vim
 - Alex: Emacs
 - Sam: Vim
-- Adam: Atom (nothing worked for him :disappointed:)
+- Adam: Atom (nothing worked for him)
 
 This post will briefly show/discuss what they showed:
 
