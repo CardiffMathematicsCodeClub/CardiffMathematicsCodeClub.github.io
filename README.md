@@ -4,7 +4,7 @@ A repository for the Cardiff School of Mathematics Code Club: an extra curricula
 
 The website for code club is located here - http://cardiffmathematicscodeclub.github.io/
 
-Meeting time: Friday's 15:00-17:00 in room M/0.33.
+Meeting time: Thursday's 16:00-18:00 in room M/0.33.
 
 ## Runing the website locally
 In order to run the website locally you need to have jeykll installed.
