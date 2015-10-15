@@ -22,6 +22,7 @@ For this first battle we had 4 participants with 3 weapons of choice:
 - Vince: Vim
 - Alex: Emacs
 - Sam: Vim
+- Adam: Atom (nothing worked for him :disappointed:)
 
 This post will briefly show/discuss what they showed:
 
