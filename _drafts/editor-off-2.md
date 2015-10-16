@@ -23,7 +23,7 @@ For this battle we had 6 participants with 4 weapons of choice:
 
 This post will briefly show/discuss what they showed:
 
-## Adam :smiling_imp:
+## Adam
 
 ### Making & publishing your own theme
 
@@ -31,7 +31,7 @@ After nothing worked and subsequently getting decimated by both
 Vim and Emacs in episode I, Adam knew that he would have to come
 out fighting if he was to even stand a chance of matching/beating Vince.
 
-Adam therefore decided to showcase and perform a live publish of the 
+Adam therefore decided to showcase and perform a live publish of the
 [syntax theme][The Matrix] he had been working on for the past year
 for his 1<sup>st</sup> 'trick'.
 
@@ -50,20 +50,20 @@ commited and pushed up the quote of the session live.
 
 
 
-## Vince :shipit:
+## Vince
 
 
 ## Sam
 
 
-## Alex :metal:
+## Alex
 
 
 
-## Geraint :credit_card:
+## Geraint
 
 
-## Hannah :chicken:
+## Hannah
 
 
 
