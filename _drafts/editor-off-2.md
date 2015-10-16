@@ -27,11 +27,27 @@ This post will briefly show/discuss what they showed:
 
 ### Making & publishing your own theme
 
-After nothing worked for me and subsequently getting decimated by both Vim and Emacs in episode I,
-I knew that I had to come out fighting if I was to even stand a chance of matching/beating Vince.
-I therefore decided to showcase and perform a live publish of the [syntax theme][The Matrix]
-I had been working on for the past year. Despite a few teething problems, the pics not loading correctly and not
- being able to find it at first on the atom website, I feel that it went really well.
+After nothing worked and subsequently getting decimated by both
+Vim and Emacs in episode I, Adam knew that he would have to come
+out fighting if he was to even stand a chance of matching/beating Vince.
+
+Adam therefore decided to showcase and perform a live publish of the 
+[syntax theme][The Matrix] he had been working on for the past year
+for his 1<sup>st</sup> 'trick'.
+
+Despite a few teething problems, the pics not loading correctly and
+not being able to find it at first on the atom website, it went well.
+
+
+### Using git-control
+
+The 2<sup>nd</sup> trick Adam showed was a package called git-control
+which provides a GUI interface to manage all commonly-used git commands.  
+
+Using the command <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>O</kbd> Adam opened
+up the GUI and having connected it to the codeclub 'Project Folder', he
+commited and pushed up the quote of the session live.
+
 
 
 ## Vince :shipit:
