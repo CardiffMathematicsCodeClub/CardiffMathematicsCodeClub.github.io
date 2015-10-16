@@ -111,7 +111,7 @@ The more that you restrict the number of places where the current state of the s
 your code the easier it will be to maintain and extend your program over time.
 
 Well I think that's it for now, that's a brief overview of functional programming next time we will
-cover the functional programmer's bread and butter, _maps_, _filters_ and _folds_.
+take a look at _lambdas_ and _higher order functions_.
 
 
 [cfm]: http://vknight.org/Computing_for_mathematics/
