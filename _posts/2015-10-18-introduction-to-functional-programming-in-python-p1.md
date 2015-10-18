@@ -4,7 +4,7 @@ title: "An Introduction to Functional Programming with Python - Part 1"
 categories : functional python tutorial
 tags: blog
 author: Alex
-comments: false
+comments: true
 ---
 
 This is the first part of a tutorial series meant to introduce the functional programming paradigm
@@ -22,20 +22,20 @@ If you have completed Vince's [Computing for Maths][cfm] class then you will hav
 programming language but using the [imperative][imperative-wiki] and [object oriented][oop-wiki] paradaigms.
 
 Ok that's the fancy stuff out of the way, in plain English this means that you tell the computer what
-to do step-by-step for example consider the following bit of Python
+to do step-by-step for example consider the following bit of Python:
 
 {% highlight py3 %}
 
 def calc_average(nums):
     """
     This function calculates the average of a list of numbers, it assumes the
-	list conatins only numbers and is non-empty
+    list conatins only numbers and is non-empty
 
     Arguments:
                 - nums: A list of numbers
 
     Outputs:
-		        - The average, a floating point number
+                - The average, a floating point number
     """
 
     sum = 0
@@ -43,20 +43,19 @@ def calc_average(nums):
     for n in nums:
         sum += n
 
-    return sum/float(len(nums))
+    return sum/len(nums)
 {% endhighlight %}
 
 Here we have to tell Python exactly what it needs to do verbaitum
 
     1. Create a variable called sum, assign it the value zero.
-	2. Go through each item in the list in turn and add it's value to the variable sum
-	3. Divide that by the number of items there were in the list - oh! and
-	   don't forget to cast to a float
+    2. Go through each item in the list in turn and add it's value to the variable sum.
+    3. Divide that by the number of items there were in the list.
 
 Whereas the functional paradigm is part of a family of [declarative programming][declarative-wiki]
 paradgims, where instead of detailing all the steps you simply 'declare' what something is or how to
 transform it into another form. In the case of [functional programming][functional-wiki] this is done
-(suprisingly) using functions , for example we can rewrite the above as the following.
+(suprisingly) using functions, for example we can rewrite the above as the following.
 
 {% highlight py3 %}
 
@@ -68,7 +67,7 @@ def f_average(nums):
     """
     sum = reduce(lambda x, y: x + y, nums, 0)
 
-    return list(sum/float(len(nums)))
+    return list(sum/len(nums))
 {% endhighlight %}
 
 > Python 2.7.x Differences
@@ -94,8 +93,8 @@ def f(x):
 def g(x):
     if isTuesday():
         return x + 1
-	else:
-	    return x
+    else:
+        return x
 {% endhighlight %}
 
 The function ```g``` is the impure function since it depends on the state of the system it is run on.
