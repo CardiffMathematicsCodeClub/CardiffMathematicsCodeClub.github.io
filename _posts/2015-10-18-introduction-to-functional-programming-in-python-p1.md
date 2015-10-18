@@ -63,18 +63,17 @@ from functools import reduce
 
 def f_average(nums):
     """
-    The same as the calc_averaage function, just in a functional style
+    The same as the calc_average function, just in a functional style
     """
     sum = reduce(lambda x, y: x + y, nums, 0)
 
-    return list(sum/len(nums))
+    return sum/len(nums)
 {% endhighlight %}
 
 > Python 2.7.x Differences
 >
 > The ```reduce``` function was only moved into ```functools``` in Python > 3.0 so
-> it doesn't need to be imported. Also the result doesn't require being cast to
-> a list.
+> it doesn't need to be imported.
 
 Don't worry too much if you don't understand the code above we will get around to how exactly
 this works in later posts, the important point is to note that this style is slightly more
