@@ -99,6 +99,9 @@ pages](https://atom.io/docs/v1.0.19/using-atom-moving-in-atom).
 
 ## Alex
 
+Continuing on from last week, Alex showed a few more tricks related to emacs' org-babel.
+
+### Running embedded source code blocks
 
 
 ## Geraint
