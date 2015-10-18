@@ -103,6 +103,24 @@ Continuing on from last week, Alex showed a few more tricks related to emacs' or
 
 ### Running embedded source code blocks
 
+As seen in the first editor off org-mode provides a "supercharged" markdown like syntax and allows
+you to embed source code blocks into your documents and then shuffle them around and then write them
+out to seperate files.
+
+Well this week Alex showed us that org-babel also supports running these source code blocks and
+then automatically pasting the results results into the current document, in a simialar fashion
+to tools like [IPython](http://ipython.org) but with a much larger number of
+[supported languages](http://orgmode.org/worg/org-contrib/babel/languages.html).
+
+### Exporting org document to LaTeX
+
+Org mode itself supports supporting its documents to a wide number of formats including HTML and
+PDF (via LaTeX), this means using the features included by org-babel you could in theory write up
+your entire project as an org file, source code, results and analysis in a single place. Then quickly
+an (relatively) painlessly export it to LaTeX and compile to PDF ready for sharing with others.
+
+Alex quickly gave us small taste of this workflow by writing a small bit of python code implementing
+pythagoras' theorem and the formula along with some filler text and exporting live to PDF.
 
 ## Geraint
 
