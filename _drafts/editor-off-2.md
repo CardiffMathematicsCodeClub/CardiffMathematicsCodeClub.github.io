@@ -96,6 +96,21 @@ pages](https://atom.io/docs/v1.0.19/using-atom-moving-in-atom).
 
 ## Sam
 
+### Use of panes in VIM.
+Sam first demonstrated how it is possible in VIM to have the same file open twice, pointing to different locations in the file.
+To do this type `:split` in normal mode.
+To change between the two panes press <kbd>Ctrl</kbd>+<kbd>w</kbd> and then your desired directional key (hjkl).
+
+Additionally, the panes can show different files. For example `:split hello.txt` would create a new pane with `hello.txt` open inside it.
+
+__Bonus Trick:__ VIM can open the code of websites directly, this is done by simply substituting the URL in place of a file name when opening VIM (e.g. `vim http://cardiffmathematicscodeclub.github.io/`).
+
+### Automatic indentation
+Any good editor has smart rules governing how text is indented on new lines.
+In VIM, we can also apply this indentation after the text has already been written; Sam showed an example of this for his second trick.
+
+To apply the indentation, select the code the you wish to auto-indent, and then press <kbd>=</kbd>.
+
 
 ## Alex
 
