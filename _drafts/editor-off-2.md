@@ -139,6 +139,17 @@ pythagoras' theorem and the formula along with some filler text and exporting li
 
 ## Geraint
 
+### Multi panes and multi cursors
+
+Sublime come with many great features 'out-of-the-box'. The ability to split the screen and work on up to four different files side by side was shown. This feature allows users to arrange these files in rows, columns and grid format, great for working on large projects.
+
+I then showed how to get as many cursors as you like simultaneously! In Sublime copies of the same string can be highlighted at once (creating a new cursor for every instance) simply by highlighting a string and repeatedly pressing `cmd+d`.
+Holding `cmd` and clicking a line number hightlights the whole line, but repeting this on other lines adds that line to what you have highlighted, also creating many cursors!
+
+### css Prediction
+
+css is Sublime's speciality. Can't remeber the exact name of a css property? No more worries, in a .css file Sublime provides a drop-down menu of properties to choose from as you type, makes creating beautiful html a breeze!
+
 
 ## Hannah
 
