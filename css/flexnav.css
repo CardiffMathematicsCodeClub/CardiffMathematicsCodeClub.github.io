@@ -122,7 +122,7 @@
     .flexnav li a {
       border-left: 1px solid #ffff00;
       border-bottom: none;
-      min-height: 46px }
+      height: 46px }
     .flexnav li > ul {
       position: absolute;
       top: auto;
@@ -133,7 +133,8 @@
       margin-left: 100%;
       top: 0; }
     .flexnav li ul li a {
-      border-bottom: none; }
+      border-bottom: none;
+      height: 24px}
     .flexnav li ul.open {
       display: block;
       opacity: 1;
