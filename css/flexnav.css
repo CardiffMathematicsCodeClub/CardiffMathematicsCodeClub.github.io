@@ -162,7 +162,11 @@
     float: left;
     display: block;
     background-color: #000000;
+<<<<<<< HEAD
     width: 16.666666666%%;
+=======
+    width: 16%;
+>>>>>>> c1a85391a2049da31ebf34e8870af53b5b89e613
     min-height: 50px;
     overflow: visible; }
   .oldie .flexnav li:hover > ul {
