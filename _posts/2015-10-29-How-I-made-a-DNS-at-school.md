@@ -41,6 +41,7 @@ statement within the for statement... And so, with n = 1, it opened up 2500 note
 
 
 Here is a video of my computer visually combusting, enjoy!
+
 <div class="video">
     <figure>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/w3TW9G9Fark" frameborder="0" allowfullscreen></iframe>
