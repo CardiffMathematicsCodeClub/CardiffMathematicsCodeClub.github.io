@@ -31,5 +31,7 @@
       subitems:
         - text: Atom
           url: /editors/Atom.html
+        - text: Notepad
+          url: /editors/Notepad.html
         - text: Vim
           url: /editors/vim.html

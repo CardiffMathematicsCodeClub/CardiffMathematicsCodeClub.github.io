@@ -48,6 +48,13 @@ Here is a video of my computer visually combusting, enjoy!
     </figure>
 </div>
 
+Here is a gif Vince made:
+
+![]({{site.baseurl}}/res/gifs/8GB-of-notepad.gif)
+
+Vince had a thing for legofying everything today so here is the legofy version of it:
+
+![]({{site.baseurl}}/res/gifs/8GB-of-notepad-legofy.gif)
 
 Draining up to 97% of the Physical Memory, up to 8GB of Notepad and peaking the CPU at near 100%, this was the easily
 the greatest code I have ever written.
