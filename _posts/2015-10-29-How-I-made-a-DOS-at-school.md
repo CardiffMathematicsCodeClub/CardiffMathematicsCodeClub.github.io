@@ -50,7 +50,7 @@ Here is a video of my computer visually combusting, enjoy!
 
 Here is a gif Vince made:
 
-![]({{site.baseurl}}/res/gifs/8GB-of-notepad.gif)
+![]({{site.baseurl}}/res/gifs/8GB-of-Notepad.gif)
 
 Vince had a thing for legofying everything today so here is the legofy version of it:
 

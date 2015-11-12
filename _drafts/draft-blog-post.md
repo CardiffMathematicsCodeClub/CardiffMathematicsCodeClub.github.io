@@ -1,6 +1,6 @@
 ---
 layout     : post  #NEVER CHANGE THIS
-title      : "Draft Blog Post"
+title      : "Draft Blog Post"  #WHat do you want your blog post to be called
 categories : website How To
 tags       : blog
 author     : Adam  #Write your name here
@@ -17,7 +17,7 @@ So for this blog post it would be: <kbd>2015-11-10-draft-blog-post.md</kbd>
 
 <b><u>How to insert a picture</u></b>  
 First save the picture that you want to insert into the res/blog_pics folder.
-Then go to the point in your poat that you want the picture to be and use the following code:
+Then go to the point in your poat that you want the picture to be and use the following code:  
 ![]({{site.baseurl}}/res/blog_pics/name-of-your-pic.jpg)  
 So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 then all i do is type:  
 ![]({{site.baseurl}}/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
@@ -34,9 +34,8 @@ then using the code below:
     </figure>
 </div>
 
-You can embed the video into your post.
-
-For example, if I wanted to embed the video of Vince's talk on Axledrod below then I would type:
+You can embed the video into your post. For example, if I wanted to embed the video of Vince's talk
+on Axledrod below then I would type:
 
 <div class="video">
     <figure>
@@ -47,10 +46,10 @@ For example, if I wanted to embed the video of Vince's talk on Axledrod below th
 
 <b><u>highlighting code in a post</u></b>  
 If you want to highlight just one line of code then you can use either the HTML tag <kbd>type code here</kbd>
-or using backticks `type code here`.
+or using back-ticks `type code here`.
 
-If you wanted to highlight serveral lines of code and also have syntax highlighting then
-you need to use the folloiwing code:
+If you wanted to highlight several lines of code and also have syntax highlighting then
+you need to use the following code:
 
 {% highlight NAME OF LANGUAGE %}
 
@@ -75,3 +74,19 @@ I would type:
 	    print approx, true, approx - true  # Printing the 3 results
 
 {% endhighlight python %}
+
+<b><u>How to add a hyper link to your blog</u></b>  
+If I wanted to put a hyper link into my blog at a certain point and link it to the phrase <kbd>yes we code</kbd>,
+then I would simply write:  
+
+[yes we code][example]  
+
+instead of just 'yes we code'.
+
+And at the bottom of the page you would write:  
+[example]: link to website/article you want to look at
+
+So for example if i wanted to attach a link to an article about notoruious DDOS attacks [here][first] then I would do this.
+
+
+[first]: http://siliconangle.com/blog/2013/08/26/5-notorious-ddos-attacks-in-2013-big-problem-for-the-internet-of-things/
