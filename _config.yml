@@ -3,4 +3,5 @@ title: Cardiff Math Code Club
 url: "http://CardiffMathematicsCodeClub.github.io"
 markdown: kramdown
 encoding: utf-8
-
+description: Cardiff University School of Mathematics Code Club website
+keywords: cardiff,university,uni,maths,math,mathematics,code,club,website,python,java,pascal,vb,elbow,atom,vim,sublime
