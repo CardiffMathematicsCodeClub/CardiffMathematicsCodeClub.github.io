@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+    {% include catmenu.html %}
+
+    <div class="page-content">
+      <div class="wrap">
+	<div class="post">
+	    <div class="main">
+
+	    <header class="post-header">
+		<h1>Category: {{ page.category }}</h1>
+	    </header>
+
+	    <article class="post-content">
+	    <ul class="posts">
+		{% for post in site.categories[page.category] %}
+		    {% include post_link.html %}
+		{% endfor %}
+	    </ul>
+	    </article>
+	    </div>
+
+	</div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>
