@@ -7,22 +7,23 @@ author     : Adam  #Write your name here
 comments   : true  #This allows people to comment on your post
 ---
 
-<b>!!!DO NOT DELETE THIS THIS IS FOR REFERENCE ONLY!!!!</b>
+**!!!DO NOT DELETE THIS THIS IS FOR REFERENCE ONLY!!!!**
 
-We write blog posts for the website in markdown, this means that we can use HTML tags such as <kbd></kbd>.
+We write blog posts for the website in markdown, this means that we can also use HTML tags such as <kbd></kbd>
+when needed.
 
-<b><u>Name of blog post</u></b>  
-This should be in the form: <kbd>year-month-day-title-of-blog-post.md</kbd>.  
-So for this blog post it would be: <kbd>2015-11-10-draft-blog-post.md</kbd>
+**Name of blog post**  
+This should be in the form: ```year-month-day-title-of-blog-post.md```.  
+So for this blog post it would be: ```2015-11-10-draft-blog-post.md```
 
-<b><u>How to insert a picture</u></b>  
+**How to insert a picture**
 First save the picture that you want to insert into the res/blog_pics folder.
 Then go to the point in your poat that you want the picture to be and use the following code:  
 ![]({{site.baseurl}}/res/blog_pics/name-of-your-pic.jpg)  
 So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 then all i do is type:  
 ![]({{site.baseurl}}/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
 
-<b><u>How to insert a video from youtube</u></b>  
+**How to insert a video from youtube**
 
 Go to the video you want to insert on youtube and click on the share button.
 Click on the embed button and copy the link.
@@ -44,7 +45,7 @@ on Axledrod below then I would type:
 </div>
 
 
-<b><u>highlighting code in a post</u></b>  
+**Highlighting code in a post**
 If you want to highlight just one line of code then you can use either the HTML tag <kbd>type code here</kbd>
 or using back-ticks `type code here`.
 
@@ -75,7 +76,7 @@ I would type:
 
 {% endhighlight python %}
 
-<b><u>How to add a hyper link to your blog</u></b>  
+**How to add a hyper link to your blog**
 If I wanted to put a hyper link into my blog at a certain point and link it to the phrase <kbd>yes we code</kbd>,
 then I would simply write:  
 
