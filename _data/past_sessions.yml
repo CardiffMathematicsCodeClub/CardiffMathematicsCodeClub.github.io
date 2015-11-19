@@ -31,6 +31,11 @@
       quote  : "I don't want to accidently walk into China with Tor on my laptop"
       author : The Traitor
 
+    - week   : 6
+      name   : The text from Anna
+      quote  : "I've known about that bug for the past 6 months"
+      author : The Code Janitor
+
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:

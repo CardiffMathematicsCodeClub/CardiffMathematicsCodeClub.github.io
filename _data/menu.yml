@@ -1,18 +1,28 @@
 - text: Home
   url: /
-- text: Blog
-  url: /blog/
-- text: Past Sessions
-  url: /sessions.html
+- text: Archive
+  url: '#'
+  subitems:
+    - text: Blog
+      url: /blog/
+    - text: Past Sessions
+      url: /sessions.html
 - text: Code of conduct
   url: /coc.html
-- text: Projects
-  url: /projects/
 - text: Inspiration
   url: /inspiration.html
   subitems:
+    - text: Editors
+      url: /editors/index.html
+      subitems:
+        - text: Atom
+          url: /editors/Atom.html
+        - text: Notepad
+          url: /editors/Notepad.html
+        - text: Vim
+          url: /editors/vim.html
     - text: Languages
-      url: '#'
+      url: /languages/index.html
       subitems:
         - text: Brainf**k
           url: /languages/brainfk.html
@@ -26,12 +36,8 @@
           url: /languages/java.html
         - text: Python
           url: /languages/python.html
-    - text: Editors
-      url: '#'
-      subitems:
-        - text: Atom
-          url: /editors/Atom.html
-        - text: Notepad
-          url: /editors/Notepad.html
-        - text: Vim
-          url: /editors/vim.html
+    - text: Projects
+      url: /projects/
+- text: Get involved
+  url: '#'
+
