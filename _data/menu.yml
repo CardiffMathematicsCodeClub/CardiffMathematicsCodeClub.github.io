@@ -9,8 +9,8 @@
       url: /sessions.html
 - text: Code of conduct
   url: /coc.html
-- text: Inspiration
-  url: /inspiration.html
+- text: Reference
+  url: /reference.html
   subitems:
     - text: Editors
       url: /editors/index.html
@@ -39,5 +39,4 @@
     - text: Projects
       url: /projects/
 - text: Get involved
-  url: '#'
-
+  url: 'getinvolved.html'

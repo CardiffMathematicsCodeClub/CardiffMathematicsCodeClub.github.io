@@ -26,33 +26,24 @@ Do you think it sounds like a great idea, but are looking for an excuse to turn 
 
 <p><i><b>Disclaimer:</b> This website was made by programmers for programmers - please forgive any spelling mistakes!</i></p>
 
-<center>
-    <b>Contributors to this website are:</b>
-</center>
-<ul>
-    {% for contributor in site.data.contributors%}
-<li class="contributor"><b>{{contributor.name}}</b> <i>({{contributor.title}})</i></li>
-    {% endfor %}
+<h3>Blog Posts</h3>
+
+<p>
+  Here you can find some of the more recent blog posts - be sure to check the
+  <a href="{{site.baseurl}}/blog/">archive</a> for more!
+</p>
+
+<ul class="posts">
+  {% for post in site.posts limit:7 %}
+      <li>
+        <h4>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h4>
+        <span class="post-date">
+	  <p>Written by {{post.author}}, {{ post.date | date: "%b %-d, %Y" }}</p>
+	</span>
+        <p>{{ post.excerpt }}</p>
+      </li>
+  {% endfor %}
 </ul>
-<center>
-    <i>Disclamer: This is NOT done in any particular order. It's definitly NOT in ALPHABETICAL order.</i>
-</center>
-<p>
-    Here is a video that shows the various contributors so far (as of 4th of December 2014):
 </p>
-
-<div class="video">
-    <figure>
-        <iframe width="560" height="315" align='middle' src="//www.youtube.com/embed/UdbXWZJSwnE" frameborder="0" allowfullscreen></iframe>
-    </figure>
-</div>
-
-<p>
-Here is the latest <a href='{{site.baseurl}}/blog/'>blog</a> post:
-</p>
-<p align=center>
-{% for post in site.posts limit:1 %}
-<a href='{{post.url}}'>{{post.title}}</a> written by {{post.author}}
-{% endfor %}
-</p>
-
