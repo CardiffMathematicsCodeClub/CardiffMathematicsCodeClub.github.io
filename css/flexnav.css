@@ -118,11 +118,11 @@
       display: block;
       background-color: #000000;
       overflow: visible;
-      width: 16%; }
+      width: 20%; }
     .flexnav li a {
       border-left: 1px solid #ffff00;
       border-bottom: none;
-      height: 46px }
+      height: 24px }
     .flexnav li > ul {
       position: absolute;
       top: auto;
@@ -163,8 +163,7 @@
     float: left;
     display: block;
     background-color: #000000;
-    width: 16%;
-    min-height: 50px;
+    width: 20%;
     overflow: visible; }
   .oldie .flexnav li:hover > ul {
     display: block;
