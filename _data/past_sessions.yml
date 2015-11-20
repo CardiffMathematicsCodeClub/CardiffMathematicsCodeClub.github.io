@@ -9,7 +9,7 @@
     - week   : 2
       name   : Editor Off
       quote  : "Amazing physics going on"
-      author : The Real Coder's laptop
+      author : Leonardo's laptop
 
     - week   : 3
       name   : The Pregnancy Test
@@ -17,14 +17,14 @@
       author : Hannah 2<sup>nd</sup> year
 
     - week   : 4
-      name   : The Best One (The Real Coder was absent)
+      name   : The Best One (Leonardo was absent)
       quote  : "The code of conduct is up... and the website is broken"
       author : Colonel Sarge
 
     - week   : 4
       name   : The one where Django Jazz Hands DoS'd himself
       quote  : "How can you use 8gb's of Notepad...I don't understand"
-      author : The Real Coder
+      author : Leonardo
 
     - week   : 5
       name   : Big Vince is watching
@@ -35,6 +35,11 @@
       name   : The text from Anna
       quote  : "I've known about that bug for the past 6 months"
       author : The Code Janitor
+
+    - week   : 7
+      name   : The one with the cake
+      quote  : "I've got the whole website on one page?!?"
+      author : Leonardo
 
 - year: "2014-2015"
   term1: "Autumn"
@@ -47,7 +52,7 @@
     - week   : 2
       name   : On the Fly
       quote  : Love the fact that I'm learning Vim on the fly!
-      author : The Flamboyant Coder
+      author : The Webmaster
 
     - week   : 3
       name   : The one where Vince ran away
@@ -57,7 +62,7 @@
     - week   : 4
       name   : What Django is for
       quote  : I know that Pinterest uses it but I can't see the connection
-      author : The Real Coder
+      author : Leonardo
 
     - week   : 5
       name   : Oh MongoDB
@@ -72,7 +77,7 @@
     - week   : 7
       name   : Jekyll and Hyde
       quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-      author : The Real Coder
+      author : Leonardo
 
     - week   : 8
       name   : Atom
@@ -119,12 +124,12 @@
     - week   : 5
       name   : Text Editor support group
       quote  : My name is Adam, and I am addicted to editing Atom.
-      author : The Flamboyant Coder
+      author : The Webmaster
 
     - week   : 6
       name   : Introducing Module Planner OS
       quote  : I will write it in Assembly for the Rasberry Pi
-      author : The Real Coder
+      author : Leonardo
 
     - week   : 7
       name   : The time that Jason licked his desk
@@ -134,9 +139,9 @@
     - week   : 8
       name   : Fife off!!!
       quote  : Tim does not know everything sadly, why not try this new thing called the internet.
-      author : The Flamboyant Coder
+      author : The Webmaster
 
     - week   : 9
       name   : The one where Blender came in-to play
       quote  : WHY IS THIS NOT WORKING?!?
-      author : The Flamboyant Coder
+      author : The Webmaster
