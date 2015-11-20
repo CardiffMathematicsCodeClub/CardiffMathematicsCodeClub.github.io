@@ -35,15 +35,7 @@ Do you think it sounds like a great idea, but are looking for an excuse to turn 
 
 <ul class="posts">
   {% for post in site.posts limit:7 %}
-      <li>
-        <h4>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h4>
-        <span class="post-date">
-	  <p>Written by {{post.author}}, {{ post.date | date: "%b %-d, %Y" }}</p>
-	</span>
-        <p>{{ post.excerpt }}</p>
-      </li>
+      {% include post_link.html %}
   {% endfor %}
 </ul>
 </p>

@@ -80,6 +80,18 @@ a:visited { color: #fbff00; }
   letter-spacing: -.5px;
 }
 
+.blog-cats {
+    font-size: 16px;
+    float: left;
+    margin-top: 75px;
+    padding: 5px;
+    background-color: #000000
+}
+
+.blog-cats h5 {
+    font-size: 26px;
+}
+
 /* Site footer */
 
 .site-footer {

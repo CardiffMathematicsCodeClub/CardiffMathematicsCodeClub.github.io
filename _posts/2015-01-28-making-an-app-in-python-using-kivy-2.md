@@ -1,10 +1,10 @@
 ---
 layout     : post
 title      : "Making an App in python using Kivy - Part 2 - Widgets"
-categories : blog kivy
+categories : blog kivy tutorial
 tags       : blog
 author     : Timothy
-comments   : ture
+comments   : true
 ---
 
 In the [first part]({% post_url 2015-01-16-making-an-app-in-python-using-kivy-1 %}) I talked about how to create an app.
