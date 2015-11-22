@@ -88,6 +88,20 @@ a:visited { color: #fbff00; }
     background-color: #000000
 }
 
+@media(max-width: 1260px) {
+    .cat-wrapper {
+        padding: 75px;
+        padding-bottom: 0px;
+    }
+
+    .blog-cats {
+	max-width: 790px;
+	margin: auto;
+	float: none;
+        position: relative;
+    }
+}
+
 .blog-cats h5 {
     font-size: 26px;
 }
