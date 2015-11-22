@@ -1,5 +1,5 @@
 ---
-layout: languages
+layout: language
 title: Vim
 categories: inspiration editors
 ---

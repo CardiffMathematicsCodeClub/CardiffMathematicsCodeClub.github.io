@@ -1,8 +1,8 @@
 ---
 layout : post
 title: "An Introduction to Functional Programming with Python - Part 1"
-categories : functional python tutorial
-tags: blog
+categories : tutorial
+tags: blog python
 author: Alex
 comments: true
 ---

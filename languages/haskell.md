@@ -1,7 +1,6 @@
 ---
-layout: languages
+layout: language
+language: haskell
 title: Haskell
 categories: inspiration languages
 ---
-    
-
