@@ -2,7 +2,7 @@
 layout     : post
 title      : "Making an App in python using Kivy - Part 2 - Widgets"
 categories : blog kivy tutorial
-tags       : blog
+tags       : blog python
 author     : Timothy
 comments   : true
 ---
