@@ -1,5 +1,6 @@
 ---
-layout: languages
+layout: language
+language: c++
 title: C++
 categories: inspiration languages
 ---
@@ -10,7 +11,7 @@ C++ (pronounced "C-Plus-Plus") originally named "C with Classes" was developed b
 
 As of today, C++ is still one of the most popular [programming languages][popular_languages]. Mainly because nothing that handles complexity can [run as fast as C++][cpp_performace], and so it is [mainly used][cpp_applications] in development of games, device drivers, kernels, etc. where applications require direct communication with the hardware.
 
-Perfect [quote][cpp_problems] to describe learning C++: "Java and C# teach you to swim in a kiddie pool with water wings, while C++ boots you naked off a cliff overlooking the breakers." C++ could be quite hard to learn, and some of its highlight features such as [templates][cpp_templates] have complex syntax, and require deep understanding to ensure their effective use. Although the main problem of the language, is not its complexity, but the subtlety to get it right. [There are cases where compiler accepts your code][cpp_problems], but language standard does not specify any behaviour, meaning anything could happen, even the code seems to be working fine; other languages would try to catch these kind of errors during compilation.  As well as many non standard libraries have very intricate interaction with each other, which at times can cause problems. 
+Perfect [quote][cpp_problems] to describe learning C++: "Java and C# teach you to swim in a kiddie pool with water wings, while C++ boots you naked off a cliff overlooking the breakers." C++ could be quite hard to learn, and some of its highlight features such as [templates][cpp_templates] have complex syntax, and require deep understanding to ensure their effective use. Although the main problem of the language, is not its complexity, but the subtlety to get it right. [There are cases where compiler accepts your code][cpp_problems], but language standard does not specify any behaviour, meaning anything could happen, even the code seems to be working fine; other languages would try to catch these kind of errors during compilation.  As well as many non standard libraries have very intricate interaction with each other, which at times can cause problems.
 
 Some argue that C++ gives way too much control, for example nothing would stop a programmer from overloading "+" operator to mean subtraction or division or pretty much anything his/her heart desires it to be. So the only real reason to not like C++ is if you despise having near-absolute freedom when programming.
 
@@ -28,13 +29,13 @@ Hello World:
 {% highlight cpp %}
 
 	#include <iostream>
-    
+
     using namespace std;
-    
+
     int main()
     {
         cout << "Hello World!" << endl;
-        
+
         return 0;
     }
 
@@ -57,10 +58,10 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
     {
         protected:
             // Define some variables
-            complex<double> c;  
+            complex<double> c;
             unsigned int numberofitterations;
         public:
-            Mandelbrot(complex<double> C, int Numberofitterations) :		
+            Mandelbrot(complex<double> C, int Numberofitterations) :
             c(C), numberofitterations(Numberofitterations)
 
             { /*Constructor*/}
@@ -69,7 +70,7 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
             int escapeVal()
             {
                 return escapedAt;
-            }	
+            }
             bool check()
             {
                 complex<double> ztmp;
@@ -82,9 +83,9 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
                         escapedAt = i;
                         return false;
                     }
-                }			
+                }
                 return true;
-            }		
+            }
     };
 
     int main()
@@ -101,7 +102,7 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
 
         ofstream myFile("output.csv");  // Attempt to edit "output.csv" file
         if(myFile.is_open())
-        {	
+        {
             // Y
             for(double i= -2; i <= 2; i += stepSize)
             {
@@ -133,7 +134,7 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
         } else cout << "Can't open .csv file";  // If cannot open "output.csv" file
 
         printf("Time taken: %.2fs\n", ((double)clock() - tStart) / CLOCKS_PER_SEC);  // Display time taken to calculate the points
-        
+
         cin.ignore();  // Wait for Enter key to be pressed
 
         return 0;
@@ -150,34 +151,34 @@ There are many good [tutorials][cpp_tutorial] out there. I will just try to outl
 
     #include <iostream>
     #include <string>
-    
+
     using namespace std;
-    
+
     int main()
     {
         // This is a single line comment
-        
+
         /*
-        This is 
-        
-        a 
-        
+        This is
+
+        a
+
         multiline comment
-        
+
         */
-        
-        
+
+
         // Declaring variables
         int age = 19;
         float favouriteNumber = 2.718;
         string name = "Seva";
-        
+
         cout << "Hello! My name is " << name <<
              " , I am " << age << " years old." <<
              " My favourite number is " << favouriteNumber << endl;  // All one output instruction
-             
+
         cin.ignore();  // Wait for Enter key to be pressed
-        
+
         return 0;
     }
 

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="post">
+  <div class="main">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+
+  <h3>Getting Started</h3>
+
+  Like what you see here and want to give it a go? Below is a list of tutorials
+  on how to get started with {{page.title}}:
+
+  {% assign tutorials = site.categories["tutorial"] | sort %}
+
+  <ul>
+    {% for post in tutorials %}
+        {% if post.tags contains {{page.language}} and post.tags contains "getstarted" %}
+            <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3>Tutorials</h3>
+
+  Here are some tutorials demonstrating some more advanced features/libraries/tools
+  for {{page.title}}:
+
+  <ul>
+    {% for post in tutorials %}
+        {% if post.tags contains {{page.language}} %}
+            {% unless post.tags contains "getstarted"%}
+              <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></li>
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+  </ul>
+  </article>
+  </div>
+
+</div>

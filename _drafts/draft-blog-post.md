@@ -87,7 +87,7 @@ instead of just 'yes we code'.
 And at the bottom of the page you would write:  
 [example]: link to website/article you want to look at
 
-So for example if i wanted to attach a link to an article about notoruious DDOS attacks [here][first] then I would do this.
+So for example if I wanted to attach a link to an article about notoruious DDOS attacks [here][first] then I would do this.
 
 
 [first]: http://siliconangle.com/blog/2013/08/26/5-notorious-ddos-attacks-in-2013-big-problem-for-the-internet-of-things/
