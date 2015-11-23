@@ -39,7 +39,7 @@ For example here I have included an example of using Kv language to create an la
 
 This produces a windows with buttons in several places.
 
-![]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example.png)
+![Kivy and Buttons]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example.png)
 
 Firstly we see that the root widget is call Demo which is a grid layout with 1 column.
 
@@ -48,11 +48,11 @@ Next looking at the .kv file we can see that the widget Demo has 2 children. Bot
 The first boxlayout has been set to vertical, the default is horizontal.
 Then 3 buttons have been added. As shown below.
 
-![]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
+![Layout 1]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
 
 The second boxlayout is left to it's default settings and have 3 buttons as it's children. As shown below.
 
-![]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-2.png)
+![Layout 2]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-2.png)
 
 More about the different widgets will be explained in a later part.
 
@@ -62,4 +62,4 @@ Depending on your needs you can do either of the following:
 - Mix python code and KV Lang for layouts.
 - Use KV Lang for all layouts.
 
-I found this useful to only use the python code as I was building the layout depended on how many items there were in a database.
+I found tHis useful to only use the python code as I was building the layout depended on how many items there were in a database.

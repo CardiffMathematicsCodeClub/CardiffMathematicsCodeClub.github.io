@@ -90,7 +90,7 @@ But in the Boxlayout example they are changed separately.
 
 So for the first block pictured below, it is a vertical boxlayout.
 
-![]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
+![Vertical Layout]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
 
 We see that the size_hint_y hasn't been changed so virtually each button is taking up a third of the available space.
 What has been changed is the size_hint_x, so the first and the last buttons are only 40% of the available width that they were given.
