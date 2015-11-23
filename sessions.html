@@ -1,11 +1,9 @@
 ---
-layout: Sessions
+layout: sessions
 title: Sessions
 categories: sessions
 ---
 
-<script SRC="/js/jquery.slicknav.min.js" type="text/javascript"></script>
-<link href="/css/slicknav.css" rel="stylesheet" type="text/css"></link>
 
 <ul id="past_sessions">
   {% for year in site.data.past_sessions %}
@@ -35,10 +33,3 @@ categories: sessions
       </li>
   {% endfor %}
 </ul>
-
-<script>
-    $(function(){
-        $('#past_sessions').slicknav();
-    });
-
-</script>
