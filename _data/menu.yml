@@ -1,7 +1,7 @@
 - text: Home
   url: /
 - text: Archive
-  url: '#'
+  url: '/blog/'
   subitems:
     - text: Blog
       url: /blog/
@@ -39,4 +39,4 @@
     - text: Projects
       url: /projects/
 - text: Get involved
-  url: 'getinvolved.html'
+  url: '/getinvolved.html'
