@@ -1,4 +1,4 @@
-# Cardiff School of Mathematics Code Club
+# Cardiff School of Mathematics Code Club  
 [![Build Status](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io.svg?branch=master)](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io)
 
 A repository for the Cardiff School of Mathematics Code Club: an extra curricular club open to all.
