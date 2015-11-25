@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Inspiration
+title: Reference
 categories: inspiration
 ---
 
-<p> There is so much you can do during your time at Code Club anything
-    from learning a new programming languages such as <a href="{{site.baseurl}}/languages/java.html">Java</a>
-    or <a href="{{site.baseurl}}/languages/haskell.html">Haskell</a> to useful tools such
-    as <a href="https://git-scm.com">Git</a> for version control or <a href="{{site.baseurl}}/editors/vim.html">Vim</a>
-    for text editing to hacking away in <a href="http://pi.minecraft.net/?page_id=14">Minecraft</a>
-    for the Raspberry Pi! You are only limited by your imagination!
+<p>
+  Welcome to the reference section of the code club site. Here you will find information on a wide range of
+  programming languages, frameworks and tools to help you find something which interests you and how to get
+  started!
+</p>
+
+<p>
+  This section of the site is under constant development and if you find that we are missing something than we
+  strongly recommend that you <a href="{{site.baseurl}}/getinvolved.html">get involved</a> and send us a
+  pull request containing the missing information.
 </p>
 
 <h3>Programming Languages</h3>
@@ -26,8 +30,10 @@ categories: inspiration
 <div class="two-cols">
     <ul>
         {% for pages in site.pages %}
-            {% if pages.categories contains 'languages' %}
-                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% if pages.categories contains "languages" %}
+	        {% unless page.categories contains "forfun" %}
+                    <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+	        {% endunless %}
             {% endif %}
         {% endfor %}
     </ul>
@@ -65,4 +71,3 @@ categories: inspiration
 <h3>Stay Tuned</h3>
 
 <p>Watch this space, more coming soon...</p>
-
