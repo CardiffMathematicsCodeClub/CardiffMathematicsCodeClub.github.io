@@ -18,7 +18,7 @@ categories: getinvolved
 </center>
 <ul>
     {% for contributor in site.data.contributors%}
-<li class="contributor"><b>{{contributor.name}}</b> <i>({{contributor.title}})</i></li>
+<li class="contributor"><b>{{contributor.name}}</b> <i>(<a href="{{contributor.github-page}}">{{contributor.title}}</a>)</i></li>
     {% endfor %}
 </ul>
 <center>
