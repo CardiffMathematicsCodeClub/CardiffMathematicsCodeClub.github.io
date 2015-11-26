@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "Making an App in python using Kivy - Part 1"
-categories : blog kivy tutorial
-tags       : blog python
+categories : tutorial
+tags       : blog python kivy
 author     : Timothy
 comments   : true
 ---

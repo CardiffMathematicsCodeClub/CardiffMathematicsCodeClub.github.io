@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "The first editor off"
-categories : website vim atom emacs
-tags       : blog
+categories : website
+tags       : blog vim atom emacs
 author     : Vince, Alex, Sam, Adam
 comments   : true
 ---
