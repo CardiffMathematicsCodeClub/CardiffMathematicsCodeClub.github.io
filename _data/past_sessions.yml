@@ -21,25 +21,30 @@
       quote  : "The code of conduct is up... and the website is broken"
       author : Colonel Sarge
 
-    - week   : 4
+    - week   : 5
       name   : The one where Django Jazz Hands DoS'd himself
       quote  : "How can you use 8gb's of Notepad...I don't understand"
       author : Leonardo
 
-    - week   : 5
+    - week   : 6
       name   : Big Vince is watching
       quote  : "I don't want to accidently walk into China with Tor on my laptop"
       author : The Traitor
 
-    - week   : 6
+    - week   : 7
       name   : The text from Anna
       quote  : "I've known about that bug for the past 6 months"
       author : The Code Janitor
 
-    - week   : 7
+    - week   : 8
       name   : The one with the cake
       quote  : "I've got the whole website on one page?!?"
       author : Leonardo
+
+    - week   : 9
+      name   : The one with the tests
+      quote  : "Hey Vince will be happy, we now have tests that break. I however am not!!"
+      author : The Webmaster
 
 - year: "2014-2015"
   term1: "Autumn"
