@@ -51,6 +51,7 @@ a:visited { color: #fbff00; }
   background: #111111;
   width: 100%;
   position:fixed;
+  z-index: 999;
 }
 
 .site-title,
@@ -77,6 +78,32 @@ a:visited { color: #fbff00; }
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
+}
+
+.blog-cats {
+    font-size: 16px;
+    float: left;
+    margin-top: 75px;
+    padding: 5px;
+    background-color: #000000
+}
+
+@media(max-width: 1260px) {
+    .cat-wrapper {
+        padding: 75px;
+        padding-bottom: 0px;
+    }
+
+    .blog-cats {
+	max-width: 790px;
+	margin: auto;
+	float: none;
+        position: relative;
+    }
+}
+
+.blog-cats h5 {
+    font-size: 26px;
 }
 
 /* Site footer */
@@ -269,6 +296,7 @@ a:visited{
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
+  overflow-x: auto;
 }
 
 .post code { padding: 1px 5px; }

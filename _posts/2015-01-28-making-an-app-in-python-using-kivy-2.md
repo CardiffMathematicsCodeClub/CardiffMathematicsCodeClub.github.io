@@ -1,10 +1,10 @@
 ---
 layout     : post
 title      : "Making an App in python using Kivy - Part 2 - Widgets"
-categories : blog kivy
-tags       : blog
+categories : blog kivy tutorial
+tags       : blog python
 author     : Timothy
-comments   : ture
+comments   : true
 ---
 
 In the [first part]({% post_url 2015-01-16-making-an-app-in-python-using-kivy-1 %}) I talked about how to create an app.
@@ -90,7 +90,7 @@ But in the Boxlayout example they are changed separately.
 
 So for the first block pictured below, it is a vertical boxlayout.
 
-![]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
+![Vertical Layout]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
 
 We see that the size_hint_y hasn't been changed so virtually each button is taking up a third of the available space.
 What has been changed is the size_hint_x, so the first and the last buttons are only 40% of the available width that they were given.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include common_head.html %}
+  <script src="/js/jquery.slicknav.min.js"></script>
+  <!--<link rel="stylesheet" href="SlickNav/slicknav.css"></link>-->
+
+  <script>
+    $(function(){
+        $('#past_sessions').slicknav();
+    });
+  </script>
+</head>
+<body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrap">
+	<div class="post">
+	    <div class="main">
+
+	    <header class="post-header">
+		<h1>Past Sessions</h1>
+	    </header>
+
+	    <article class="post-content">
+	    {{ content }}
+	    </article>
+
+	    </div>
+	</div>
+      </div>
+    </div>
+</body>
+</html>

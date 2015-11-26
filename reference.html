@@ -1,0 +1,76 @@
+---
+layout: page
+title: Reference
+categories: inspiration
+---
+
+<p>
+  Welcome to the reference section of the code club site. Here you will find information on a wide range of
+  programming languages, frameworks and tools to help you find something which interests you and how to get
+  started!
+</p>
+
+<p>
+  This section of the site is under constant development and if you find that we are missing something than we
+  strongly recommend that you <a href="{{site.baseurl}}/getinvolved.html">get involved</a> and send us a
+  pull request containing the missing information.
+</p>
+
+<h3>Programming Languages</h3>
+<p>
+    There are more programming languages than stars in the galaxy... OK
+    <i>slight</i> exaggeration but there are a lot of them. Created for any
+    possible purpose imaginable from building video games to driving rovers on Mars or
+    simply trying to <a href="{{site.baseurl}}/languages/brainfk.html">confuse</a> the programmer using them!
+</p>
+<p> Some of the more popular languages include <a href="{{site.baseurl}}/languages/java.html">Java</a>,
+    <a href="{{site.baseurl}}/languages/python.html">Python</a> and <a href="{{site.baseurl}}/languages/C++.html">C++</a>.
+    However there are many more than that! Below is just a sample of them.
+</p>
+<div class="two-cols">
+    <ul>
+        {% for page in site.pages %}
+            {% if page.categories contains "languages" %}
+	        {% unless page.tags contains "forfun" %}
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+	        {% endunless %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+<p>
+  Now what do programmers do when they are bored? Well they invent their own programming langauges of course!
+  These languages are not meant to be practical but rather offer some quirky or interesting way of trying
+  to make a computer do something - and often in the most painful way possible! These languages are often referrred
+  to as "Esoteric Languages".
+</p>
+
+<p>
+  Below is a list of some of these languages but I recommend you check out the
+  <a href="https://esolangs.org/wiki/Language_list">EsoLang Wiki</a> where you can find a long list of these languages!
+</p>
+
+<div class="two-cols">
+    <ul>
+        {% for page in site.pages %}
+            {% if page.categories contains "languages" %}
+	        {% if page.tags contains "forfun" %}
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+	        {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+<h3>Editors</h3>
+<p>There are many editors you can use below is just a sample.</p>
+<div class="two-cols">
+    <ul>
+        {% for pages in site.pages %}
+            {% if pages.categories contains 'editors' %}
+                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

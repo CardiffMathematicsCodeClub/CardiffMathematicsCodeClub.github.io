@@ -1,5 +1,5 @@
 ---
-layout: languages
+layout: language
 title: C
 categories: inspiration languages
 ---

@@ -1,10 +1,11 @@
-# Cardiff School of Mathematics Code Club
+# Cardiff School of Mathematics Code Club  
+[![Build Status](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io.svg?branch=master)](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io)
 
 A repository for the Cardiff School of Mathematics Code Club: an extra curricular club open to all.
 
 The website for code club is located here - http://cardiffmathematicscodeclub.github.io/
 
-Meeting time: Friday's 15:00-17:00 in room M/0.33.
+Meeting time: Thursday's 16:00-18:00 in room M/0.33.
 
 ## Runing the website locally
 In order to run the website locally you need to have jeykll installed.

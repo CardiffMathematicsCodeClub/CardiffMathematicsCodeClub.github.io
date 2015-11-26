@@ -18,11 +18,12 @@ I look forward to seeing this continue and am very grateful to the students who 
 
 Here's a picture of the last Code club of term during which we tested out Ambrose's work analysing Monopoly:
 
-![]({{site.baseurl}}/res/blog_pics/monopoly.jpg)
+![Disney Monoply]({{site.baseurl}}/res/blog_pics/monopoly.jpg)
 
 Here's a picture of one of the moments during which a group of students and I were trying to figure out the best database to use for a neat project that we will hopefully finish next term:
 
-![]({{site.baseurl}}/res/blog_pics/mongodb.jpg)
+![Why won't it work!]({{site.baseurl}}/res/blog_pics/mongodb.jpg)
+
 
 ## Thanks
 

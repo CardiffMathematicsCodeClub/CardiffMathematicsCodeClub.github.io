@@ -3,12 +3,12 @@ layout     : post
 title      : "The first editor off"
 categories : website vim atom emacs
 tags       : blog
-author     : Vince, Alex, Sam
+author     : Vince, Alex, Sam, Adam
 comments   : true
 ---
 
 During the second week of code club we held an editor off. Like a dance off or
-lip syn battle but cooler:
+lip sync battle but cooler:
 
 
 <div class="video">
@@ -20,8 +20,9 @@ lip syn battle but cooler:
 For this first battle we had 4 participants with 3 weapons of choice:
 
 - Vince: Vim
-- Alex: Emacs
 - Sam: Vim
+- Alex: Emacs
+- Adam: Atom (nothing worked for him)
 
 This post will briefly show/discuss what they showed:
 
@@ -80,7 +81,7 @@ Sam demonstrated this by formatting a few lines of csv format data into Python d
 ### Butterfly Mode
 
 This was more of a joke than anything useful by claiming that emacs is the ultimate editor and emac's
-butterfly mode is a reference to the following [xkcd](xkcd.com) comic.
+butterfly mode is a reference to the following [xkcd][xkcd] comic.
 
 ![Butterfly-Power](http://imgs.xkcd.com/comics/real_programmers.png)
 
@@ -95,12 +96,18 @@ in your documents. How is this different from other formats such as Markdown? We
 "tangled" into other files.
 
 This allows us to follow a paradaigm called
-[Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
+[Literate Programming][Literate]
 where instead of writing the source code to a program in a format specified by the computer, you can write the
 source code in a way that makes sense to humans and then use Org-Babel to compile all the files from code
 snippets embedded in your document.
 
 I don't feel like I'm explaining this very well so let me point you in the direction of a few such programs.
-Alex's [Emacs Configuration](https://raw.githubusercontent.com/alcarney/emacs.d/master/README.org)
+Alex's [Emacs Configuration][Emacs]
 is in fact a literate program using Org-Babel. While it isn't written using Org-Babel Donald Knuth's
-[TeX](http://mirrors.ctan.org/systems/knuth/dist/tex/texbook.tex) is probably _the_ example of a literate program.
+[TeX][Tex] is probably _the_ example of a literate program.
+
+
+[xkcd]: https://xkcd.com/378/
+[literate]: https://en.wikipedia.org/wiki/Literate_programming
+[Emacs]: https://raw.githubusercontent.com/alcarney/emacs.d/master/README.org
+[Tex]: http://mirrors.ctan.org/systems/knuth/dist/tex/texbook.tex
