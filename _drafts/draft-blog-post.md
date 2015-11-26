@@ -19,9 +19,10 @@ So for this blog post it would be: ```2015-11-10-draft-blog-post.md```
 **How to insert a picture**
 First save the picture that you want to insert into the res/blog_pics folder.
 Then go to the point in your poat that you want the picture to be and use the following code:  
-![]({{site.baseurl}}/res/blog_pics/name-of-your-pic.jpg)  
-So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 then all i do is type:  
-![]({{site.baseurl}}/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
+![Add Alt-text here]({{site.baseurl}}/res/blog_pics/name-of-your-pic.jpg)  
+So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 with the Alt-text being
+`Maybe they are behind the screen?` then all I do is type:  
+![Maybe they are behind the screen?]({{site.baseurl}}/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
 
 **How to insert a video from youtube**
 
