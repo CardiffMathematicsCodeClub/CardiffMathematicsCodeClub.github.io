@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "Adding Python to the PATH on windows"
-categories : blog 
-tags       : blog python windows path
+categories : tutorial
+tags       : blog python windows path getstarted
 author     : Timothy
 comments   : true
 ---

@@ -1,4 +1,5 @@
 /nbproject/
+*.lock
 _site/
 rafts/
 kivy/
