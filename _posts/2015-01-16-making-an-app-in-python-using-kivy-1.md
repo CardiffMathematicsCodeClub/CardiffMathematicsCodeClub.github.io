@@ -62,4 +62,4 @@ Depending on your needs you can do either of the following:
 - Mix python code and KV Lang for layouts.
 - Use KV Lang for all layouts.
 
-I found tHis useful to only use the python code as I was building the layout depended on how many items there were in a database.
+I found this useful to only use the python code as I was building the layout depended on how many items there were in a database.
