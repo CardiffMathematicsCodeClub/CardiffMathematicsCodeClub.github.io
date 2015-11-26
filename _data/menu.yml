@@ -36,7 +36,5 @@
           url: /languages/java.html
         - text: Python
           url: /languages/python.html
-    - text: Projects
-      url: /projects/
 - text: Get involved
   url: '/getinvolved.html'
