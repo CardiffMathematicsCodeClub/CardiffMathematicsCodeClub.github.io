@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Inspiration
+title: Reference
 categories: inspiration
 ---
 
-<p> There is so much you can do during your time at Code Club anything
-    from learning a new programming languages such as <a href="{{site.baseurl}}/languages/java.html">Java</a>
-    or <a href="{{site.baseurl}}/languages/haskell.html">Haskell</a> to useful tools such
-    as <a href="https://git-scm.com">Git</a> for version control or <a href="{{site.baseurl}}/editors/vim.html">Vim</a>
-    for text editing to hacking away in <a href="http://pi.minecraft.net/?page_id=14">Minecraft</a>
-    for the Raspberry Pi! You are only limited by your imagination!
+<p>
+  Welcome to the reference section of the code club site. Here you will find information on a wide range of
+  programming languages, frameworks and tools to help you find something which interests you and how to get
+  started!
+</p>
+
+<p>
+  This section of the site is under constant development and if you find that we are missing something than we
+  strongly recommend that you <a href="{{site.baseurl}}/getinvolved.html">get involved</a> and send us a
+  pull request containing the missing information.
 </p>
 
 <h3>Programming Languages</h3>
@@ -21,13 +25,39 @@ categories: inspiration
 </p>
 <p> Some of the more popular languages include <a href="{{site.baseurl}}/languages/java.html">Java</a>,
     <a href="{{site.baseurl}}/languages/python.html">Python</a> and <a href="{{site.baseurl}}/languages/C++.html">C++</a>.
-    However there are many more than that! Below are just a sample of them.
+    However there are many more than that! Below is just a sample of them.
 </p>
 <div class="two-cols">
     <ul>
-        {% for pages in site.pages %}
-            {% if pages.categories contains 'languages' %}
-                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+        {% for page in site.pages %}
+            {% if page.categories contains "languages" %}
+	        {% unless page.tags contains "forfun" %}
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+	        {% endunless %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+<p>
+  Now what do programmers do when they are bored? Well they invent their own programming langauges of course!
+  These languages are not meant to be practical but rather offer some quirky or interesting way of trying
+  to make a computer do something - and often in the most painful way possible! These languages are often referrred
+  to as "Esoteric Languages".
+</p>
+
+<p>
+  Below is a list of some of these languages but I recommend you check out the
+  <a href="https://esolangs.org/wiki/Language_list">EsoLang Wiki</a> where you can find a long list of these languages!
+</p>
+
+<div class="two-cols">
+    <ul>
+        {% for page in site.pages %}
+            {% if page.categories contains "languages" %}
+	        {% if page.tags contains "forfun" %}
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+	        {% endif %}
             {% endif %}
         {% endfor %}
     </ul>
@@ -44,25 +74,3 @@ categories: inspiration
         {% endfor %}
     </ul>
 </div>
-
-<h3>Programming Challenges</h3>
-<p>
-    Many places on the interest provide enthusiastic programmers with exercises and challenges
-    to flex their coding muscles. Below are links to a few of them:
-</p>
-<ul>
-    <li><a href="https://projecteuler.net">Project Euler</a> - A site with over 450 problems many with a
-        mathematical focus to get your teeth into!</li>
-    <li><a href="http://www.reddit.com/r/dailyprogrammer/">Daily Programmer</a> - A subreddit with new problems
-        released on a Monday, Wednesday and Friday increasing in difficulty throughout the week. Challenges are based
-        on a wide variety of topics, often submitted by fellow users of the subreddit</li>
-    <li><a href="http://www.codingame.com/home/platinum-rift">Platinum Rift</a> - An online game.</li>
-    <li><a href="http://programmingpraxis.com/">Programming Praxis</a> - A blog with new exercises posted every few days
-        on a range of topics. Many of them are presented as a word problem.
-    <li><a href="http://vincent-knight.com">Vince's website</a> - A link to the Computing for Mathematics homepage.</li>
-</ul>
-
-<h3>Stay Tuned</h3>
-
-<p>Watch this space, more coming soon...</p>
-
