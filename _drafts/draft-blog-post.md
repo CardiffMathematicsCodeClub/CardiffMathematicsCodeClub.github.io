@@ -15,7 +15,7 @@ when needed.
 **Name of blog post**  
 This should be in the form: ```year-month-day-title-of-blog-post.md```.  
 So for this blog post it would be: ```2015-11-10-draft-blog-post.md```
-
+ 
 **How to insert a picture**
 First save the picture that you want to insert into the res/blog_pics folder.
 Then go to the point in your poat that you want the picture to be and use the following code:  
