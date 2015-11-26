@@ -32,7 +32,7 @@ categories: inspiration
         {% for page in site.pages %}
             {% if page.categories contains "languages" %}
 	        {% unless page.tags contains "forfun" %}
-                    <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ page.title }}</a>
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	        {% endunless %}
             {% endif %}
         {% endfor %}
@@ -56,7 +56,7 @@ categories: inspiration
         {% for page in site.pages %}
             {% if page.categories contains "languages" %}
 	        {% if page.tags contains "forfun" %}
-                    <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ page.title }}</a>
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	        {% endif %}
             {% endif %}
         {% endfor %}
