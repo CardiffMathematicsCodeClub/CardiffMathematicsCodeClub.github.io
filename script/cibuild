@@ -4,4 +4,4 @@
 set -e
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site
+bundle exec htmlproof --url-ignore "http://cardiffmathematicscodeclub.github.io/*" ./_site
