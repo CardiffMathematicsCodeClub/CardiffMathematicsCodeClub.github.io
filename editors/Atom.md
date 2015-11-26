@@ -15,7 +15,7 @@ you don't like any of the presets/ones available to download you can also [creat
 can see in the screenshot below you are able to edit any of the packages/themes you download allowing you to make atom
 more personal.
 
-![Atom in action]({{site.baseurl}}/res/editor_images/Atom-Screenshot.png)
+![Atom in action](/res/editor_images/Atom-Screenshot.png)
 
 For more information about how wonderful [Atom][Atom] is or to download this amazing editor please click the link and
 scroll down to the read me at the bottom.

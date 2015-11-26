@@ -7,7 +7,7 @@ author     : Timothy
 comments   : true
 ---
 
-There have been a few of you trying to run a [Python]({{site.baseurl}}/languages/python.html) script within [Atom]({{site.baseurl}}/editors/Atom.html) on windows and are getting the following error message.
+There have been a few of you trying to run a [Python](/languages/python.html) script within [Atom](/editors/Atom.html) on windows and are getting the following error message.
 
 `'Python' is not recognized as an internal or external command, operable program or batch file.`
 
@@ -21,12 +21,12 @@ Locate the installation file used to install Python which is called `Python-2.7.
 When it loads you will get the screen show below and select `Change Python 2.7.*` and click Finish.
 Note: The finish button doesn't mean you finished as you will be taken to the next screen. 
 
-![Select Change Installation]({{site.baseurl}}/res/blog_pics/pythonpath1.png)
+![Select Change Installation](/res/blog_pics/pythonpath1.png)
 
 Then on the customize Python screen click on the red cross next to `Add Python.exe to PATH` and select `Will be installed on local hard drive`.
 Then click next.
 
-![Select Path to be installed]({{site.baseurl}}/res/blog_pics/pythonpath2.png)
+![Select Path to be installed](/res/blog_pics/pythonpath2.png)
 
 This will also take into account if you have changed the default installation folder. 
 
