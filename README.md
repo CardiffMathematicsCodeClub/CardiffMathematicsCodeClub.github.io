@@ -75,40 +75,7 @@ page
 so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
 in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
 
-
-### Testing Framework
-
-#### Running tests:
-
-Functional tests have been written using [selenium](http://www.seleniumhq.org/).
-To run these you will need the selenium python package:
-
-    $ pip install selenium
-
-To run the tests set the dev server running:
-
-    $ jekyll serve
-
-then run the `functional_tests.py` file:
-
-    $ python functional_tests.py
-
-The output should look something like this:
-
-```
-.....
-----------------------------------------------------------------------
-Ran 5 tests in 13.083s
-
-OK
-```
-
-Note that the testing framework requires [Firefox](https://www.mozilla.org/en-GB/firefox/new/) (it is possible to run other browsers but Firefox works out of the box).
-When running these functional tests the browser will open up and navigate as dictated by the tests.
-
-**Tests should be run after every pull and before every push (as well as throughout any other development).**
-
-#### Writing tests
+### Writing tests
 
 The functional tests are class based and all classes include a 'User Story'.
 Whenever a new feature/page is added to the site a corresponding test should be written (note that at present not all tests that are needed are written).
