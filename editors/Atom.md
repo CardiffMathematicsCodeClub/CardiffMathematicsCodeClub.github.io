@@ -6,9 +6,11 @@ categories: inspiration editors
 Atom is stated as the hackable editor for the 21<sup>st</sup> century. Unlike other editors such as vim, ed,
 vi or nano; atom cannot be run in the terminal.
 
-There are loads of cool packages that you can download for atom, such as,
+There are loads of cool packages that you can download for atom, such as '[git-control][atomgit]',
 '[color picker][color]' - allows you to easily change the hex code, '[minimap][map]' - A preview of the full source
 code to name a few.  Can't find the package that you need/want, just go ahead and [create it][makepackage].
+
+
 
 There are loads of [syntax and UI themes][themes] for you to download to make your Atom more personal to you. Again if
 you don't like any of the presets/ones available to download you can also [create your own][maketheme]. Also, as you
@@ -26,9 +28,10 @@ scroll down to the read me at the bottom.
     </figure>
 </div>
 
-[makepackage]: https://atom.io/docs/latest/creating-a-package
-[maketheme]: https://atom.io/docs/latest/creating-a-theme
+[atomgit]: https://atom.io/packages/git-control
 [color]: https://atom.io/packages/color-picker
 [map]: https://atom.io/packages/minimap
+[makepackage]: https://atom.io/docs/latest/hacking-atom-package-word-count
 [themes]: https://atom.io/themes
+[maketheme]: https://atom.io/docs/latest/hacking-atom-creating-a-theme
 [Atom]: https://github.com/atom/atom
