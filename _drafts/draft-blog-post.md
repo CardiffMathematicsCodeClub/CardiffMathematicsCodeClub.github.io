@@ -1,8 +1,8 @@
 ---
 layout     : post  #NEVER CHANGE THIS
 title      : "Draft Blog Post"  #WHat do you want your blog post to be called
-categories : website How To
-tags       : blog
+categories : tutorial
+tags       : getstarted getinvolved
 author     : Adam  #Write your name here
 comments   : true  #This allows people to comment on your post
 ---
@@ -12,16 +12,16 @@ comments   : true  #This allows people to comment on your post
 We write blog posts for the website in markdown, this means that we can also use HTML tags such as <kbd></kbd>
 when needed.
 
-**Name of blog post**  
-This should be in the form: ```year-month-day-title-of-blog-post.md```.  
+**Name of blog post**
+This should be in the form: ```year-month-day-title-of-blog-post.md```.
 So for this blog post it would be: ```2015-11-10-draft-blog-post.md```
- 
+
 **How to insert a picture**
 First save the picture that you want to insert into the res/blog_pics folder.
-Then go to the point in your poat that you want the picture to be and use the following code:  
-![Add Alt-text here](/res/blog_pics/name-of-your-pic.jpg)  
+Then go to the point in your poat that you want the picture to be and use the following code:
+![Add Alt-text here](/res/blog_pics/name-of-your-pic.jpg)
 So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 with the Alt-text being
-`Maybe they are behind the screen?` then all I do is type:  
+`Maybe they are behind the screen?` then all I do is type:
 ![Maybe they are behind the screen?](/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
 
 **How to insert a video from youtube**
@@ -53,16 +53,10 @@ or using back-ticks `type code here`.
 If you wanted to highlight several lines of code and also have syntax highlighting then
 you need to use the following code:
 
-{% highlight NAME OF LANGUAGE %}
-
-	put the code here.
-
-{% endhighlight NAME OF LANGUAGE %}
-
 For example, if I wanted to input the code from Q1 of the 2015/16 Computing for Mathematics class test,
 I would type:
 
-{% highlight python %}  
+{% highlight python %}
 
 	def mysqrt(K, epsilon=.001):
 	    X = K / 4.0
@@ -79,13 +73,13 @@ I would type:
 
 **How to add a hyper link to your blog**
 If I wanted to put a hyper link into my blog at a certain point and link it to the phrase <kbd>yes we code</kbd>,
-then I would simply write:  
+then I would simply write:
 
-[yes we code][example]  
+[yes we code][example]
 
 instead of just 'yes we code'.
 
-And at the bottom of the page you would write:  
+And at the bottom of the page you would write:
 [example]: link to website/article you want to look at
 
 So for example if I wanted to attach a link to an article about notoruious DDOS attacks [here][first] then I would do this.

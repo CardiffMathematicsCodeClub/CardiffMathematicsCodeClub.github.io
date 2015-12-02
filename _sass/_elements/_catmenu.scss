@@ -1,0 +1,25 @@
+.blog-cats {
+    font-size: $base-font-size;
+    float: left;
+    margin-top: 75px;
+    padding: 5px;
+    background-color: #000000
+}
+
+@include if-device($wide-desktop) {
+    .cat-wrapper {
+        padding: 75px;
+        padding-bottom: 0px;
+    }
+
+    .blog-cats {
+	max-width: 790px;
+	margin: auto;
+	float: none;
+        position: relative;
+    }
+}
+
+.blog-cats h5 {
+    font-size: 26px;
+}
