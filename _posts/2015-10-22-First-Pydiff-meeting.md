@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "First Pydiff Meeting"
-categories : Pydiff
+categories : pydiff
 tags       : blog
 author     : Adam
 comments   : true
