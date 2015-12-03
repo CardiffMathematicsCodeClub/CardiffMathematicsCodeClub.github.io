@@ -1,4 +1,5 @@
 /nbproject/
+.sass-cache
 *.lock
 _site/
 rafts/
