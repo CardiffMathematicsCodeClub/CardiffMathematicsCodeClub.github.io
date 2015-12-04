@@ -46,6 +46,11 @@
       quote  : "Hey Vince will be happy, we now have tests that break. I however am not!!"
       author : The Webmaster
 
+    - week   : 10
+      name   : fun is TabError
+      quote  : "True, False = False, True"
+      author : Colonel Sarge
+
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:
