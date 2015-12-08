@@ -6,7 +6,8 @@ tags       : getstarted getinvolved
 author     : Adam  
 comments   : true  
 ---
-We write blog posts for the website in markdown, this means that we can also use [HTML tags][HTML]
+We write blog posts for the website in markdown, this means that we can also use
+[HTML tags][HTML]
 when needed.
 
 **Name of blog post**  
@@ -34,8 +35,8 @@ then using the code below:
 
 <script src="https://gist.github.com/Huaraz2/841ae797a1cd1968654b.js"></script>
 
-You can embed the video into your post. For example, if I wanted to embed the video of Vince's talk
-on Axlerod below then I would type:
+You can embed the video into your post. For example, if I wanted to embed the video of
+Vince's talk on Axlerod below then I would type:
 
 <script src="https://gist.github.com/Huaraz2/be94938b329bc97135ad.js"></script>
 
@@ -79,8 +80,10 @@ And in a blog it would look like:
 {% endhighlight python %}
 
 2) We use a gist. A gist is a single file repository used for sharing code snippets.
-Although certain gists can contain more than one file, they are not meant for full blown projects.
-Once you have made a gist you will see there is a link that you can copy to embed them into your post.
+Although certain gists can contain more than one file, they are not meant for full blown
+projects.
+Once you have made a gist you will see there is a link that you can copy to embed them into
+your post.
 
 So if I wanted to put a code for Q1 of the 2015/16 Class test it would look like this:  
 <script src="https://gist.github.com/Huaraz2/2f7c8b5f2de0b5b10c77.js"></script>
@@ -95,8 +98,8 @@ instead of just 'yes we code'. And at the bottom of the page you would write:
 
 `[example]: link to website/article you want to look at`
 
-So for example if I wanted to attach a link to an article about notorious DDOS attacks [here][first]
-then I would do this.
+So for example if I wanted to attach a link to an article about notorious DDOS attacks
+[here][first] then I would do this.
 
 [HTML]: http://www.w3schools.com/tags/
 [first]: http://siliconangle.com/blog/2013/08/26/5-notorious-ddos-attacks-in-2013-big-problem-for-the-internet-of-things/
