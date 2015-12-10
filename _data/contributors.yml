@@ -1,89 +1,89 @@
 adam:
-  name: 'Adam Pohl'
-  title: The Webmaster
+  name: Adam Pohl
+  title: 'The Webmaster'
   github-page: https://github.com/Huaraz2
 
 alex:
-  name : 'Alex Carney'
-  title: Leonardo
+  name : Alex Carney
+  title: 'Leonardo'
   github-page: https://github.com/alcarney
 
 ambrose:
-  name : 'Ambrose Law'
-  title: Django Jazz Hands
+  name : Ambrose Law
+  title: 'Django Jazz Hands'
   github-page: https://github.com/Enyexlaw
 
 andy:
-  name : 'Andy Wilson'
-  title: The Honourary Coder
+  name : Andy Wilson
+  title: 'The Honourary Coder'
   github-page: https://github.com/BatDuck-Caboose
 
 batduck:
-  name : 'Batduck'
-  title: Glitch in the Matirx
+  name : Batduck
+  title: 'Glitch in the Matirx'
   github-page: https://github.com/BatDuck-Caboose
 
 geraint:
-  name : 'Geraint Palmer'
-  title: The Traitor
+  name : Geraint Palmer
+  title: 'The Traitor'
   github-page: https://github.com/geraintpalmer
 
 hannah:
-  name : 'Hannah Lorrimore'
-  title: Mother Hen
+  name : Hannah Lorrimore
+  title: 'Mother Hen'
   github-page: https://github.com/hhlorrimore
 
 james:
-  name: 'James Hedge'
-  title: 
+  name: James Hedge
+  title: ''
   github-page: https://github.com/LordTandy
 
 jason:
-  name : 'Jason Young'
-  title: You Know Who
+  name : Jason Young
+  title: 'You Know Who'
   github-page: https://github.com/JasYoung314
 
 laura:
-  name: 'Laura Saul'
-  title: The Code Officer
+  name: Laura Saul
+  title: 'The Code Officer'
   github-page: https://github.com/Aurora256
 
 preeti:
-  name: 'Preeti Sidhu'
-  title:
+  name: Preeti Sidhu
+  title: ''
   github-page: https://github.com/preetiks
 
 saml:
-  name: 'Sam Luen-English'
-  title: The Teacher
+  name: Sam Luen-English
+  title: 'The Teacher'
   github-page: https://github.com/sluenenglish
 
 samr:
-  name: 'Sam Richardson'
-  title: Not Antoney
+  name: Sam Richardson
+  title: 'Not Antoney'
   github-page: https://github.com/SamLRichardson
 
 seva:
-  name: 'Seva Zozin'
-  title: The Padawan
+  name: Seva Zozin
+  title: 'The Padawan'
   github-page: https://github.com/chelyabinsk
 
 tim:
-  name : 'Tim Standen'
-  title: The Code Janitor
+  name : Tim Standen
+  title: 'The Code Janitor'
   github-page: https://github.com/timothyf1
 
 toby:
-  name : 'Toby Devlin'
-  title: The drive-by bootstrapper
+  name : Toby Devlin
+  title: 'The drive-by bootstrapper'
   github-page: https://github.com/GitToby
 
 vince:
-  name : 'Vince Knight'
-  title: Colonel Sarge
+  name : Vince Knight
+  title: 'Colonel Sarge'
   github-page: https://github.com/drvinceknight
 
 will:
-  name: 'Will Dudley'
-  title:
+  name: Will Dudley
+  title: ''
   github-page: https://github.com/WillDudley
