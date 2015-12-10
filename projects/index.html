@@ -4,11 +4,8 @@ layout: page
 ---
 
 <ul class="posts">
-{% for project in site.data.projects %}
-  <li>
-  <p><b>{{project.name}}</b> - <a href={{project.github}}>Github repo</a></p>
-  <p><i>{{project.description}}</i></p>
-  {% if project.link %}<p><a href={{project.link}}>More info</a></p>{% endif %}
-  </li>
+{% for project_hash in site.data.projects %}
+  {% assign project = project_hash[1] %}
+  {% include project_link.html %}
 {% endfor %}
 </ul>

@@ -1,0 +1,4 @@
+---
+layout: project
+project: axelrod
+---
