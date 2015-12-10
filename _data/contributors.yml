@@ -35,7 +35,7 @@ hannah:
 
 james:
   name: 'James Hedge'
-  title: ...Pending...
+  title: 
   github-page: https://github.com/LordTandy
 
 jason:
@@ -50,7 +50,7 @@ laura:
 
 preeti:
   name: 'Preeti Sidhu'
-  title: ...Pending...
+  title:
   github-page: https://github.com/preetiks
 
 saml:
@@ -85,5 +85,5 @@ vince:
 
 will:
   name: 'Will Dudley'
-  title: ...Pending...
+  title:
   github-page: https://github.com/WillDudley
