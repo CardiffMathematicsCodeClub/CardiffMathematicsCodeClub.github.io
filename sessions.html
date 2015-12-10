@@ -16,7 +16,9 @@ categories: sessions
                       <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
                         <b>Quote of the session : </b> <i>"{{session.quote}}"</i><br/>
                         {% assign person = site.data.contributors[session.author] %}
-                        {% if person.title %}
+                        {% if person.title == nil %}
+                          {{person.name}}
+                        {% elsif person.title != nil %}
                           {{person.title}}</li>
                         {% else %}
                           {{session.author}}</li>
