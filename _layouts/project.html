@@ -15,9 +15,12 @@ layout: default
 
       <h3>About</h3>
 
-      <p>
-	{{project.description}}
-      </p>
+      <ul>
+	<li>Project Home: <a href="{{project.github}}">{{project.github}}</a></li>
+	{% if project.link %}
+	<li>Docuementation: <a href="{{project.link}}">{{project.link}}</a></li>
+	{% endif %}
+      </ul>
 
       {{content}}
 
@@ -33,7 +36,7 @@ layout: default
 
       <ul>
 	{% for post in tutorials %}
-	  {% if post.tags contains {{page.project}} and post.tags contains "getstarted"%}
+	  {% if post.tags contains {{project.tag}} and post.tags contains "getstarted"%}
 	     <li><a href="{{post.url}}">{{post.title}}</a></li>
 	  {% endif %}
         {% endfor %}

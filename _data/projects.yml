@@ -3,6 +3,7 @@ ccweb:
   github: https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io
   description: 'The very website you are currently looking at.'
   active: true
+  tag: website
 
 moduleplan:
   name: 'A module planner'
@@ -10,6 +11,7 @@ moduleplan:
   description: 'A web based tool to graphically display course choice options.'
   link: http://module-planner.readthedocs.org/en/latest/
   active: false
+  tag: moduleplan
 
 axelrod:
   name: 'Axelrod'
@@ -17,6 +19,7 @@ axelrod:
   description: 'A repository used to reproduce Axelrods tournament.'
   link: http://axelrod.readthedocs.org/
   active: true
+  tag: axelrod
 
 thegame:
   name: 'The game has changed'
@@ -24,9 +27,11 @@ thegame:
   description: 'A game challenge run by github (progress... ongoing...)'
   link: https://github.com/blog/1972-the-game-has-changed
   active: false
+  tag: thegame
 
 elbow:
   name: 'ELBOW!!!'
   github: https://github.com/CardiffMathematicsCodeClub/elbow
   description: 'ELBOW ->(translate to french)-> COUDE ->(misspell)-> COUD ->(misspell again)-> CUOD -> Cardiff University Open Day'
   active: true
+  tag: elbow

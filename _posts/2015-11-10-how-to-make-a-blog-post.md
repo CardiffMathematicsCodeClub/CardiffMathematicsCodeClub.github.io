@@ -1,37 +1,37 @@
 ---
-layout     : post  
-title      : "How to Make a Blog Post"  
-categories : tutorial website
-tags       : getstarted getinvolved
-author     : Adam  
-comments   : true  
+layout     : post
+title      : "How to Make a Blog Post"
+categories : tutorial
+tags       : getstarted getinvolved website
+author     : Adam
+comments   : true
 ---
 We write blog posts for the website in markdown, this means that we can also use
 [HTML tags][HTML]
 when needed.
 
-**Name of blog post**  
-This should be in the form: ```year-month-day-title-of-blog-post.md```.  
+**Name of blog post**
+This should be in the form: ```year-month-day-title-of-blog-post.md```.
 So for this blog post it would be: ```2015-11-10-how-to-make-a-blog-post.md```.
 
-**How to insert a picture**  
+**How to insert a picture**
 First save the picture that you want to insert into the res/blog_pics folder.
 Then go to the point in your post that you want the picture to be and use the following code:
 
 `![Add Alt-text here](/res/blog_pics/name-of-your-pic.jpg)`
 
 So for example if I wanted to put in my picture called WHERE-IS-EVERYONE-pic4 with the Alt-text
- being `Maybe they are behind the screen?` then all I do is type:  
+ being `Maybe they are behind the screen?` then all I do is type:
 
 `![Maybe they are behind the screen?](/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)`
 
-And this will come out as:  
+And this will come out as:
 ![Maybe they are behind the screen?](/res/blog_pics/WHERE-IS-EVERYONE-pic4.jpg)
 
-**How to insert a video from youtube**  
+**How to insert a video from youtube**
 Go to the video you want to insert on youtube and click on the share button.
 Click on the embed button and copy the link.
-then using the code below:  
+then using the code below:
 
 <script src="https://gist.github.com/Huaraz2/841ae797a1cd1968654b.js"></script>
 
@@ -46,27 +46,27 @@ and it would come out like:
     <figure>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/gbxv3pn9YB4" frameborder="0" allowfullscreen></iframe>
     </figure>
-</div>  
+</div>
 
-**Highlighting code in a post**  
+**Highlighting code in a post**
 If you want to highlight just one line of code then you can use back-ticks like this
 `type code here`.
 
 If you wanted to highlight several lines of code and also have syntax highlighting then
 you have two options.
 
-1) We could use the following code:  
+1) We could use the following code:
 
-<script src="https://gist.github.com/Huaraz2/bfd787b3a08fef0ea7ba.js"></script>  
+<script src="https://gist.github.com/Huaraz2/bfd787b3a08fef0ea7ba.js"></script>
 
 For example, if I wanted to input the code from Q1 of the 2015/16 Computing for Mathematics
-class test, I would type:  
+class test, I would type:
 
 <script src="https://gist.github.com/Huaraz2/fad414036be2902580de.js"></script>
 
-And in a blog it would look like:  
+And in a blog it would look like:
 
-{% highlight python %}  
+{% highlight python %}
   def mysqrt(K, epsilon=.001):
       X = K / 4.0
       while abs(X ** 2 - K) > epsilon:
@@ -85,10 +85,10 @@ projects.
 Once you have made a gist you will see there is a link that you can copy to embed them into
 your post.
 
-So if I wanted to put a code for Q1 of the 2015/16 Class test it would look like this:  
+So if I wanted to put a code for Q1 of the 2015/16 Class test it would look like this:
 <script src="https://gist.github.com/Huaraz2/2f7c8b5f2de0b5b10c77.js"></script>
 
-**How to add a hyper link to your blog**  
+**How to add a hyper link to your blog**
 If I wanted to put a hyper link into my blog at a certain point and link it to the phrase
 `yes we code`, then I would simply write:
 
