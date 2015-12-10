@@ -13,8 +13,10 @@ categories: sessions
               <li><em>{{year.term1}}</em>
                   <ul>
                     {% for session in year.sessions1 %}
-                    <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
-                        <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
+                      <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
+                        <b>Quote of the session : </b> <i>"{{session.quote}}"</i><br/>
+                        {% assign person = site.data.contributors[session.author] %}
+                          {{person.title}}</li>
                     {% endfor %}
                   </ul>
               </li>
@@ -24,7 +26,9 @@ categories: sessions
                   <ul>
                     {% for session in year.sessions2 %}
                     <li><b>Week {{session.week}} : </b> <i>"{{session.name}}"</i><br/>
-                        <b>Quote of the session : </b> <i>"{{session.quote}}"</i> {{session.author}}</li>
+                        <b>Quote of the session : </b> <i>"{{session.quote}}"</i><br/>
+                        {% assign person = site.data.contributors[session.author] %}
+                          {{person.title}}</li>
                     {% endfor %}
                   </ul>
               </li>

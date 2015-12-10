@@ -1,71 +1,89 @@
-- name : Adam Pohl
+adam:
+  name: 'Adam Pohl'
   title: The Webmaster
   github-page: https://github.com/Huaraz2
 
-- name : Alex Carney
+alex:
+  name : 'Alex Carney'
   title: Leonardo
   github-page: https://github.com/alcarney
 
-- name : Ambrose Law
+ambrose:
+  name : 'Ambrose Law'
   title: Django Jazz Hands
   github-page: https://github.com/Enyexlaw
 
-- name : Andy Wilson
+andy:
+  name : 'Andy Wilson'
   title: The Honourary Coder
   github-page: https://github.com/BatDuck-Caboose
 
-- name : Batduck
+batduck:
+  name : 'Batduck'
   title: Glitch in the Matirx
   github-page: https://github.com/BatDuck-Caboose
 
-- name : Geraint Palmer
+geraint:
+  name : 'Geraint Palmer'
   title: The Traitor
   github-page: https://github.com/geraintpalmer
 
-- name : Hannah Lorrimore
+hannah:
+  name : 'Hannah Lorrimore'
   title: Mother Hen
   github-page: https://github.com/hhlorrimore
 
-- name: James Hedge
+james:
+  name: 'James Hedge'
   title: ...Pending...
   github-page: https://github.com/LordTandy
 
-- name : Jason Young
+jason:
+  name : 'Jason Young'
   title: You Know Who
   github-page: https://github.com/JasYoung314
 
-- name: Laura Saul
+laura:
+  name: 'Laura Saul'
   title: The Code Officer
   github-page: https://github.com/Aurora256
 
-- name: Preeti Sidhu
+preeti:
+  name: 'Preeti Sidhu'
   title: ...Pending...
   github-page: https://github.com/preetiks
 
-- name: Sam Luen-English
+saml:
+  name: 'Sam Luen-English'
   title: The Teacher
   github-page: https://github.com/sluenenglish
 
-- name: Sam Richardson
+samr:
+  name: 'Sam Richardson'
   title: Not Antoney
   github-page: https://github.com/SamLRichardson
 
-- name: Seva Zozin
+seva:
+  name: 'Seva Zozin'
   title: The Padawan
   github-page: https://github.com/chelyabinsk
 
-- name : Tim Standen
+tim:
+  name : 'Tim Standen'
   title: The Code Janitor
   github-page: https://github.com/timothyf1
 
-- name : Toby Devlin
+toby:
+  name : 'Toby Devlin'
   title: The drive-by bootstrapper
   github-page: https://github.com/GitToby
 
-- name : Vince Knight
+vince:
+  name : 'Vince Knight'
   title: Colonel Sarge
   github-page: https://github.com/drvinceknight
 
-- name: Will Dudley
+will:
+  name: 'Will Dudley'
   title: ...Pending...
   github-page: https://github.com/WillDudley
