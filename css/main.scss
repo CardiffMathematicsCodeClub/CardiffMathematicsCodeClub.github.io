@@ -43,11 +43,17 @@ $mobile: 600px;
   }
 }
 
+@mixin column-count($n) {
+    -webkit-column-count: $n;
+       -moz-column-count: $n;
+            column-count: $n;
+}
+
+
 @import "base",
 
         "_layouts/base",
         "_layouts/footer",
-        "_layouts/multicolumn",
         "_layouts/postlists",
         "_layouts/devices",
 

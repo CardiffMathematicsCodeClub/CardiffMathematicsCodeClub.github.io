@@ -5,7 +5,7 @@ title: Code Club Blog
 
 
 <ul class="posts">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
     {% include post_link.html %}
 {% endfor %}
 </ul>
