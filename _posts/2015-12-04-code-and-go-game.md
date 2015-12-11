@@ -1,10 +1,10 @@
 ---
-layout     : post  
-title      : "Code & Go game"  
+layout     : post
+title      : "Code &amp; Go game"
 categories :
 tags       : pyhton getinvolved
-author     : Adam  
-comments   : true  
+author     : Adam
+comments   : true
 ---
 Last week, during a Computing for Mathematics tutorial, Vince came up with what he thought was
 a brilliant idea.
@@ -20,8 +20,8 @@ decided that the editor we would use would be Atom as it is a usable and friendl
 Vim. We therefore had to use my laptop and Sam and Geraint then spent all of their `prep time`
 working ways they could mess up my terminal. ***I had expected better of Sam.***
 
-The code from our first go:  
+The code from our first go:
 <script src="https://gist.github.com/Huaraz2/b624be9a6e54ec179cfc.js"></script>
 
-the code from our second go:  
+the code from our second go:
 <script src="https://gist.github.com/Huaraz2/9e97cbb2e19a21b2ae30.js"></script>

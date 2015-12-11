@@ -82,6 +82,7 @@ desc 'Build the site and run the tests'
 task :test do
    sh "script/cibuild"
    HTML::Proofer.new("./_site",
-    {:url_ignore => [%r{[Cc]ardiff[Mm]athematics[Cc]ode[Cc]lub\.github\.io}],
-     :only_4xx => true}).run
+                     { :check_html => true,
+                       :only_4xx => true,
+                       :url_ignore => [%r{[Cc]ardiff[Mm]athematics[Cc]ode[Cc]lub\.github\.io}]}).run
 end
