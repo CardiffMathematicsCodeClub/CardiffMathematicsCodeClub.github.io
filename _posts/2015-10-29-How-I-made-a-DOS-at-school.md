@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "How I made a DOS Attack at school"
-categories : website
+categories : news
 tags       : blog
 author     : Ambrose
 comments   : true

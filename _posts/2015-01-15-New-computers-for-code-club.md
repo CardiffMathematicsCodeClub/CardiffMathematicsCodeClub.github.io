@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "New Computers for Code Club"
-categories : website
+categories : news
 tags       : blog
 author     : Jason
 comments   : true

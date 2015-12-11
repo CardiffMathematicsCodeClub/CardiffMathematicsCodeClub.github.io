@@ -1,13 +1,13 @@
 ---
 layout     : post
 title      : "WHERE IS EVERYONE"
-categories : website
+categories : news
 tags       : blog
 author     : Adam
 comments   : true
 ---
 
-With Vince and Jason still at Python Nambia, it fell to me, Alex and Tim to run Code Club in their stead.  
+With Vince and Jason still at Python Nambia, it fell to me, Alex and Tim to run Code Club in their stead.
 However, due to prior comitments Alex could not make it to code club.
 
 ![I can't see anyone...](/res/blog_pics/WHERE-IS-EVERYONE-pic1.jpg)

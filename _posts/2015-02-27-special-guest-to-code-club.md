@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "A special guest for code club"
-categories : website
+categories : news
 tags       : dog
 author     : Vince
 comments   : true

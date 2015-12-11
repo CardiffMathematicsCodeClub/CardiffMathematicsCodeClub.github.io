@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "The first editor off"
-categories : website
+categories : news
 tags       : blog vim atom emacs
 author     : Vince, Alex, Sam, Adam
 comments   : true
