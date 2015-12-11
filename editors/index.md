@@ -6,7 +6,7 @@ title: Index
     <ul>
         {% for pages in site.pages %}
             {% if pages.categories contains 'editors' %}
-                <li><a href="{{ site.baseurl }}{{ pages.url }}">{{ pages.title }}</a>
+                <li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>

@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "Making an App in python using Kivy - Part 1"
-categories : blog kivy tutorial
-tags       : blog python
+categories : tutorial
+tags       : blog python kivy
 author     : Timothy
 comments   : true
 ---
@@ -22,7 +22,7 @@ Below is the code for a basic app that has the label of 'Hello World'.
 
 The output is rather simple
 
-![Hello World]({{site.baseurl}}/res/blog_pics/kivy-hello-world.png)
+![Hello World](/res/blog_pics/kivy-hello-world.png)
 
 On line 11 where we create a label, for kivy an label is consider an widget and we are giving it the property of 'Hello World' for text.
 We are also doing returning this in the build method of an app class.
@@ -39,7 +39,7 @@ For example here I have included an example of using Kv language to create an la
 
 This produces a windows with buttons in several places.
 
-![Kivy and Buttons]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example.png)
+![Kivy and Buttons](/res/blog_pics/kivy-boxlayout-example.png)
 
 Firstly we see that the root widget is call Demo which is a grid layout with 1 column.
 
@@ -48,11 +48,11 @@ Next looking at the .kv file we can see that the widget Demo has 2 children. Bot
 The first boxlayout has been set to vertical, the default is horizontal.
 Then 3 buttons have been added. As shown below.
 
-![Layout 1]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
+![Layout 1](/res/blog_pics/kivy-boxlayout-example-1.png)
 
 The second boxlayout is left to it's default settings and have 3 buttons as it's children. As shown below.
 
-![Layout 2]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-2.png)
+![Layout 2](/res/blog_pics/kivy-boxlayout-example-2.png)
 
 More about the different widgets will be explained in a later part.
 
@@ -62,4 +62,4 @@ Depending on your needs you can do either of the following:
 - Mix python code and KV Lang for layouts.
 - Use KV Lang for all layouts.
 
-I found tHis useful to only use the python code as I was building the layout depended on how many items there were in a database.
+I found this useful to only use the python code as I was building the layout depended on how many items there were in a database.

@@ -4,7 +4,7 @@
     - week   : 1
       name   : Wales v Fiji
       quote  : "Oh I didn't realise Django was used!"
-      author : The Padawan
+      author : seva
 
     - week   : 2
       name   : Editor Off
@@ -14,32 +14,47 @@
     - week   : 3
       name   : The Pregnancy Test
       quote  : "YAY Laura is pregnant with Ambrose's baby!!!"
-      author : Hannah 2<sup>nd</sup> year
+      author : hannah
 
     - week   : 4
-      name   : The Best One (Leonardo was absent)
+      name   : The Best One (alex was absent)
       quote  : "The code of conduct is up... and the website is broken"
-      author : Colonel Sarge
-
-    - week   : 4
-      name   : The one where Django Jazz Hands DoS'd himself
-      quote  : "How can you use 8gb's of Notepad...I don't understand"
-      author : Leonardo
+      author : vince
 
     - week   : 5
-      name   : Big Vince is watching
-      quote  : "I don't want to accidently walk into China with Tor on my laptop"
-      author : The Traitor
+      name   : The one where Django Jazz Hands DoS'd himself
+      quote  : "How can you use 8gb's of Notepad...I don't understand"
+      author : alex
 
     - week   : 6
-      name   : The text from Anna
-      quote  : "I've known about that bug for the past 6 months"
-      author : The Code Janitor
+      name   : Big Vince is watching
+      quote  : "I don't want to accidently walk into China with Tor on my laptop"
+      author : geraint
 
     - week   : 7
+      name   : The text from Anna
+      quote  : "I've known about that bug for the past 6 months"
+      author : tim
+
+    - week   : 8
       name   : The one with the cake
       quote  : "I've got the whole website on one page?!?"
-      author : Leonardo
+      author : alex
+
+    - week   : 9
+      name   : The one with the tests
+      quote  : "Hey Vince will be happy, we now have tests that break. I however am not!!"
+      author : adam
+
+    - week   : 10
+      name   : fun is TabError
+      quote  : "True, False = False, True"
+      author : vince
+
+    - week   : 11
+      name   : The one with the werewolf
+      quote  : "Cthulhu wake up"
+      author : hannah
 
 - year: "2014-2015"
   term1: "Autumn"
@@ -47,42 +62,42 @@
     - week   : 1
       name   : Real Coders
       quote  : Only real coders code in Arch
-      author : You Know Who
+      author : jason
 
     - week   : 2
       name   : On the Fly
       quote  : Love the fact that I'm learning Vim on the fly!
-      author : The Webmaster
+      author : adam
 
     - week   : 3
       name   : The one where Vince ran away
       quote  : It's amazing how quiet it is without Jason
-      author : The Code Janitor
+      author : tim
 
     - week   : 4
       name   : What Django is for
       quote  : I know that Pinterest uses it but I can't see the connection
-      author : Leonardo
+      author : alex
 
     - week   : 5
       name   : Oh MongoDB
       quote  : I'm 100% onboard but why are we using Mongodb again?
-      author : Colonel Sarge
+      author : vince
 
     - week   : 6
       name   : Well 4 out of 5 work
       quote  : For once it's Vince's fault
-      author : You Know Who
+      author : jason
 
     - week   : 7
       name   : Jekyll and Hyde
       quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
-      author : Leonardo
+      author : alex
 
     - week   : 8
       name   : Atom
       quote  : When your editor is finally done, it will be sooo good
-      author : Colonel Sarge
+      author : vince
 
     - week   : 9
       name   : Why we need Python 3...
@@ -92,56 +107,56 @@
     - week   : 10
       name   : Gource
       quote  : Guys come and look how cool this is!!!
-      author : Colonel Sarge
+      author : vince
 
     - week   : 11
       name   : Risk
       quote  : 6! You die.
-      author : Ellie 1st Year (Master dice roller)
+      author : Ellie 1<sup>st</sup> Year (Master dice roller)
 
   term2: "Spring"
   sessions2:
     - week   : 1
       name   : Three beeps
       quote  : Doesn't matter Tim will fix it.
-      author : Everyone (except Jason)
+      author : Everyone (except jason)
 
     - week   : 2
       name   : The session that was not a session
       quote  : Don't worry Vince will fix it.
-      author : The Code Janitor
+      author : tim
 
     - week   : 3
       name   : The one where the Padawan rocked the comand line
       quote  : Just a little joke to break the ice.
-      author : Not Anthony (Sam) 1<sup>st</sup> Year
+      author : samr
 
     - week   : 4
       name   : Axelrod
       quote  : Umm Alex... how easy would it be to install Arch on my home computer?
-      author : You Know Who
+      author : jason
 
     - week   : 5
       name   : Text Editor support group
       quote  : My name is Adam, and I am addicted to editing Atom.
-      author : The Webmaster
+      author : adam
 
     - week   : 6
       name   : Introducing Module Planner OS
       quote  : I will write it in Assembly for the Rasberry Pi
-      author : Leonardo
+      author : alex
 
     - week   : 7
       name   : The time that Jason licked his desk
       quote  : Is that a 1 or an l
-      author : The Code Janitor
+      author : tim
 
     - week   : 8
       name   : Fife off!!!
       quote  : Tim does not know everything sadly, why not try this new thing called the internet.
-      author : The Webmaster
+      author : adam
 
     - week   : 9
       name   : The one where Blender came in-to play
       quote  : WHY IS THIS NOT WORKING?!?
-      author : The Webmaster
+      author : adam

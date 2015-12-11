@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "How I made a DOS Attack at school"
-categories : website
+categories : news
 tags       : blog
 author     : Ambrose
 comments   : true
@@ -50,11 +50,11 @@ Here is a video of my computer visually combusting, enjoy!
 
 Here is a gif Vince made:
 
-![So many notepads!]({{site.baseurl}}/res/gifs/8GB-of-Notepad.gif)
+![So many notepads!](/res/gifs/8GB-of-Notepad.gif)
 
 Vince had a thing for legofying everything today so here is the legofy version of it:
 
-![Lego!]({{site.baseurl}}/res/gifs/8GB-of-Notepad-legofy.gif)
+![Lego!](/res/gifs/8GB-of-Notepad-legofy.gif)
 
 Draining up to 97% of the Physical Memory, up to 8GB of Notepad and peaking the CPU at near 100%, this was the easily
 the greatest code I have ever written.

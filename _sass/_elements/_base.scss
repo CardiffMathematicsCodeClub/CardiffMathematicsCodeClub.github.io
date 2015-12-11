@@ -1,0 +1,29 @@
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.page-content {
+  padding: 75px 0;
+}
+
+.main{
+  background-color: $background-color;
+  padding: 10px
+}
+
+.pagination {
+  .prev,
+  .next {
+    background-color: $background-color;
+  }
+}
+
+.quote {
+  color: orangered;
+  text-align: center;
+}
+
+.slicknav_menutxt {
+  color: #22ff00;
+  font-size: 2em;
+  vertical-align: center;
+}

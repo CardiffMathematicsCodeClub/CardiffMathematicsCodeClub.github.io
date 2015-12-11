@@ -3,8 +3,13 @@ language: ruby
 rvm:
     - 2.1
 
-script: ./script/cibuild
+script: rake test
 
 env:
     global:
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+notifications:
+    webhooks:
+      urls:
+          - https://webhooks.gitter.im/e/84454152adce595e2ba6

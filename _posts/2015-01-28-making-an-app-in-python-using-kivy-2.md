@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "Making an App in python using Kivy - Part 2 - Widgets"
-categories : blog kivy tutorial
-tags       : blog python
+categories : tutorial
+tags       : blog python kivy
 author     : Timothy
 comments   : true
 ---
@@ -29,7 +29,7 @@ although there are other options such as [carousel](http://kivy.org/docs/api-kiv
 
 Below is a sample of the different screens we used in our group last year.
 
-![Screen Manager]({{site.baseurl}}/res/blog_pics/kivy-screen-manager.png)
+![Screen Manager](/res/blog_pics/kivy-screen-manager.png)
 
 Note that the screen manager doesn't need to be the root widget leading to the whole screen changing.
 For example you can have a vertical boxlayout (layouts are explained next), with an header as the first widget and the screen manager as the second.
@@ -90,7 +90,7 @@ But in the Boxlayout example they are changed separately.
 
 So for the first block pictured below, it is a vertical boxlayout.
 
-![Vertical Layout]({{site.baseurl}}/res/blog_pics/kivy-boxlayout-example-1.png)
+![Vertical Layout](/res/blog_pics/kivy-boxlayout-example-1.png)
 
 We see that the size_hint_y hasn't been changed so virtually each button is taking up a third of the available space.
 What has been changed is the size_hint_x, so the first and the last buttons are only 40% of the available width that they were given.

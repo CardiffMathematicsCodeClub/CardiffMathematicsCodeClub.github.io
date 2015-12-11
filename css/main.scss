@@ -1,0 +1,65 @@
+---
+
+---
+@charset "utf-8";
+
+
+// Variables
+$font: Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+
+$text-color: #ffffff;
+$link-color: #fbff00;
+
+$background-url: url(../res/backround_images/background.png);
+$background-color: #000000;
+
+// Syntax Highlighting
+$code-color: #000000;
+$code-string: #dd1144;
+$code-numeral: #009999;
+$code-variable: #008080;
+$code-comment: #999988;
+$code-function: #990000;
+$code-type: #445588;
+$code-background: #ffffff;
+
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+/**
+ * This is a mixin, it's basically a function which will return css.
+
+   This one tests to see what the size of the display is and whatever css
+   we contain within it when we "call" it will be activated if the device
+   is satisfied
+ */
+@mixin if-device($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin column-count($n) {
+    -webkit-column-count: $n;
+       -moz-column-count: $n;
+            column-count: $n;
+}
+
+
+@import "base",
+
+        "_layouts/base",
+        "_layouts/footer",
+        "_layouts/postlists",
+        "_layouts/devices",
+
+        "_elements/base",
+        "_elements/catmenu",
+        "_elements/codesnippets",
+        "_elements/post",
+        "_elements/image",
+        "_elements/video"

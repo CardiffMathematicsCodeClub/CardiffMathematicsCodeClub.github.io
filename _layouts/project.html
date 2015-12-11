@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="main">
+
+    {% assign project = site.data.projects[page.project] %}
+
+    <header class="post-header">
+      <h1>{{project.name}}</h1>
+    </header>
+
+    <article class="post-content">
+
+      <h3>About</h3>
+
+      <ul>
+	<li>Project Home: <a href="{{project.github}}">{{project.github}}</a></li>
+	{% if project.link %}
+	<li>Docuementation: <a href="{{project.link}}">{{project.link}}</a></li>
+	{% endif %}
+      </ul>
+
+      {{content}}
+
+      <h3>Getting Started</h3>
+
+      <p>
+	Want to get involved? Great! Not sure where to start? Don't worry!
+	We have you covered, below is a list of tutorials where you can find out
+	how to get involved. We can't wait for you first pull request!
+      </p>
+
+      {% assign tutorials = site.categories["tutorial"] | sort %}
+
+      <ul>
+	{% for post in tutorials %}
+	  {% if post.tags contains {{project.tag}} and post.tags contains "getstarted"%}
+	     <li><a href="{{post.url}}">{{post.title}}</a></li>
+	  {% endif %}
+        {% endfor %}
+      </ul>
+
+    </article>
+  </div>
+</div>
