@@ -7,6 +7,13 @@ task :help do
   exec("rake -T")
 end
 
+desc 'List all the drafts currently on the site'
+task :drafts do
+  Dir.glob("_drafts/*.md") do |file|
+    puts File.basename(file, ".md")
+  end
+end
+
 desc 'Start working on a new post in _drafts'
 task :newpost, [:name] do |t, args|
   front_matter = %q(
@@ -33,7 +40,7 @@ what can go here
   end
 
   File.write("_drafts/#{args.name}.md", front_matter)
-
+  puts "Draft post: _drafts/#{args.name}.md created"
 end
 
 desc 'Publish a post in drafts'
@@ -57,7 +64,7 @@ task :publishpost, [:name] do |t, args|
 
   FileUtils.mv("_drafts/#{args.name}.md", "_posts/#{date}-#{args.name}.md")
 
-  puts "Published post #{args.name}"
+  puts "Published post _drafts/#{args.name}.md as _posts/#{date}/#{args.name}.md"
 
 end
 
