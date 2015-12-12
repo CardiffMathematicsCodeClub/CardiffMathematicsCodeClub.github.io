@@ -86,7 +86,7 @@ In fact 'Test Driven Development' is the correct way to write any code:
 3. Write feature that stops test from failing
 
 > Obey the Testing Goat! Do Nothing Until You Have a Test
-
+ 
 ![](http://orm-chimera-prod.s3.amazonaws.com/1234000000754/images/twdp_0101.png)
 
 A great explanation of this process is given in [this book](http://chimera.labs.oreilly.com/books/1234000000754/ch01.html) (free to read online and where the goat image is taken from).
