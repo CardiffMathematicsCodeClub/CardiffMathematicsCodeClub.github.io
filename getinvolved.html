@@ -69,7 +69,7 @@ categories: getinvolved
   {% assign person = contributor[1] %}
     <li><b>{{person.name}}</b> <i>
       (<a href="{{person.github-page}}">
-        {% if person.title == nil %}
+        {% if person.title == '' %}
           ...Pending...</a>)</i></li>
         {% else %}
           {{person.title}}</a>)</i></li>
