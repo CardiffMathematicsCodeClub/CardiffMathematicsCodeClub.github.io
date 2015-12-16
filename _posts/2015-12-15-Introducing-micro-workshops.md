@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "Introducing micro workshops"
-categories :
+categories : news
 author     : Vince
 comments   : true
 ---
