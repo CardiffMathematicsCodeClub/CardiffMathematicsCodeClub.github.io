@@ -5,6 +5,8 @@
   subitems:
     - text: Blog
       url: /blog/
+    - text: Micro Workshops
+      url: /workshops/
     - text: Past Sessions
       url: /sessions.html
 - text: Code of conduct

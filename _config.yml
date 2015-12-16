@@ -15,3 +15,7 @@ keywords: cardiff,university,uni,maths,math,mathematics,code,club,website,python
 gems:
     - jekyll-gist
     - jekyll-paginate
+
+collections:
+  workshops:
+    output: true
