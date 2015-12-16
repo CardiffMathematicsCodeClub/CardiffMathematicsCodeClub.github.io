@@ -3,7 +3,7 @@ layout     : post
 title      : "Introducing micro workshops"
 categories :
 author     : Vince
-comments   : false
+comments   : true
 ---
 
 From now on every code club will (try) and host a 30 minute workshop on a
