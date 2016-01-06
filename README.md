@@ -4,7 +4,7 @@
 A repository for the Cardiff School of Mathematics Code Club: an extra curricular club open to all.
 
 The website for code club is located here - http://cardiffmathematicscodeclub.github.io/
- 
+
 Meeting time: Thursday's 16:00-18:00 in room M/0.33.
 
 ## Runing the website locally
@@ -41,6 +41,18 @@ Any changes you make to a page should automatically updated when viewing locally
 
 ## Contributing
 
+### Code snippets
+
+To embed code snippets into a page it's best to create a [Gist](https://gist.github.com) containing
+the code, and since we are using Jekyll you can simply add the following to the markdown for that particular
+page
+
+```
+{% gist <username>/<gist-id> %}
+```
+so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
+in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
+
 ### Pull Requests
 
 Contributions are made to this site by making [pull requests](https://help.github.com/articles/using-pull-requests/)
@@ -62,18 +74,6 @@ $ jekyll serve --w --drafts
 ```
 
 The draft blog post will appear as the latest post.
-
-### Code snippets
-
-To embed code snippets into a page it's best to create a [Gist](https://gist.github.com) containing
-the code, and since we are using Jekyll you can simply add the following to the markdown for that particular
-page
-
-```
-{% gist <username>/<gist-id> %}
-```
-so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
-in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
 
 ### Writing tests
 
