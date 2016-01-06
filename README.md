@@ -41,6 +41,17 @@ Any changes you make to a page should automatically updated when viewing locally
 
 ## Contributing
 
+### Pull Requests
+
+Contributions are made to this site by making [pull requests](https://help.github.com/articles/using-pull-requests/)
+if you followed the installation guide above then you should already have your own fork of this repository. You make
+changes to you fork and then make a pull request against this repository containing your changes.
+
+But before you do *please* run the tests locally by running the following command from the same folder as the README
+```
+$ rake
+```
+
 ### Code snippets
 
 To embed code snippets into a page it's best to create a [Gist](https://gist.github.com) containing
@@ -53,20 +64,9 @@ page
 so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
 in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
 
-### Pull Requests
-
-Contributions are made to this site by making [pull requests](https://help.github.com/articles/using-pull-requests/)
-if you followed the installation guide above then you should already have your own fork of this repository. You make
-changes to you fork and then make a pull request against this repository containing your changes.
-
-But before you do *please* run the tests locally by running the following command from the same folder as the README
-```
-$ rake
-```
-
 ### Draft Posts
 
-If you are making a draft post (you can do this by editing a *.md file in the `_drafts` folder)
+If you are making a draft post (you can do this by editing a \*.md file in the `_drafts` folder)
 and want to preview it locally you can run the following.
 
 ```
