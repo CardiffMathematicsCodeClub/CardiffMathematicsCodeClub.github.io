@@ -39,7 +39,7 @@ your local copy of the website run
 ```
 $ jekyll serve 
 ```
-
+ 
 Then open the url given in a web browser to view the site.
 
 Any changes you make to a page should automatically updated when viewing
