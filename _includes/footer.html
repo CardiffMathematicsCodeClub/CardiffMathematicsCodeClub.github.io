@@ -2,8 +2,29 @@
 
   <div class="wrap">
 
+    <div class="column footer-col-1">
+      {% for theme in site.data.themes %}
+      <div id="{{theme.shortname}}" class="themes">
+	<p>Theme: {{theme.name}} v{{theme.version}}</p>
+	<p>Made by: {{theme.author}}</p>
+      </div>
+      {% endfor%}
+    </div>
+
+    <div class="column footer-col-2">
+      <p>Website Version: v{{site.version}}</p>
+      <p>Last Updated: {{site.time | date: "%d/%m/%Y"}}</p>
+    </div>
+
+    <div class="column footer-col-3">
+      <p>Change Theme:</p>
+      <select id="theme-chooser">
+        {% for theme in site.data.themes %}
+	    <option value="{{theme.shortname}}">{{theme.name}}</option>
+	{% endfor %}
+      </select>
+    </div>
 
   </div>
 
 </footer>
-
