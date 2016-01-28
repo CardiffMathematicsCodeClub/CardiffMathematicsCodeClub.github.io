@@ -6,13 +6,17 @@
 
 // Variables
 $font: Helvetica, Arial, sans-serif;
+$title-font-size: 42px;
+$menu-font-size: 26px;
 $base-font-size: 16px;
 
 $text-color: #ffffff;
 $link-color: #fbff00;
+$meta-color: #818181;
+$background-color: #000000;
 
 $background-url: url(../res/backround_images/background.png);
-$background-color: #000000;
+$quote-border-style: 4px solid #e8e8e8;
 
 // Syntax Highlighting
 $code-color: #000000;
@@ -23,6 +27,7 @@ $code-comment: #999988;
 $code-function: #990000;
 $code-type: #445588;
 $code-background: #ffffff;
+$code-border-style: 1px solid #d5d5e9;
 
 $content-width: 800px;
 
@@ -49,17 +54,22 @@ $mobile: 600px;
             column-count: $n;
 }
 
+@mixin border-radius($radius...) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
 
-@import "base",
 
+@import
         "_layouts/base",
-        "_layouts/footer",
+        "_layouts/catmenu",
+        "_layouts/media",
+        "_layouts/post",
         "_layouts/postlists",
-        "_layouts/devices",
 
         "_elements/base",
         "_elements/catmenu",
         "_elements/codesnippets",
         "_elements/post",
-        "_elements/image",
-        "_elements/video"
+        "_elements/postlists"

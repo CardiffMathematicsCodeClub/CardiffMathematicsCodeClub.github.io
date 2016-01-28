@@ -1,9 +1,50 @@
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
-.page-content {
-  padding: 75px 0;
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($link-color, 15%);
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: darken($link-color, 15%);
+
+    &:hover {
+      color: lighten($link-color, 15%);
+    }
+  }
 }
+
+body {
+  font-family: $font;
+  font-size: $base-font-size;
+  color: $text-color;
+  line-height: 1.5;
+  font-weight: 300;
+  background-image: $background-url;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: $title-font-size;
+}
+
+h2 {
+  font-size: $title-font-size * 0.75;
+}
+
+h3 {
+  font-size: $title-font-size * 0.60;
+}
+
+h4 {
+  font-size: $title-font-size * 0.50;
+}
+
 
 .main{
   background-color: $background-color;
@@ -14,6 +55,26 @@
   .prev,
   .next {
     background-color: $background-color;
+  }
+}
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  background-color: $background-color;
+
+}
+
+.site-title {
+  &:hover,
+  &:visited {
+    font-size: $menu-font-size;
+    color: #333
+  }
+}
+
+.site-nav {
+  .page-link {
+    color: #727272;
   }
 }
 

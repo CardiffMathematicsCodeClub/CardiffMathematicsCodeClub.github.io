@@ -1,0 +1,64 @@
+/* Post Layout */
+
+.post-header {
+
+  margin: 10px 0 30px;
+
+  h1 {
+    line-height: 1;
+    font-weight: 300;
+  }
+
+
+ .meta {
+   margin-top: 5px;
+  }
+}
+
+.post-content {
+
+  margin: 0 0 30px;
+
+  > * {
+    margin: 20px 0;
+  }
+
+
+  h1, h2, h3, h4, h5{
+    line-height: 1;
+    font-weight: 300;
+    margin: 40px 0 20px;
+  }
+
+
+  em {
+    line-height: 1;
+    font-weight: 1;
+    margin: 0;
+  }
+
+  blockquote {
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+ ul, ol {
+   padding-left: 20px;
+  }
+}
+
+.post {
+
+  pre, code {
+    overflow-x: auto;
+  }
+
+  code {
+    padding: 1px 5px;
+  }
+
+  ul, ol {
+    margin-left: 1.35em;
+  }
+
+}
