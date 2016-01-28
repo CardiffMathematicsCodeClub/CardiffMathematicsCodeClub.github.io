@@ -20,7 +20,7 @@
     </script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link id="theme-def" rel="stylesheet" href="/css/main.css">
 
     {% if page.categories contains 'sessions' %}
     <!-- Sessions CSS -->
@@ -29,4 +29,5 @@
 
     <script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
     <script src="{{ "/js/jquery.flexnav.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+    <script src="{{ "/js/theme-changer.js" | prepend: site.baseurl }}" type="text/javascript"></script>
     <link href="{{ "/css/flexnav.css" | prepend: site.baseurl }}" media="screen, projection" rel="stylesheet" type="text/css">

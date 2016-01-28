@@ -1,0 +1,12 @@
+.posts {
+
+  .post-link {
+    font-size: $title-font-size * 0.70;
+  }
+
+  .post-date {
+    font-size: $base-font-size;
+    font-style: italic;
+    color: $meta-color;
+  }
+}
