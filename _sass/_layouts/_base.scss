@@ -9,6 +9,12 @@ html, body {
   height: 100%;
 }
 
+select {
+  option {
+    padding: 2px;
+  }
+}
+
 /* Utility */
 
 .wrap {
