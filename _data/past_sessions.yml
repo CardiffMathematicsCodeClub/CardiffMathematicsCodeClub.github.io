@@ -56,6 +56,13 @@
       quote  : "Cthulhu wake up"
       author : hannah
 
+  term2: "Spring"
+  sessions2:
+    - week   : 1
+      name   : Tumbleweed
+      quote  : DON'T! Don't touch the cable.
+      author : alex
+
 - year: "2014-2015"
   term1: "Autumn"
   sessions1:
