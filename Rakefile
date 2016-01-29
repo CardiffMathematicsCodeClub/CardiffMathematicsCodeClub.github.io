@@ -70,12 +70,12 @@ end
 
 desc 'Run the jekyll server'
 task :preview do
-    sh "jekyll serve"
+    sh "bundle exec jekyll serve"
 end
 
 desc 'Run the jekyll server, including all the drafts in _drafts'
 task :develop do
-    sh "jekyll server --drafts"
+    sh "bundle exec jekyll serve --drafts"
 end
 
 desc 'Build the site and run the tests'
