@@ -33,7 +33,7 @@ matching/beating Vince.
 
 Adam therefore decided to showcase and perform a live publish of the [syntax theme][The Matrix]
 he had been working on for the past year for his 1<sup>st</sup> 'trick'.
- 
+
 Despite a few teething problems, the pictures not loading correctly and not being able to find
 it at first on the atom website, it went well.
 
