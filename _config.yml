@@ -1,10 +1,12 @@
 #Site settings
 title: Cardiff Math Code Club
 url: "http://CardiffMathematicsCodeClub.github.io"
-version: 3.5.252
+version: 3.5.261
 
 markdown: kramdown
-highlighter: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 paginate: 10
 paginate_path: "/blog/page:num"
@@ -16,7 +18,6 @@ keywords: cardiff,university,uni,maths,math,mathematics,code,club,website,python
 gems:
     - jekyll-gist
     - jekyll-paginate
-    - pygments
 
 collections:
   workshops:

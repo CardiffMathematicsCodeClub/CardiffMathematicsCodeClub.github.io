@@ -24,7 +24,7 @@ programming language but using the [imperative][imperative-wiki] and [object ori
 Ok that's the fancy stuff out of the way, in plain English this means that you tell the computer what
 to do step-by-step for example consider the following bit of Python:
 
-{% highlight py3 %}
+```python
 
 def calc_average(nums):
     """
@@ -44,20 +44,20 @@ def calc_average(nums):
         sum += n
 
     return sum/len(nums)
-{% endhighlight %}
+```
 
 Here we have to tell Python exactly what it needs to do verbaitum
 
-    1. Create a variable called sum, assign it the value zero.
-    2. Go through each item in the list in turn and add it's value to the variable sum.
-    3. Divide that by the number of items there were in the list.
+1. Create a variable called sum, assign it the value zero.
+2. Go through each item in the list in turn and add it's value to the variable sum.
+3. Divide that by the number of items there were in the list.
 
 Whereas the functional paradigm is part of a family of [declarative programming][declarative-wiki]
 paradgims, where instead of detailing all the steps you simply 'declare' what something is or how to
 transform it into another form. In the case of [functional programming][functional-wiki] this is done
 (suprisingly) using functions, for example we can rewrite the above as the following.
 
-{% highlight py3 %}
+```python
 
 from functools import reduce
 
@@ -68,7 +68,7 @@ def f_average(nums):
     sum = reduce(lambda x, y: x + y, nums, 0)
 
     return sum/len(nums)
-{% endhighlight %}
+```
 
 > Python 2.7.x Differences
 >
@@ -84,7 +84,7 @@ abstract and we let python handle some more of the details for us.
 There are two types of functions in the world _pure_ and _impure_. Below are two functions - can
 you spot the pure function from the impure function?
 
-{% highlight py3 %}
+```python
 
 def f(x):
     return x + 1
@@ -94,7 +94,7 @@ def g(x):
         return x + 1
     else:
         return x
-{% endhighlight %}
+```
 
 The function ```g``` is the impure function since it depends on the state of the system it is run on.
 Depending on if it is Tuesday or not this function may or may not do something, one of the main features
