@@ -67,13 +67,7 @@ categories: getinvolved
 <ul>
   {% for contributor in site.data.contributors %}
   {% assign person = contributor[1] %}
-    <li><b>{{person.name}}</b> <i>
-      (<a href="{{person.github-page}}">
-        {% if person.title == '' %}
-          ...Pending...</a>)</i></li>
-        {% else %}
-          {{person.title}}</a>)</i></li>
-        {% endif %}
+    <li><b>{{person.name}}</b> <i>(<a href="{{person.github-page}}">{{person.title | default: '...Pending...'}}</a>)</i></li>
   {% endfor %}
 </ul>
 <center>
