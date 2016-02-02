@@ -1,6 +1,6 @@
 # Cardiff School of Mathematics Code Club
 [![Build Status](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io.svg?branch=master)](https://travis-ci.org/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io)
-  
+
 A repository for the Cardiff School of Mathematics Code Club: an extra curricular club open to all.
 
 The website for code club is located here - http://cardiffmathematicscodeclub.github.io/
@@ -51,10 +51,9 @@ But before you do *please* run the tests locally by running the following comman
 ```
 $ rake
 ```
-
 ### Draft Posts
 
-If you are making a draft post (you can do this by editing a *.md file in the `_drafts` folder)
+If you are making a draft post (you can do this by editing a \*.md file in the `_drafts` folder)
 and want to preview it locally you can run the following.
 
 ```
@@ -73,7 +72,7 @@ page
 {% gist <username>/<gist-id> %}
 ```
 so for example if the URL for a particular gist was ```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
-in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```
+in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```  
 
 ### Writing tests
 
@@ -86,7 +85,7 @@ In fact 'Test Driven Development' is the correct way to write any code:
 3. Write feature that stops test from failing
 
 > Obey the Testing Goat! Do Nothing Until You Have a Test
- 
+
 ![](http://orm-chimera-prod.s3.amazonaws.com/1234000000754/images/twdp_0101.png)
 
 A great explanation of this process is given in [this book](http://chimera.labs.oreilly.com/books/1234000000754/ch01.html) (free to read online and where the goat image is taken from).

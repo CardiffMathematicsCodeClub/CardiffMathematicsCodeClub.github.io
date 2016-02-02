@@ -13,7 +13,7 @@ $base-font-size: 16px;
 $text-color: #ffffff;
 $link-color: #fbff00;
 $meta-color: #818181;
-$background-color: #000000;
+$background-color: #000022;
 
 $background-url: url(../res/backround_images/background.png);
 $quote-border-style: 4px solid #e8e8e8;
@@ -64,9 +64,9 @@ $mobile: 600px;
 @import
         "_layouts/base",
         "_layouts/catmenu",
+        "_layouts/media",
         "_layouts/post",
         "_layouts/postlists",
-        "_layouts/media",
 
         "_elements/base",
         "_elements/catmenu",

@@ -1,0 +1,9 @@
+- name: Code Club Classic
+  shortname: main
+  version: 1.0
+  author: Everyone
+
+- name: Not Yet Implemented
+  shortname: todo
+  version: 0.1
+  author: Alex

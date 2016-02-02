@@ -34,7 +34,7 @@
     z-index: 2;
     overflow: hidden;
     color: #FFFFFF;
-    background: #111111;
+    background: #000000;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .flexnav li ul {
     width: 100%; }
@@ -74,7 +74,7 @@
   position: relative;
   display: block;
   padding: .5em;
-  background: #111111;
+  background: #000000;
   color: #FFFFFF;
   cursor: pointer;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }

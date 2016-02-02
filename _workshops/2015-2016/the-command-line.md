@@ -3,7 +3,7 @@ layout            : post
 title             : "The Command Line"
 leader            : Alex
 comments          : false
-date              : 2016-02-28
+date              : 2016-02-04
 software-pre-reqs : "SMC account"
 ---
 
