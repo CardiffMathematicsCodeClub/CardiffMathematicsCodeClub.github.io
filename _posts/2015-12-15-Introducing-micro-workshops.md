@@ -9,11 +9,10 @@ comments   : true
 From now on every code club will (try) and host a 30 minute workshop on a
 specific topic/technique.
 
-![Micro workshops for teh win!](/res/gifs/workshop.gif)
+![Micro workshops for the win!](/res/gifs/workshop.gif)
 
 The first workshop will introduce participants to the command line, you can read
-more about that here:
-[http://cardiffmathematicscodeclub.github.io/workshops/2015-2016/the-command-line.html](/workshops/2015-2016/the-command-line.html)
+more about that [here][command-line]
 
 Upcoming workshops will cover:
 
@@ -26,9 +25,13 @@ Upcoming workshops will cover:
 - Packaging;
 - Automated testing.
 
-If you would like to request/suggest another workshop simply open an issue [on
-the github repository for this
-site](https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io/issues/new).
+If you would like to request/suggest another workshop simply open an issue
+[on the github repository for this site][new-issue].
 
-You can find the details of all upcoming and past workshops here:
-[http://cardiffmathematicscodeclub.github.io/workshops/](/workshops/).
+You can find the details of all upcoming and past workshops
+[here][workshops].
+
+
+[command-line]: http://cardiffmathematicscodeclub.github.io/workshops/2015-2016/the-command-line.html
+[workshops]: http://cardiffmathematicscodeclub.github.io/workshops/
+[new-issue]: https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io/issues/new
