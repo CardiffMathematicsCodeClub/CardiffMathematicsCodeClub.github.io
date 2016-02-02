@@ -10,7 +10,7 @@ would otherwise not learn.
 Here are the upcoming workshops:
 
 {% for ws in site.workshops %}
-- {{ws.date}}: [{{ws.title}}]({{ ws.url | prepend: site.baseurl }}) by {{ws.leader}}
+- {{ws.when}}: [{{ws.title}}]({{ ws.url | prepend: site.baseurl }}) by {{ws.leader}}
 
   {% if ws.software-pre-reqs %}_Software requirements: ({{ ws.software-pre-reqs }})_ {% endif %}
 {% endfor %}
