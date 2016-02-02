@@ -46,8 +46,8 @@ categories: getinvolved
     <li><a href="http://www.codingame.com/home/platinum-rift">Platinum Rift</a> - An online
       game.</li>
     <li><a href="http://programmingpraxis.com/">Programming Praxis</a> - A blog with new
-      exercises posted every few days
-        on a range of topics. Many of them are presented as a word problem.
+      exercises posted every few days on a range of topics. Many of them are presented as a word
+      problem.</li>
     <li><a href="http://vincent-knight.com">Vince's website</a> - A link to the Computing for
       Mathematics homepage.</li>
 </ul>
@@ -58,7 +58,7 @@ categories: getinvolved
 
 <div class="video">
     <figure>
-        <iframe width="560" height="315" align='middle' src="//www.youtube.com/embed/UdbXWZJSwnE" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" align="middle" src="//www.youtube.com/embed/UdbXWZJSwnE" frameborder="0" allowfullscreen></iframe>
     </figure>
 </div>
 
@@ -67,13 +67,7 @@ categories: getinvolved
 <ul>
   {% for contributor in site.data.contributors %}
   {% assign person = contributor[1] %}
-    <li><b>{{person.name}}</b> <i>
-      (<a href="{{person.github-page}}">
-        {% if person.title == '' %}
-          ...Pending...</a>)</i></li>
-        {% else %}
-          {{person.title}}</a>)</i></li>
-        {% endif %}
+    <li><b>{{person.name}}</b> <i>(<a href="{{person.github-page}}">{{person.title | default: '...Pending...'}}</a>)</i></li>
   {% endfor %}
 </ul>
 <center>
