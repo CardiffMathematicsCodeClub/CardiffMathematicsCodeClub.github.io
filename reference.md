@@ -30,7 +30,7 @@ However there are many more than that! Below is just a sample of them.
         {% for page in site.pages %}
             {% if page.categories contains "languages" %}
 	        {% unless page.tags contains "forfun" %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a>
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	        {% endunless %}
             {% endif %}
         {% endfor %}
@@ -53,7 +53,7 @@ a long list of these languages!
         {% for page in site.pages %}
             {% if page.categories contains "languages" %}
 	        {% if page.tags contains "forfun" %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a>
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	        {% endif %}
             {% endif %}
         {% endfor %}
@@ -68,7 +68,7 @@ There are many editors you can use below is just a sample.
     <ul>
         {% for pages in site.pages %}
             {% if pages.categories contains 'editors' %}
-                <li><a href="{{ pages.url }}">{{ pages.title }}</a>
+                <li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
