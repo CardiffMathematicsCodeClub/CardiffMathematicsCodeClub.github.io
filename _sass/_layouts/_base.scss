@@ -182,13 +182,17 @@ select {
 /* Page Content */
 
 .page-content {
-  padding: 75px 0;
+  padding-top: 75px;
+  padding-bottom: 150px;
 }
 
 /* Site footer */
 
 .site-footer {
   padding: 30px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-heading {
