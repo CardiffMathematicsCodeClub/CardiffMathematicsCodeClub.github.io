@@ -14,7 +14,7 @@ Do you think it sounds like a great idea, but are looking for an excuse to turn 
 
 _**Disclaimer:** This website was made by programmers for programmers - please forgive any spelling mistakes!_
 
-##Blog Posts
+## Blog Posts
 
 Here you can find some of the more recent blog posts - be sure to check the
 [archive](/blog/) for more!
