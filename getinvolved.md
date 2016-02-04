@@ -4,7 +4,7 @@ title: Get Involved
 categories: getinvolved
 ---
 
-##Active Projects
+## Active Projects
 
 There are many concurrent projects being worked on at code club, below is a
 list of all the active projects currently being developed. If you wish want to see
@@ -24,7 +24,7 @@ you there then by all means bring it back from the dead!)
 Or if you have an idea for a project of your own and you'd like others to help/
 work on it with you then send us a pull request and get it put up here!
 
-##Programming Challenges
+## Programming Challenges
 
 Don't feel ready yet to contribute to a full blown project? Don't worry below is a list of
 programming challenges where you can develop your skills further and if you get stuck there
@@ -52,7 +52,7 @@ Here is a video that shows the various contributors so far (as of 4th of Decembe
     </figure>
 </div>
 
-##Contributors
+## Contributors
 
 {% for contributor in site.data.contributors %}
 {% assign person = contributor[1] %}
