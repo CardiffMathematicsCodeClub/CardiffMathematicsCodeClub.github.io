@@ -1,0 +1,23 @@
+.session-year > h4 {
+    font-size: $menu-font-size * 1.2;
+    color: #ff0000;
+}
+
+.session-term > h5 {
+    font-size: $menu-font-size;
+}
+
+.session > li {
+    list-style: none;
+}
+
+.session-name,
+.session-quote {
+    font-style: italic;
+    color: #ff0000;
+}
+
+.session-week,
+.session-qots {
+    color: #00ff00;
+}

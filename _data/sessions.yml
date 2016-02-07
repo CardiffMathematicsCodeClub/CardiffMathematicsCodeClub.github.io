@@ -1,0 +1,136 @@
+- yname: "2015-2016"
+  terms:
+    autumn:
+      - name: Wales v Fiji
+        quote: "Oh I didn't realise Django was used"
+        author: seva
+
+      - name   : Editor Off
+        quote  : "Amazing physics going on"
+        author : Leonardo's laptop
+
+      - name   : The Pregnancy Test
+        quote  : "YAY Laura is pregnant with Ambrose's baby!!!"
+        author : hannah
+
+      - name   : The Best One (alex was absent)
+        quote  : "The code of conduct is up... and the website is broken"
+        author : vince
+
+      - name   : The one where Django Jazz Hands DoS'd himself
+        quote  : "How can you use 8gb's of Notepad...I don't understand"
+        author : alex
+
+      - name   : Big Vince is watching
+        quote  : "I don't want to accidently walk into China with Tor on my laptop"
+        author : geraint
+
+      - name   : The text from Anna
+        quote  : "I've known about that bug for the past 6 months"
+        author : tim
+
+      - name   : The one with the cake
+        quote  : "I've got the whole website on one page?!?"
+        author : alex
+
+      - name   : The one with the tests
+        quote  : "Hey Vince will be happy, we now have tests that break. I however am not!!"
+        author : adam
+
+      - name   : fun is TabError
+        quote  : "True, False = False, True"
+        author : vince
+
+      - name   : The one with the werewolf
+        quote  : "Cthulhu wake up"
+        author : hannah
+
+  spring:
+    - week   : 1
+      name   : Tumbleweed
+      quote  : DON'T! Don't touch the cable.
+      author : alex
+
+- yname: "2014-2015"
+  terms: 
+   autumn:
+      - name   : Real Coders
+        quote  : Only real coders code in Arch
+        author : jason
+
+      - name   : On the Fly
+        quote  : Love the fact that I'm learning Vim on the fly!
+        author : adam
+
+      - name   : The one where Vince ran away
+        quote  : It's amazing how quiet it is without Jason
+        author : tim
+
+      - name   : What Django is for
+        quote  : I know that Pinterest uses it but I can't see the connection
+        author : alex
+
+      - name   : Oh MongoDB
+        quote  : I'm 100% onboard but why are we using Mongodb again?
+        author : vince
+
+      - name   : Well 4 out of 5 work
+        quote  : For once it's Vince's fault
+        author : jason
+
+      - name   : Jekyll and Hyde
+        quote  : What if we use Jekyll for the base view and Hyde for the dynamic stuff
+        author : alex
+
+      - name   : Atom
+        quote  : When your editor is finally done, it will be sooo good
+        author : vince
+
+      - name   : Why we need Python 3...
+        quote  : ("It comes with brackets!!!")
+        author :  Linux User and Developer Magazine
+
+      - name   : Gource
+        quote  : Guys come and look how cool this is!!!
+        author : vince
+
+      - name   : Risk
+        quote  : 6! You die.
+        author : Ellie 1<sup>st</sup> Year (Master dice roller)
+
+   spring:
+      - name   : Three beeps
+        quote  : Doesn't matter Tim will fix it.
+        author : Everyone (except jason)
+
+      - name   : The session that was not a session
+        quote  : Don't worry Vince will fix it.
+        author : tim
+
+      - name   : The one where the Padawan rocked the comand line
+        quote  : Just a little joke to break the ice.
+        author : samr
+
+      - name   : Axelrod
+        quote  : Umm Alex... how easy would it be to install Arch on my home computer?
+        author : jason
+
+      - name   : Text Editor support group
+        quote  : My name is Adam, and I am addicted to editing Atom.
+        author : adam
+
+      - name   : Introducing Module Planner OS
+        quote  : I will write it in Assembly for the Rasberry Pi
+        author : alex
+
+      - name   : The time that Jason licked his desk
+        quote  : Is that a 1 or an l
+        author : tim
+
+      - name   : Fife off!!!
+        quote  : Tim does not know everything sadly, why not try this new thing called the internet.
+        author : adam
+
+      - name   : The one where Blender came in-to play
+        quote  : WHY IS THIS NOT WORKING?!?
+        author : adam

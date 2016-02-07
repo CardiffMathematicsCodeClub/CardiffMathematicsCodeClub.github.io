@@ -1,0 +1,15 @@
+<li>
+    <p>
+        <span class="session-week">Week {{forloop.index}}:</span>
+        <span class="session-name">{{session.name}}</span>
+    </p>
+
+    <p>
+        <span class="session-qots">Quote of the session:</span>
+        <span class="session-quote">{{session.quote}}</span>
+    </p>
+    
+    <p class="session-author">
+        {{person.title | default: session.author}}
+    </p>
+</li>
