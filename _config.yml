@@ -1,7 +1,7 @@
 #Site settings
 title: Cardiff Math Code Club
 url: "http://CardiffMathematicsCodeClub.github.io"
-version: 3.5.288
+version: 3.5.290
 
 markdown: kramdown
 kramdown:
