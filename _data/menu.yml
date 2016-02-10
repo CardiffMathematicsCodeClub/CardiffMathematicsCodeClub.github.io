@@ -1,42 +1,10 @@
 - text: Home
-  url: /
+  url: '/'
 - text: Archive
-  url: '/blog/'
-  subitems:
-    - text: Blog
-      url: /blog/
-    - text: Micro Workshops
-      url: /workshops/
-    - text: Past Sessions
-      url: /sessions.html
+  url: '/archive.html'
 - text: Code of conduct
-  url: /coc.html
+  url: '/coc.html'
 - text: Reference
-  url: /reference.html
-  subitems:
-    - text: Editors
-      url: /editors/index.html
-      subitems:
-        - text: Atom
-          url: /editors/Atom.html
-        - text: Notepad
-          url: /editors/Notepad.html
-        - text: Vim
-          url: /editors/vim.html
-    - text: Languages
-      url: /languages/index.html
-      subitems:
-        - text: Brainf**k
-          url: /languages/brainfk.html
-        - text: C
-          url: /languages/C.html
-        - text: C++
-          url: /languages/C++.html
-        - text: Haskell
-          url: /languages/haskell.html
-        - text: Java
-          url: /languages/java.html
-        - text: Python
-          url: /languages/python.html
+  url: '/reference.html'
 - text: Get involved
   url: '/getinvolved.html'
