@@ -3,8 +3,8 @@
   version: 1.0
   author: Everyone
 
-- name: Not Yet Implemented
-  shortname: todo
+- name: Minimalist
+  shortname: minimal
   version: 0.1
   author: Alex
 
