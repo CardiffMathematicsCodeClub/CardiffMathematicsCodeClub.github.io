@@ -1,11 +1,11 @@
 ---
 title: Projects
 layout: page
+permalink: "/projects/"
 ---
 
 <ul class="posts">
-{% for project_hash in site.data.projects %}
-  {% assign project = project_hash[1] %}
+{% for project in site.projects %}
   {% include project_link.html %}
 {% endfor %}
 </ul>

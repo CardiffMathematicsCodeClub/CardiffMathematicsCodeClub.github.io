@@ -2,7 +2,6 @@
 layout: language
 language: c++
 title: C++
-categories: inspiration languages
 ---
 
 <b><u>Overview </u></b>

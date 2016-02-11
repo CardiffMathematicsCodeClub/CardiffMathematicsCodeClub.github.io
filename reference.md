@@ -27,12 +27,10 @@ However there are many more than that! Below is just a sample of them.
 
 <div class="two-cols">
     <ul>
-        {% for page in site.pages %}
-            {% if page.categories contains "languages" %}
+        {% for page in site.languages %}
 	        {% unless page.tags contains "forfun" %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	        {% endunless %}
-            {% endif %}
         {% endfor %}
     </ul>
 </div>
@@ -50,26 +48,22 @@ a long list of these languages!
 
 <div class="two-cols">
     <ul>
-        {% for page in site.pages %}
-            {% if page.categories contains "languages" %}
+        {% for page in site.languages %}
 	        {% if page.tags contains "forfun" %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	        {% endif %}
-            {% endif %}
         {% endfor %}
     </ul>
 </div>
 
-## Editors
+## Tools
 
-There are many editors you can use below is just a sample.
+There are many tools you can use below is just a sample.
 
 <div class="two-cols">
     <ul>
-        {% for pages in site.pages %}
-            {% if pages.categories contains 'editors' %}
-                <li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
-            {% endif %}
+        {% for page in site.tools %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: language
+language: c
 title: C
-categories: inspiration languages
 ---
 
 ### Overview
