@@ -7,3 +7,8 @@
   shortname: todo
   version: 0.1
   author: Alex
+
+- name: Geraint's Theme
+  shortname: yellow
+  version: 0.1
+  author: Sam
