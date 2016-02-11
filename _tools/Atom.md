@@ -1,7 +1,6 @@
 ---
-layout: editors
+layout: tools
 title: Atom
-categories: inspiration editors
 ---
 Atom is stated as the hackable editor for the 21<sup>st</sup> century. Unlike other editors such as vim, ed,
 vi or nano; atom cannot be run in the terminal.

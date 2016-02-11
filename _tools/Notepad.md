@@ -1,7 +1,6 @@
 ---
-layout: editors
+layout: tools
 title: Notepad
-categories: inspiration editors
 ---
 
 ![So many Notepads!!](/res/gifs/8GB-of-Notepad.gif)
