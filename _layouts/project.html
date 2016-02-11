@@ -5,10 +5,8 @@ layout: default
 <div class="post">
   <div class="main">
 
-    {% assign project = site.data.projects[page.project] %}
-
     <header class="post-header">
-      <h1>{{project.name}}</h1>
+      <h1>{{page.name}}</h1>
     </header>
 
     <article class="post-content">
@@ -16,9 +14,9 @@ layout: default
       <h3>About</h3>
 
       <ul>
-	<li>Project Home: <a href="{{project.github}}">{{project.github}}</a></li>
-	{% if project.link %}
-	<li>Documentation: <a href="{{project.link}}">{{project.link}}</a></li>
+	<li>Project Home: <a href="{{page.github}}">{{page.github}}</a></li>
+	{% if page.link %}
+	<li>Documentation: <a href="{{page.link}}">{{page.link}}</a></li>
 	{% endif %}
       </ul>
 
