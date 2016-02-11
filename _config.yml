@@ -22,3 +22,5 @@ gems:
 collections:
   workshops:
     output: true
+  languages:
+    output: true
