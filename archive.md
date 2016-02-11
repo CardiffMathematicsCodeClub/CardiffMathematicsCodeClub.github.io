@@ -3,8 +3,9 @@ layout: page
 title: Archive
 ---
 
-Welcome to the archives! From here you can find the latest blog posts, upcoming
-workshops and the best quotes from the last few code club sessions.
+Welcome to the archives! From here you can find the latest [blog posts][blog],
+upcoming [workshops][workshop] and the best quotes from the last few code club
+[sessions][pastsessions].
 
 Or if you feel like digging then you can also find any session quote, blog post
 or tutorial that has ever been released on the site. So what are you waiting
@@ -24,20 +25,20 @@ Here you can find any upcoming workshops:
 </div>
 {% else %}
 
-It doesn't look like we have any workshops scheduled. If you'd like to see us run
-a workshop on a particular topic then be sure to
+It doesn't look like we have any workshops scheduled. If you'd like to see us
+run a workshop on a particular topic then be sure to
 [open an issue](https://github.com/CardiffMathematicsCodeClub/CardiffMathematicsCodeClub.github.io/issues)
 and let us know!
 
 {% endif %}
 
 Or if you'd like to see a full list and any past workshops then be sure to check
-them all out [here](/workshops/)
+them all out [here][workshop]
 
 ## Blog
 
 Here is a selection of the latest code club blog posts. But be sure to check out
-the full blog [here](/blog/):
+the full blog [here][blog]:
 
 <ul class="posts">
   {% for post in site.posts limit:3 %}
@@ -48,7 +49,7 @@ the full blog [here](/blog/):
 ## Past Sessions
 
 Want to get an idea to what we've been up to? Well here is a selection of some
-the most recent sessions. Don't miss the full list [here](/sessions.html)
+the most recent sessions. Don't miss the full list [here][pastsessions]
 though:
 
 <div class="session-list">
@@ -60,3 +61,7 @@ though:
    </div>
    {% endfor%}
 </div>
+
+[blog]: /blog/
+[workshop]: /workshops/
+[pastsessions]: /sessions.html
