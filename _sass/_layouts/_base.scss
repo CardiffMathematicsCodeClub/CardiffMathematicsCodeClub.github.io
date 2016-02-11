@@ -65,7 +65,6 @@ select {
 
 .site-header {
   width: 100%;
-  position:fixed;
   z-index: 999;
 }
 
@@ -161,15 +160,7 @@ ul#menu{
 
 /* Site footer */
 
-@media screen and (min-width: $desktop) {
-    .site-footer {
-      padding: 30px 0;
-      width: 100%;
-      position: fixed;
-      bottom: 0;
-    }
-}
-
+ 
 .footer-heading {
   font-size: 18px;
   font-weight: 300;

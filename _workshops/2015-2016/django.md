@@ -3,7 +3,7 @@ layout            : post
 title             : "Django"
 leader            : Vince
 comments          : false
-when              : 2016-02-11
+when              : 2016-02-18
 software-pre-reqs : "An installed version of Django"
 ---
 

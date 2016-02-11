@@ -1,0 +1,14 @@
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+@import
+        "_layouts/mixins",
+        "_layouts/base",
+        "_layouts/catmenu",
+        "_layouts/post",
+        "_layouts/postlists",
+        "_layouts/sessions",
+        "_layouts/media"
