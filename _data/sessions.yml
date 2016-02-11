@@ -48,11 +48,21 @@
     spring:
       - week   : 1
         name   : Tumbleweed
-        quote  : DON'T! Don't touch the cable.
+        quote  : "DON'T! Don't touch the cable."
         author : alex
 
+      - week   : 2
+        name   : The weird session
+        quote  : "?"
+        author : Unkown
+
+      - week   : 3
+        name   : Random greek letters
+        quote  : "You know what building you're in right?"
+        author : vince
+
 - yname: "2014-2015"
-  terms: 
+  terms:
    autumn:
       - name   : Real Coders
         quote  : Only real coders code in Arch
