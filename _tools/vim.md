@@ -1,7 +1,6 @@
 ---
-layout: language
+layout: tools
 title: Vim
-categories: inspiration editors
 ---
 
 ### Overview

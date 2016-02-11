@@ -10,10 +10,10 @@ $title-font-size: 42px;
 $menu-font-size: 26px;
 $base-font-size: 16px;
 
-$text-color: #ffffff;
-$link-color: #fbff00;
-$meta-color: #818181;
-$background-color: #000000;
+$text-color: #ff9900;
+$link-color: #99ff33;
+$meta-color: #ff9900;
+$background-color: #ffff1a;
 
 $background-url: url(../res/backround_images/background.png);
 $quote-border-style: 4px solid #e8e8e8;
@@ -27,11 +27,25 @@ $code-variable: #008080;
 $code-comment: #999988;
 $code-function: #990000;
 $code-type: #445588;
-$code-background: #ffffff;
+$code-background: #ff9900;
 $code-border-style: 1px solid #d5d5e9;
 
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+
+
 @import
-        "_layout",
+        "_layouts/mixins",
+        "_layouts/base",
+        "_layouts/catmenu",
+        "_layouts/post",
+        "_layouts/postlists",
+        "_layouts/sessions",
+        "_layouts/media",
 
         "_main/base",
         "_main/catmenu",
@@ -39,4 +53,3 @@ $code-border-style: 1px solid #d5d5e9;
         "_main/post",
         "_main/postlists",
         "_main/sessions"
-            
