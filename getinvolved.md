@@ -13,8 +13,7 @@ a list of all projects then you can find them
 you there then by all means bring it back from the dead!)
 
 <ul class="posts">
- {% for project_hash in site.data.projects %}
-  {% assign project = project_hash[1] %}
+ {% for project in site.projects %}
   {% if project.active %}
     {% include project_link.html %}
   {% endif %}

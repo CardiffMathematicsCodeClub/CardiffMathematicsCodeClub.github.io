@@ -24,3 +24,7 @@ collections:
     output: true
   languages:
     output: true
+  projects:
+    output: true
+  tools:
+    output: true

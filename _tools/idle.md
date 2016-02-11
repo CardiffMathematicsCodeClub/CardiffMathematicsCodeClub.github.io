@@ -1,7 +1,6 @@
 ---
-layout: editors
+layout: tools
 title: Idle
-categories: inspiration editors
 ---
 For those of you (like my self) who don't do much "heavy" code, IDLE is ideal!
 
