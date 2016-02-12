@@ -3,12 +3,15 @@
 set -e
 
 files=("./*.html"
+       "./*.md"
        "_includes/catmenu.html"
        "_includes/post_link.html"
        "_layouts/*.html"
        "_posts/*.md"
-       "editors/*.md"
-       "languages/*.md")
+       "_tools/*.md"
+       "_languages/*.md"
+       "_workshops/*/*.md"
+       "_projects/*.md")
 
 ignore=("./404.html")
 
