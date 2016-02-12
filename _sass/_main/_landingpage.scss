@@ -1,0 +1,62 @@
+header#landing {
+    color: $link-color;
+    background-color: #ffffff;
+    @include linear-gradient($text-color,$background-color);
+
+    h1 {
+        text-shadow: 2px 2px 2px #000000;
+    }
+    
+    p {
+        color: $text-color;
+    }
+
+    nav {
+
+        ul > li {
+            border: none;
+        }
+    }
+
+    .menu-item > a {
+        font-size: $menu-font-size * 0.7;
+        color: $link-color;
+
+        &:visited {
+            color: $link-color;
+
+            &:visited {
+                color: $link-color;
+            }
+        }
+
+        &:hover {
+            color: $link-color;
+            text-style: underline;
+        }
+    }
+}
+
+@include if-device($desktop) {
+    nav {
+        background: transparent;
+    }
+
+    .menu-name {
+        font-size: $menu-font-size * 0.7;
+    }
+}
+
+article#landing {
+    color: $link-color;
+    background-color: $background-color;
+    
+    .reason {
+      border-top: 1px solid $link-color;
+
+      p {
+          color: $text-color;
+      }
+    }
+}
+
