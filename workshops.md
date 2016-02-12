@@ -7,7 +7,7 @@ permalink: "/workshops/"
 Code club runs 30 minute workshops that aim to introduce topics that students
 would otherwise not learn.
 
-Here are the all of the workshopstha have been/will be done during a Code Club
+Here are the all of the workshops that have been/will be done during a Code Club
 session:
 
 {% for ws in site.workshops %}
