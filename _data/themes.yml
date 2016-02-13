@@ -17,3 +17,8 @@
   shortname: inverted
   version: 0.1
   author: Adam
+
+- name: The Matrix
+  shortname: matrix
+  version: 0.1
+  author: Adam
