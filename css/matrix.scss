@@ -1,0 +1,49 @@
+---
+
+---
+@charset "utf-8";
+
+
+// Variables
+$font: Helvetica, Arial, sans-serif;
+$title-font-size: 42px;
+$menu-font-size: 26px;
+$base-font-size: 16px;
+
+$text-color: #34b605;
+$link-color: #141a94;
+$meta-color: #818181;
+$background-color: #000000;
+
+$background-url: url(../res/gifs/matrix.gif);
+$past-background-url: url(../res/gifs/matrix.gif);
+$quote-border-style: 4px solid #e8e8e8;
+$menu-border-style: 1px solid $link-color;
+
+// Syntax Highlighting
+$code-color: #299a00;
+$code-string: #ff0095;
+$code-numeral: #1cbc9c;
+$code-variable: #fff700;
+$code-comment: #707670;
+$code-function: #cf3b04;
+$code-type: #445588;
+$code-background: #500202;
+$code-border-style: 1px solid #ffffff;
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+
+
+@import
+        "_layout",
+
+        "_main/base",
+        "_main/catmenu",
+        "_main/codesnippets",
+        "_main/post",
+        "_main/postlists",
+        "_main/sessions"
