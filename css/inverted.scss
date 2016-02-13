@@ -10,27 +10,26 @@ $title-font-size: 42px;
 $menu-font-size: 26px;
 $base-font-size: 16px;
 
-$text-color: #ff9900;
-$link-color: #99ff33;
-$meta-color: #ff9900;
-$background-color: #ffff1a;
+$text-color: #000000;
+$link-color: #0400FF;
+$meta-color: #7E7E7E;
+$background-color: #ffffff;
 
-$background-url: url(../res/backround_images/background.png);
+$background-url: url(../res/backround_images/background-negative.png);
 $past-background-url: url(../res/backround_images/background.png);
-$quote-border-style: 4px solid #e8e8e8;
+$quote-border-style: 4px solid #171717;
 $menu-border-style: 1px solid $link-color;
 
 // Syntax Highlighting
-$code-color: #000000;
-$code-string: #dd1144;
-$code-numeral: #009999;
-$code-variable: #008080;
-$code-comment: #999988;
-$code-function: #990000;
-$code-type: #445588;
-$code-background: #ff9900;
-$code-border-style: 1px solid #d5d5e9;
-
+$code-color: #ffffff;
+$code-string: #22EEBB;
+$code-numeral: #FF6666;
+$code-variable: #FF7F7F;
+$code-comment: #666677;
+$code-function: #66FFFF;
+$code-type: #BBAA77;
+$code-background: #000000;
+$code-border-style: 1px solid #2A2A16;
 $content-width: 800px;
 
 $desktop: $content-width;
@@ -41,7 +40,7 @@ $mobile: 600px;
 
 @import
         "_layout",
-        
+
         "_main/base",
         "_main/catmenu",
         "_main/codesnippets",
