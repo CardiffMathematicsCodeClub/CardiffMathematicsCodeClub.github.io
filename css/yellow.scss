@@ -40,14 +40,8 @@ $mobile: 600px;
 
 
 @import
-        "_layouts/mixins",
-        "_layouts/base",
-        "_layouts/catmenu",
-        "_layouts/post",
-        "_layouts/postlists",
-        "_layouts/sessions",
-        "_layouts/media",
-
+        "_layout",
+        
         "_main/base",
         "_main/catmenu",
         "_main/codesnippets",
