@@ -1,0 +1,55 @@
+---
+
+---
+@charset "utf-8";
+
+
+// Variables
+$font: Helvetica, Arial, sans-serif;
+$title-font-size: 42px;
+$menu-font-size: 26px;
+$base-font-size: 16px;
+
+$text-color: #000000;
+$link-color: #0400FF;
+$meta-color: #7E7E7E;
+$background-color: #ffffff;
+
+$background-url: url(../res/backround_images/background-negative.png);
+$past-background-url: url(../res/backround_images/background.png);
+$quote-border-style: 4px solid #171717;
+$menu-border-style: 1px solid $link-color;
+
+// Syntax Highlighting
+$code-color: #ffffff;
+$code-string: #22EEBB;
+$code-numeral: #FF6666;
+$code-variable: #FF7F7F;
+$code-comment: #666677;
+$code-function: #66FFFF;
+$code-type: #BBAA77;
+$code-background: #000000;
+$code-border-style: 1px solid #2A2A16;
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+
+
+@import
+        "_layouts/mixins",
+        "_layouts/base",
+        "_layouts/catmenu",
+        "_layouts/post",
+        "_layouts/postlists",
+        "_layouts/sessions",
+        "_layouts/media",
+
+        "_main/base",
+        "_main/catmenu",
+        "_main/codesnippets",
+        "_main/post",
+        "_main/postlists",
+        "_main/sessions"

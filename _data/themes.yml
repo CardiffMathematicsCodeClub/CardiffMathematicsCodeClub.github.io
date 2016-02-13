@@ -12,3 +12,8 @@
   shortname: yellow
   version: 0.1
   author: Sam
+
+- name: Inverted Colours
+  shortname: inverted
+  version: 0.1
+  author: Adam
