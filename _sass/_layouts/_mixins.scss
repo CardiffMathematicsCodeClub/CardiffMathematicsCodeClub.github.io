@@ -28,3 +28,9 @@
        -moz-transition: $transition;
             transition: $transition;
 }
+
+@mixin linear-gradient($grad...) {
+    background:  -webkit-linear-gradient($grad);
+    background:  -moz-linear-gradient($grad);
+    background:   linear-gradient($grad);
+}

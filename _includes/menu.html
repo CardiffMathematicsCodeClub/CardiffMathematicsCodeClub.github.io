@@ -1,0 +1,11 @@
+
+    <nav>
+        <ul id="menu">
+            <li class="menu-name">Menu</li>
+        {% for i in site.data.menu %}
+            <li class="menu-item">
+                <a href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </nav>
