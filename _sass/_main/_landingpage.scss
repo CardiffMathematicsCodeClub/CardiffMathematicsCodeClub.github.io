@@ -1,10 +1,10 @@
-header#landing {
+header.landing {
     color: $link-color;
     background-color: #ffffff;
     @include linear-gradient($text-color,$background-color);
 
     h1 {
-        text-shadow: 2px 2px 2px #000000;
+        text-shadow: 2px 2px 2px .000000;
     }
     
     p {
@@ -47,7 +47,7 @@ header#landing {
     }
 }
 
-article#landing {
+article.landing {
     color: $link-color;
     background-color: $background-color;
     

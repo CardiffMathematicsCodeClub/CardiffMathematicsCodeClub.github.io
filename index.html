@@ -1,10 +1,10 @@
 ---
 layout: landingpage
 --- 
-<header id="landing">
+<header class="landing">
     <div class="wrap">
         <h1>Cardiff School of Mathematics</h1>
-        <img src="/res/CodeClubLogo.png" alt-text="Code Club Logo"/>
+        <img src="/res/CodeClubLogo.png" alt="Code Club Logo"/>
 
         <p>We meet in M/0.33 School of Maths</p>
         <p>Every Thursday 17:00 - 19:00</p>
@@ -16,13 +16,13 @@ layout: landingpage
     
 </header>
 
-<article id="landing">
+<article class="landing">
     <div class="reason">
         <div class="wrap">
             <h2>Code Club is fun</h2>
 
             <div class="image">
-                <img src="/res/gifs/8GB-of-Notepad.gif" alt-text="Notepad gif"/>
+                <img src="/res/gifs/8GB-of-Notepad.gif" alt="Notepad gif"/>
             </div>
 
             <p>
@@ -41,7 +41,7 @@ layout: landingpage
             <p>
                 See for yourself check out some of our session highlights
                 <a href="/sessions.html">here</a> or check out
-                <a href="{{post_url 2015-How-I-made-a-DOS-at-school}}">this post</a>
+                <a href="{% post_url 2015-10-29-How-I-made-a-DOS-at-school %}">this post</a>
                 for examples on what can happen during a normal session!
             </p>
         </div>
@@ -52,7 +52,7 @@ layout: landingpage
             <h2 class="right-text">Code Club is informative</h2>
 
             <div class="left-image">
-                <img src="/res/workshops.jpg">
+                <img src="/res/workshops.jpg" alt="workshops"/>
             </div>
 
             <p>
@@ -61,17 +61,17 @@ layout: landingpage
             </p><br/>
 
             <p>
-                We run semi regular <a href="/workshops.html">workshops</a> which
+                We run semi regular <a href="/workshops/index.html">workshops</a> which
                 are a great 30 minute introduction into all sorts of topics, from
                 the basics of the command line to building web applications with
                 Django!
             </p><br/>
 
             <p>
-                We also have a <a href="/blog.html">blog</a> where you can
+                We also have a <a href="/blog/index.html">blog</a> where you can
                 find articles written by our members, anything from general
                 code club news to
-                <a href="{{ post_url 2015-01-16-making-an-app-in-python-using-kivy-1.md }}">
+                <a href="{% post_url 2015-01-16-making-an-app-in-python-using-kivy-1 %}">
                 building mobile apps with python and kivy.</a>
             </p><br/>
 
@@ -93,7 +93,7 @@ layout: landingpage
             <h2>Code Club is what you make it!</h2>
 
             <div class="image">
-                <img src="/res/shipit-code-club.png"/>
+                <img src="/res/shipit-code-club.png" alt="shipit"/>
             </div>
 
             <p>
@@ -116,5 +116,6 @@ layout: landingpage
 
     </div>
 </article>
+
 
 

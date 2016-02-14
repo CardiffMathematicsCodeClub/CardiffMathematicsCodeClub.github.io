@@ -1,4 +1,4 @@
-header#landing {
+header.landing {
 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -16,7 +16,7 @@ header#landing {
 
 }
 
-article#landing {
+article.landing {
 
     .reason {
         padding: 25px;
@@ -43,7 +43,7 @@ article#landing {
 }
 
 @include if-device($desktop) {
-    article#landing {
+    article.landing {
 
         .image,
         .left-image {
