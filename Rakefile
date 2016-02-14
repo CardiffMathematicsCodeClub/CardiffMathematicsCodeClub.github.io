@@ -16,20 +16,6 @@ end
 
 desc 'Start working on a new post in _drafts'
 task :newpost, [:name] do |t, args|
-  front_matter = %q(
----
-layout: post
-title: YOUR TITLE HERE
-categories: CATEGORY
-tags: TAGS
-author: YOUR NAME
----
-
-Your awesome blog post goes here.
-See the "How to write a blog post" tutorial for more information on
-what can go here
-
-)
 
   # If _drafts doesn't exist, make it
   FileUtils.mkdir("_drafts") unless File.exists?("_drafts")
@@ -39,7 +25,9 @@ what can go here
     raise "_drafts/#{args.name} already exists"
   end
 
-  File.write("_drafts/#{args.name}.md", front_matter)
+  # Copy the template over
+  FileUtils.cp("templates/blogpost.md","_drafts/#{args.name}.md")
+
   puts "Draft post: _drafts/#{args.name}.md created"
 end
 
@@ -51,24 +39,54 @@ task :publishpost, [:name] do |t, args|
     raise "_drafts/#{args.name}.md doesn't exist"
   end
 
-  # Load the draft file
-
-  # First we need to get the YAML front matter for the post
-  # and enable comments.
-  #frontm = YAML.parse_file("_drafts/#{args.name}.md")
-  #frontm["comments"] = true
-
   # Next we need to get the current date
   time = Time.new
   date = time.strftime("%Y-%m-%d")
 
+  # Move the blog post to be published and add the date to the filename
   FileUtils.mv("_drafts/#{args.name}.md", "_posts/#{date}-#{args.name}.md")
 
-  puts "Published post _drafts/#{args.name}.md as _posts/#{date}/#{args.name}.md"
+  puts "Published post _drafts/#{args.name}.md as _posts/#{date}-#{args.name}.md"
 
 end
 
-desc 'Run the jekyll server'
+desc 'Create a new theme for the website'
+task :newtheme, [:name, :author] do  |_, args|
+
+  name = args.name.split.map(&:capitalize).join(' ')
+  shortname = name.delete(' ').downcase
+
+  # Make sure nobody else has made a theme by this name
+  if File.exists?("css/#{shortname}.scss")
+    raise "Sorry a theme called #{name} already exists"
+  end
+
+  puts "css/#{shortname}.css"
+
+  # Otherwise create a new theme by that name
+  FileUtils.cp("templates/theme.scss", "css/#{shortname}.scss")
+
+  # Create a folder for them to used
+  FileUtils.mkdir "_sass/_themes/_#{shortname}"
+
+  # Copy over the example theme part file
+  FileUtils.cp("templates/themepart.scss", "_sass/_themes/_#{shortname}/example.scss")
+
+  # Finally install the theme on the website
+  themes_f = File.open("_data/themes.yml", 'a')
+
+  # Write the data we need
+  themes_f.puts "\n- name: #{name}\n  shortname: #{shortname}\n  version: 0.1\n  author: #{args.author}\n"
+
+  # Close the file
+  themes_f.close
+
+  # Give feedback
+  puts "Theme template for #{name} created"
+
+end
+
+desc 'Build and preview the site as it would be seen on github'
 task :preview do
     sh "bundle exec jekyll serve"
 end

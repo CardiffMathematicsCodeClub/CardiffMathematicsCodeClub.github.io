@@ -1,0 +1,30 @@
+---
+// Lines starting with two slahes (//) like this one are ignored by everything, you can
+// write whatever you like here
+
+// Just ignore these dashes, they are needed for Jekyyl to notice your theme and generate it
+---
+
+// This tells the browser that we use UTF-8 encoding
+@charset utf-8;
+
+// Here you can define any variables you want to use in your theme, for example
+// $background-color: #000000;
+
+
+// Uncomment this line if you want to use the default theme used by the site
+// @import "_layout"
+
+// Any extra files you want to use in your theme have to go in the _sass/_themes/_THEMENAME/ folder
+// that should have been made for you if you used the rake newtheme command.
+
+// Import any of your theme files using the following
+
+// @import "_themes/_THEMENAME/_FILE",
+//         "_themes/_THEMENAME/_ANOTHERFILE"
+
+// Notice how you can combine multiple imports into one? just make sure they are all separated by a comma
+// and the last one is followed by nothing.
+
+// Be sure to check out the tutorials on the website for more help! happy themeing :)
+          

@@ -3,6 +3,9 @@ title: Cardiff Math Code Club
 url: "http://CardiffMathematicsCodeClub.github.io"
 version: 4.0.25
 
+exclude:
+    - templates
+
 markdown: kramdown
 kramdown:
   input: GFM
