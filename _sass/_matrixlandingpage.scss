@@ -1,0 +1,72 @@
+header.landing {
+    color: $link-color;
+    background-image: $background-url;
+
+    h1 {
+        text-shadow: 2px 2px 2px .000000;
+        background-color: $background-color;
+    }
+
+    p {
+        color: $text-color;
+        background-color: $background-color;
+    }
+
+    nav {
+
+        ul > li {
+            border: none;
+            background-color: $background-color;
+        }
+    }
+
+    .menu-item > a {
+        font-size: $menu-font-size * 0.7;
+        color: $link-color;
+        background-color: $background-color;
+
+        &:visited {
+            color: $link-color;
+
+            &:visited {
+                color: $link-color;
+            }
+        }
+
+        &:hover {
+            color: $link-color;
+            text-style: underline;
+        }
+    }
+}
+
+@include if-device($desktop) {
+    nav.landing {
+            background-color: $background-color;
+
+
+            .menu-name {
+                font-size: $menu-font-size * 0.7;
+                background-color: $background-color;
+            }
+    }
+
+}
+
+
+article.landing {
+    background-image: $background-url;
+      h2 {
+          color: $link-color;
+          background-color: $background-color;
+      }
+
+    .reason {
+      border-top: 1px solid $link-color;
+
+      p {
+          color: $text-color;
+          background-color: $background-color;
+      }
+    }
+}
