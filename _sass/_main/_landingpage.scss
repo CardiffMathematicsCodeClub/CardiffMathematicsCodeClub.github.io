@@ -38,14 +38,16 @@ header.landing {
 }
 
 @include if-device($desktop) {
-    nav {
-        background: transparent;
+    nav.landing {
+            background: transparent;
+
+            .menu-name {
+                font-size: $menu-font-size * 0.7;
+            }
     }
 
-    .menu-name {
-        font-size: $menu-font-size * 0.7;
-    }
 }
+
 
 article.landing {
     color: $link-color;
