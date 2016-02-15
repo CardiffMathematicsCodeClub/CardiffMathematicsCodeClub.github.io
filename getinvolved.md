@@ -37,9 +37,9 @@ will be plenty of people at code club willing to help you get unstuck!
   fellow users of the subreddit.
 - [Platinum Rift](http://www.codingame.com/home/platinum-rift) - An online game.
 - [Programming Praxis](http://programmingpraxis.com/) - A blog with new
-  exercises posted every few days on a range of topics. 
+  exercises posted every few days on a range of topics.
   Many of them are presented as a word problem.
-- [Vince's website](http://vknight.org/) - A link to the Computing for 
+- [Vince's website](http://vknight.org/) - A link to the Computing for
   Mathematics homepage.
 
 
@@ -58,5 +58,5 @@ Here is a video that shows the various contributors so far (as of 4th of Decembe
   - **{{person.name}}** *([{{person.title | default: '...Pending...'}}]({{person.github-page}}))*
 {% endfor %}
 
-* <center>Disclamer: This is NOT done in any particular order.
-It's definitly NOT in ALPHABETICAL order. </center> *
+<center>* Disclamer: This is NOT done in any particular order.
+It's definitly NOT in ALPHABETICAL order.  *</center>
