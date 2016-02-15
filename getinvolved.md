@@ -58,5 +58,5 @@ Here is a video that shows the various contributors so far (as of 4th of Decembe
   - **{{person.name}}** *([{{person.title | default: '...Pending...'}}]({{person.github-page}}))*
 {% endfor %}
 
-<center>* Disclamer: This is NOT done in any particular order.
-It's definitly NOT in ALPHABETICAL order.  *</center>
+<i><center>Disclamer: This is NOT done in any particular order.
+It's definitly NOT in ALPHABETICAL order.</center></i>
