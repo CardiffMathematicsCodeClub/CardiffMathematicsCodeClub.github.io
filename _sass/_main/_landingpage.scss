@@ -6,7 +6,7 @@ header.landing {
     h1 {
         text-shadow: 2px 2px 2px .000000;
     }
-    
+
     p {
         color: $text-color;
     }
@@ -52,7 +52,7 @@ header.landing {
 article.landing {
     color: $link-color;
     background-color: $background-color;
-    
+
     .reason {
       border-top: 1px solid $link-color;
 
@@ -62,3 +62,6 @@ article.landing {
     }
 }
 
+footer.landing {
+  background-color: $background-color;
+}
