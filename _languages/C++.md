@@ -51,121 +51,117 @@ function) should be saved as "main.cpp".
 
 Hello World:
 
-{% highlight cpp %}
+```cpp
+#include <iostream>
 
-	#include <iostream>
+  using namespace std;
 
-    using namespace std;
+  int main()
+  {
+      cout << "Hello World!" << endl;
 
-    int main()
-    {
-        cout << "Hello World!" << endl;
-
-        return 0;
-    }
-
-{% endhighlight cpp %}
+      return 0;
+  }
+```
 
 Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
 
-{% highlight cpp %}
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <complex>
+#include <time.h>
 
-    #include <iostream>
-    #include <fstream>
-    #include <string>
-    #include <complex>
-    #include <time.h>
+  using namespace std;
 
-    using namespace std;
+  // Define Mandelbrot class
+  class Mandelbrot
+  {
+      protected:
+          // Define some variables
+          complex<double> c;
+          unsigned int numberofitterations;
+      public:
+          Mandelbrot(complex<double> C, int Numberofitterations) :
+          c(C), numberofitterations(Numberofitterations)
 
-    // Define Mandelbrot class
-    class Mandelbrot
-    {
-        protected:
-            // Define some variables
-            complex<double> c;
-            unsigned int numberofitterations;
-        public:
-            Mandelbrot(complex<double> C, int Numberofitterations) :
-            c(C), numberofitterations(Numberofitterations)
+          { /*Constructor*/}
 
-            { /*Constructor*/}
+          int escapedAt;
+          int escapeVal()
+          {
+              return escapedAt;
+          }
+          bool check()
+          {
+              complex<double> ztmp;
+              // Start loop, to check if point is mandelbrot
+              for( int i = 0; i <= numberofitterations; i++)
+              {
+                  ztmp = ( ztmp * ztmp) + c;
+                  if( abs(ztmp) > 2 )
+                  {
+                      escapedAt = i;
+                      return false;
+                  }
+              }
+              return true;
+          }
+  };
 
-            int escapedAt;
-            int escapeVal()
-            {
-                return escapedAt;
-            }
-            bool check()
-            {
-                complex<double> ztmp;
-                // Start loop, to check if point is mandelbrot
-                for( int i = 0; i <= numberofitterations; i++)
-                {
-                    ztmp = ( ztmp * ztmp) + c;
-                    if( abs(ztmp) > 2 )
-                    {
-                        escapedAt = i;
-                        return false;
-                    }
-                }
-                return true;
-            }
-    };
+  int main()
+  {
+      double stepSize;
+      int numberOfItterations;
 
-    int main()
-    {
-        double stepSize;
-        int numberOfItterations;
+      cout << "Please chose step size (0.001 is enough for 4k!): "; cin >> stepSize;  // Input of step size
+      cout << "Please enter number of itterations (80 is plenty for first image!): "; cin >> numberOfItterations;  // Input number of itterations
 
-        cout << "Please chose step size (0.001 is enough for 4k!): "; cin >> stepSize;  // Input of step size
-        cout << "Please enter number of itterations (80 is plenty for first image!): "; cin >> numberOfItterations;  // Input number of itterations
+      clock_t tStart = clock();  // Start timer
 
-        clock_t tStart = clock();  // Start timer
+      cout << "Calculating. And writing to file." << endl;
 
-        cout << "Calculating. And writing to file." << endl;
+      ofstream myFile("output.csv");  // Attempt to edit "output.csv" file
+      if(myFile.is_open())
+      {
+          // Y
+          for(double i= -2; i <= 2; i += stepSize)
+          {
+              // X
+              for(double j = -2; j <= 2; j += stepSize)
+              {
+                  complex<double> a (j, i);
 
-        ofstream myFile("output.csv");  // Attempt to edit "output.csv" file
-        if(myFile.is_open())
-        {
-            // Y
-            for(double i= -2; i <= 2; i += stepSize)
-            {
-                // X
-                for(double j = -2; j <= 2; j += stepSize)
-                {
-                    complex<double> a (j, i);
+                  Mandelbrot m(a, numberOfItterations);  // Create a new instance of mandelbrot class
+                  if(m.check())  // If point is mandelbrot
+                  {
+                      if((j != 2) && ( j + stepSize <= 2))  // If not first entry in the row
+                      {
+                          myFile << numberOfItterations << ",";  // Put number of iterations as an escape value
+                      }
+                      else myFile << numberOfItterations;  // If first entry in the row
+                  }
+                  else  // Else if point isn't mandelbrot
+                  {
+                      if((j != 2) && ( j + stepSize <= 2))
+                          myFile << m.escapeVal() << ",";  // If not first entry in row, then place escape value
+                      else myFile << m.escapeVal();
+                  }
 
-                    Mandelbrot m(a, numberOfItterations);  // Create a new instance of mandelbrot class
-                    if(m.check())  // If point is mandelbrot
-                    {
-                        if((j != 2) && ( j + stepSize <= 2))  // If not first entry in the row
-                        {
-                            myFile << numberOfItterations << ",";  // Put number of iterations as an escape value
-                        }
-                        else myFile << numberOfItterations;  // If first entry in the row
-                    }
-                    else  // Else if point isn't mandelbrot
-                    {
-                        if((j != 2) && ( j + stepSize <= 2))
-                            myFile << m.escapeVal() << ",";  // If not first entry in row, then place escape value
-                        else myFile << m.escapeVal();
-                    }
+              }
+              if((i != 2) && ( i + stepSize <= 2))
+                  myFile << endl;  // Start the next line if not first entry in row
+          }
+      } else cout << "Can't open .csv file";  // If cannot open "output.csv" file
 
-                }
-                if((i != 2) && ( i + stepSize <= 2))
-                    myFile << endl;  // Start the next line if not first entry in row
-            }
-        } else cout << "Can't open .csv file";  // If cannot open "output.csv" file
+      printf("Time taken: %.2fs\n", ((double)clock() - tStart) / CLOCKS_PER_SEC);  // Display time taken to calculate the points
 
-        printf("Time taken: %.2fs\n", ((double)clock() - tStart) / CLOCKS_PER_SEC);  // Display time taken to calculate the points
+      cin.ignore();  // Wait for Enter key to be pressed
 
-        cin.ignore();  // Wait for Enter key to be pressed
-
-        return 0;
-    }
-
-{% endhighlight cpp %}
+      return 0;
+  }
+```
 
 
 <b><u>Basic syntax</u></b>
@@ -173,42 +169,40 @@ Calculate [Mandelbrot points][mandelbrot_points], and export them to .csv file.
 There are many good [tutorials][cpp_tutorial] out there. I will just try to
 outline the fundamental syntax used in C++.
 
-{% highlight cpp %}
+```cpp
+#include <iostream>
+#include <string>
 
-    #include <iostream>
-    #include <string>
+  using namespace std;
 
-    using namespace std;
+  int main()
+  {
+      // This is a single line comment
 
-    int main()
-    {
-        // This is a single line comment
+      /*
+      This is
 
-        /*
-        This is
+      a
 
-        a
+      multiline comment
 
-        multiline comment
-
-        */
+      */
 
 
-        // Declaring variables
-        int age = 19;
-        float favouriteNumber = 2.718;
-        string name = "Seva";
+      // Declaring variables
+      int age = 19;
+      float favouriteNumber = 2.718;
+      string name = "Seva";
 
-        cout << "Hello! My name is " << name <<
-             " , I am " << age << " years old." <<
-             " My favourite number is " << favouriteNumber << endl;  // All one output instruction
+      cout << "Hello! My name is " << name <<
+           " , I am " << age << " years old." <<
+           " My favourite number is " << favouriteNumber << endl;  // All one output instruction
 
-        cin.ignore();  // Wait for Enter key to be pressed
+      cin.ignore();  // Wait for Enter key to be pressed
 
-        return 0;
-    }
-
-{% endhighlight cpp %}
+      return 0;
+  }
+```
 
 The output of the code above will be:
 

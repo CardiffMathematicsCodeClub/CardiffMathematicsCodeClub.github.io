@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "Just in time for the new Term: PyDiff!"
-categories : news
+categories : pydiff
 tags       : blog
 author     : Vince
 comments   : true
