@@ -22,7 +22,6 @@ sass:
     style: compressed
 
 gems:
-    - jekyll-gist
     - jekyll-paginate
 
 collections:
