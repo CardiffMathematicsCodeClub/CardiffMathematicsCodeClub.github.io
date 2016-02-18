@@ -23,6 +23,7 @@ sass:
 
 gems:
     - jekyll-paginate
+    - jemoji
 
 collections:
   workshops:
