@@ -72,7 +72,7 @@ select {
     .site-header {
         position: relative;
         z-index: auto;
-    } 
+    }
 }
 
 .site-title {
@@ -89,7 +89,7 @@ select {
 ul#menu{
 
     @include column-count(5);
-    
+
   li {
    padding-top: 5px;
    padding-bottom: 5px;
@@ -148,7 +148,7 @@ ul#menu{
 
 .page-content {
   padding-top: 75px;
-  padding-bottom: 150px; 
+  padding-bottom: 150px;
 }
 
 @media screen and (max-width: $desktop) {
@@ -156,11 +156,15 @@ ul#menu{
         padding-top: 50px;
         padding-bottom: 150px;
     }
-} 
+}
+
+.disclaimer {
+  text-align: center;
+}
 
 /* Site footer */
 
- 
+
 .footer-heading {
   font-size: 18px;
   font-weight: 300;
