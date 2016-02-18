@@ -4,6 +4,7 @@ title: Introduction to HTML - Part 1
 categories: tutorial
 tags: html web getstarted
 author: Alex
+comments: true
 ---
 
 If you haven't already read the
