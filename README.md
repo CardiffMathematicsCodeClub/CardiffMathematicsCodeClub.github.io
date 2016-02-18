@@ -117,7 +117,7 @@ for n in range(1, 10001):  # A loop to test a bunch of values
 \```
 ```
 
-And in a blog it would look like:
+And in a page it would look like:
 
 ```python
 def mysqrt(K, epsilon=.001):
