@@ -1,3 +1,38 @@
+/**
+    This style is used to set the colours for any code snippets on the website
+    to use it you simply have to define a few variables in your theme's main .scss
+    file in the css folder and import this file.
+
+    It defines the following variables:
+
+        - code-border-style: This sets how the border is drawn around the box
+                             which contains code snippets.
+
+        - code-background:   This affects the background colour of the box which
+                             contains code snippets
+
+        - code-comment:      This sets the colour of any comments included in the
+                             code snippet e.g. # A comment in python
+
+        - code-string:       This sets the colour of any string literals in the code
+                             snippet e.g. "Hello World!"
+
+        - code-numeral:      This sets the colour of any numbers in the code e.g. 10, 0x8a, etc
+
+        - code-variable:     This sets the colour of any variables recognised by the rouge
+                             syntax highlighter
+
+        - code-function:     This sets the colour of any function recognosed by the rouge
+                             syntax highlighter e.g. print, sum etc.
+
+        - code-type:         The sets the colour of any types in the code recognised by the
+                             syntax highlighter. e.g. string, bool, int etc.
+
+        - code-color:        This sets the colour of any text not affected by any of
+                             the other syntax rules above.
+*/
+
+
 /* Code Tag */
 code {
     background: $code-background;
