@@ -4,7 +4,7 @@
         </h4>
         <span class="post-date">
 	          <p> Written by {{post.author}}.
-                Published {{ post.date | date: "%b %-d, %Y" }}{% if post.categories %}, in <a href="/blog/{{post.categories[0]}}">{{post.categories[0] | capitalize}}</a>{% endif %}</p>
+                Published {{ post.date | date: "%b %-d, %Y" }}{% if post.categories.size > 0 %}, in <a href="/blog/{{post.categories[0]}}.html">{{post.categories[0] | capitalize}}</a>{% endif %}</p>
 	</span>
         {{ post.excerpt }}
       </li>
