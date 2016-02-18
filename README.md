@@ -87,17 +87,50 @@ The draft blog post will appear as the latest post.
 
 ### Code snippets
 
-To embed code snippets into a page it's best to create a
-[Gist](https://gist.github.com) containing the code, and since we are using
-Jekyll you can simply add the following to the markdown for that particular
-page
+If you wanted to highlight several lines of code and also have syntax
+highlighting then you have triple back-ticks.
+
+We do it like this (ignore the \ at the beginning of the triple back-ticks):
 
 ```
-{% gist <username>/<gist-id> %}
+\```NAME-OF-LANGUAGE
+Put the code here.
+\```
 ```
-so for example if the URL for a particular gist was
-```https://gist.github.com/johnsmith/57fd5d7s8fd6``` then
-in your webpage you would put ```{% gist johnsmith/57fd5d7s8fd6 %} ```  
+
+For example, if I wanted to input the code from Q1 of the 2015/16 Computing for
+Mathematics class test, I would type (again ignoring the \ before the triple
+back-ticks):
+
+```
+\```python
+def mysqrt(K, epsilon=.001):
+    X = K / 4.0
+    while abs(X ** 2 - K) > epsilon:
+        X = (X + K / X) / 2
+    return X
+
+for n in range(1, 10001):  # A loop to test a bunch of values
+    approx = mysqrt(n)
+    true = n ** .5
+    print approx, true, approx - true  # Printing the 3 results
+\```
+```
+
+And in a page it would look like:
+
+```python
+def mysqrt(K, epsilon=.001):
+    X = K / 4.0
+    while abs(X ** 2 - K) > epsilon:
+        X = (X + K / X) / 2
+    return X
+
+for n in range(1, 10001):  # A loop to test a bunch of values
+    approx = mysqrt(n)
+    true = n ** .5
+    print approx, true, approx - true  # Printing the 3 results
+```
 
 ### Writing tests
 
