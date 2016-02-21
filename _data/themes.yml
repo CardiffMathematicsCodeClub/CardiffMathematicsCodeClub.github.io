@@ -22,3 +22,8 @@
   shortname: matrix
   version: 0.3
   author: Adam
+
+- name: Cardiff Red
+  shortname: cardiffred
+  version: 0.1
+  author: Alex

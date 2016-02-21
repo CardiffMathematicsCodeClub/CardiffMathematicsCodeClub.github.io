@@ -1,0 +1,25 @@
+header.landing {
+
+    .wrap {
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    .menu-item,
+    .menu-name {
+        list-style: none;
+    }
+}
+
+article.landing {
+    .wrap {
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    .reason {
+        h2 {
+            padding-bottom: 5px;
+        }
+    }
+}

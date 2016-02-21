@@ -1,0 +1,58 @@
+---
+---
+
+@charset "utf-8";
+
+// Some common colours
+$black: #000000;
+$white: #ffffff;
+$bluish: #00e5ee;
+$cardiff-red: #cc0000;
+$cardiff-complement: #111;
+
+// Text
+$fonts: Arial, Helvetica, sans-serif;
+$title-font-size: 36px;
+$text-color: $white;
+$text-shadow-style: 1px 1px $black;
+
+// Backgrounds
+$bg-d: #111;
+$bg-l: lighten($bg-d, 1%);
+$background-style: 45deg, $bg-d 25%, $bg-l 25%, $bg-l 50%, $bg-d 50%, $bg-d 75%, $bg-l 75%;
+$middle-bg: #222;
+
+// Other fancy stuff
+$corner-radius: 10px;
+$shadow-style: 5px 5px 3px $black;
+$menu-border-style: 1px solid $cardiff-red;
+
+// Define the colors for syntax highlighting
+$code-background: $black;
+$code-comment: lighten($black, 20%);
+$code-string: $cardiff-red;
+$code-numeral: lighten($cardiff-red, 10%);
+$code-variable: $bluish;
+$code-function: darken($bluish, 10%);
+$code-type: darken($bluish, 20%);
+$code-color: $white;
+
+$code-border-style: solid 1px $white ;
+
+@mixin box-style($bg-color) {
+        padding: 20px;
+        background-color: $bg-color;
+        @include box-shadow($shadow-style);
+}
+
+@import "_layout",
+
+        "_styles/codesnippets",
+
+        "_themes/_cardiffred/_base",
+        "_themes/_cardiffred/_landing",
+        "_themes/_cardiffred/_catmenu",
+        "_themes/_cardiffred/_posts.scss"
+
+
+          

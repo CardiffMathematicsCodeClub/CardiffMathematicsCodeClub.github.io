@@ -78,7 +78,7 @@ code {
 .highlight .ne { color: $code-function; font-weight: bold } /* Name.Exception */
 .highlight .nf { color: $code-function; font-weight: bold } /* Name.Function */
 .highlight .nn { color: $code-type; } /* Name.Namespace */
-.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nt { color: $code-type } /* Name.Tag */
 .highlight .nv { color: $code-variable; } /* Name.Variable */
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
