@@ -2,35 +2,50 @@
 <html>
 
   {% include common_head.html %}
-
-    <body>
+<body id="blog">
 
     {% include header.html %}
     {% include catmenu.html %}
 
-
     <div class="page-content">
-      <div class="wrap">
-	<div class="post">
-	    <div class="main">
+     <div class="wrap">
+      <div class="post">
+       <div class="main">
 
-	    <header class="post-header">
-		<h1>{{ page.title }}</h1>
-	    </header>
+           <header class="post-header">
+               {% if page.title %}
+		             <h1>{{ page.title }}</h1>
+               {% endif %}
 
-	    <article class="post-content">
-	    {{ content }}
-	    </article>
-	    </div>
+               {% if page.category %}
+                 <h1>{{ page.category | capitalize }}</h1>
+               {% endif %}
+           </header>
 
-	</div>
+	         <article class="post-content">
+               <ul class="posts">
+                   {% if page.title %}
+                     {% for post in paginator.posts %}
+                        {% include post_link.html %}
+                     {% endfor %}
+                   {% endif %}
 
-	{% include pagination_nav.html %}
-
+                   {% if page.category %}
+                     {% for post in site.categories[page.category] %}
+                        {% include post_link.html %}
+                     {% endfor %}
+                   {% endif %}
+               </ul>
+	         </article>
+	     </div>
       </div>
+
+      {% if page.title %}
+        {% include pagination_nav.html %}
+      {% endif %}
+
+     </div>
     </div>
-
     {% include footer.html %}
-
-    </body>
+</body>
 </html>
