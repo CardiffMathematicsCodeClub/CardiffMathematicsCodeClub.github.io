@@ -74,6 +74,7 @@ You can run the tests using the following command
 ```
 $ rake test
 ```
+
 ### Draft Posts
 
 If you are making a draft post (you can do this by editing a \*.md file in the
