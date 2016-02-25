@@ -1,0 +1,59 @@
+---
+---
+
+@charset "utf-8";
+
+// Some common colours
+$black: #000000;
+$white: #ffffff;
+$bluish: #00e5ee;
+$cardiff-red: #ff0000;
+$cardiff-complement: #111;
+
+// Text
+$fonts: Arial, Helvetica, sans-serif;
+$title-font-size: 36px;
+$text-color: #2176C7;
+$text-shadow-style: 1px 1px $black;
+
+// Backgrounds
+$bg-d: #042029;
+$bg-l: lighten($bg-d, 1%);
+$background-style: 45deg, $bg-d 25%, $bg-l 25%, $bg-l 50%, $bg-d 50%, $bg-d 75%, $bg-l 75%;
+$middle-bg: #222;
+
+// Other fancy stuff
+$corner-radius: 10px;
+$shadow-style: 5px 5px 3px $black;
+$menu-border-style: 1px solid #259286;
+
+// Define the colors for syntax highlighting
+$code-background: #042029;
+$code-comment: #738A05;
+$code-string: #738A05;
+$code-numeral: #C61C6F;
+$code-variable: #738A05;
+$code-function: #BD3613;
+$code-type: #A57706;
+$code-color: #2176C7;
+
+$code-border-style: solid 1px $white ;
+
+@mixin box-style($bg-color) {
+        padding: 20px;
+        background-color: $bg-color;
+        @include box-shadow($shadow-style);
+}
+
+@import "_layout",
+
+        "_styles/codesnippets",
+
+        "_themes/_solarized/_base",
+        "_themes/_solarized/_landing",
+        "_themes/_solarized/_catmenu",
+        "_themes/_solarized/_posts",
+        "_themes/_solarized/_sessions.scss"
+
+
+

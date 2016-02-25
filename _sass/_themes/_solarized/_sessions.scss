@@ -1,0 +1,49 @@
+body#sessions {
+    .post-content {
+        background: transparent;
+        @include box-shadow(none);
+    }
+
+    .session-year {
+        h4 {
+            @include box-style(lighten($middle-bg, 10%));
+            @include border-radius($corner-radius);
+            text-shadow: $text-shadow-style;
+        }
+    }
+
+    .session-term {
+        h5 {
+            @include box-style(lighten($middle-bg, 5%));
+            @include border-radius($corner-radius);
+            text-shadow: $text-shadow-style;
+        }
+    }
+
+    .session {
+        margin-top: 20px;
+        @include box-style($middle-bg);
+        padding-left: 30px;
+        @include border-radius($corner-radius);
+
+        li {
+            list-style-type: lower-greek;
+        }
+    }
+
+    .session-week,
+    .session-qots{
+        color: $cardiff-red;
+    }
+
+    .session-name,
+    .session-quote {
+        font-style: italic;
+    }
+
+    .session-author {
+        color: $code-function;
+        font-style: italic;
+        margin-top: 5px;
+    }
+}
