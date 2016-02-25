@@ -1,0 +1,47 @@
+header.landing {
+
+    .wrap {
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        text-shadow: $text-shadow-style;
+    }
+
+    img {
+        margin-bottom: 10px;
+        @include box-style(lighten($middle-bg, 10%));
+        @include border-radius(50%);
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .menu-name {
+        color: $cardiff-red;
+    }
+
+    .menu-item,
+    .menu-name {
+        list-style: none;
+    }
+}
+
+article.landing {
+    .wrap {
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    .reason {
+        h2 {
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            text-shadow: $text-shadow-style;
+            @include box-style(lighten($middle-bg, 10%));
+        }
+    }
+}

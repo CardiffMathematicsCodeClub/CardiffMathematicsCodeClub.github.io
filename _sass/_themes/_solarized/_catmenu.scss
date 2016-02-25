@@ -1,0 +1,26 @@
+div.blog-cats {
+
+    margin-left: 20px;
+    @include box-style($middle-bg);
+    @include border-radius($corner-radius);
+
+    h5 {
+        margin-bottom: 10px;
+    }
+    
+
+    ul > li {
+        list-style: none;
+    }
+    
+}
+
+div.prev,
+div.next {
+    @include box-style($middle-bg);
+    @include border-radius($corner-radius);
+
+    &:hover {
+        @include box-shadow(inset 5px 5px 3px $black);
+    }
+}
