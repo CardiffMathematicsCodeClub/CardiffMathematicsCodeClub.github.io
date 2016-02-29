@@ -66,6 +66,11 @@
         quote  : "This is a random commit, not sure why it is needed"
         author : geraint
 
+      - week   : 4
+        name   : import ciw as queue
+        quote  : "look at that Geriant, your first bit of live coding with ciw is to change it to the english translation"
+        author : vince
+
 - yname: "2014-2015"
   terms:
    autumn:
