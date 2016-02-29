@@ -1,8 +1,8 @@
 ---
 layout     : post
 title      : "Code &amp; Go game"
-categories :
-tags       : pyhton getinvolved
+categories : events
+tags       : python getinvolved
 author     : Adam
 comments   : true
 ---
