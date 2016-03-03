@@ -13,3 +13,5 @@ notifications:
     webhooks:
       urls:
           - https://webhooks.gitter.im/e/84454152adce595e2ba6
+
+cache: bundler
