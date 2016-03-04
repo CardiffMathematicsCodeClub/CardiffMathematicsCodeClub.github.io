@@ -46,30 +46,29 @@
         author : hannah
 
     spring:
-      - week   : 1
-        name   : Tumbleweed
+      - name   : Tumbleweed
         quote  : "DON'T! Don't touch the cable."
         author : alex
 
-      - week   : 2
-        name   : The weird session
+      - name   : The weird session
         quote  : "?"
         author : unknown
 
-      - week   : 3
-        name   : Random greek letters
+      - name   : Random greek letters
         quote  : "You know what building you're in right?"
         author : vince
 
-      - week   : 4
-        name   : The one with all the pull requests
+      - name   : The one with all the pull requests
         quote  : "This is a random commit, not sure why it is needed"
         author : geraint
 
-      - week   : 4
-        name   : import ciw as queue
+      - name   : import ciw as queue
         quote  : "look at that Geriant, your first bit of live coding with ciw is to change it to the english translation"
         author : vince
+
+      - name   : Travis
+        quote  : "Hey Tim, the latest episode of will Travis work is starting shortly"
+        author : alex
 
 - yname: "2014-2015"
   terms:
