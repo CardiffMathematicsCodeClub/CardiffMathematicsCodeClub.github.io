@@ -1,5 +1,6 @@
+require 'bundler/setup'
 require 'fileutils'
-require 'html/proofer'
+require 'html-proofer'
 require 'yaml'
 
 task default: %w[help]
@@ -99,8 +100,8 @@ end
 desc 'Build the site and run the tests'
 task :test do
    sh "script/cibuild"
-   HTML::Proofer.new("./_site",
-                     { :check_html => true,
-                       :only_4xx => true,
-                       :url_ignore => [%r{[Cc]ardiff[Mm]athematics[Cc]ode[Cc]lub\.github\.io}]}).run
+   HTMLProofer.check_directory("./_site",
+                              { :check_html => true,
+                                :only_4xx => true,
+                                :url_ignore => [%r{[Cc]ardiff[Mm]athematics[Cc]ode[Cc]lub\.github\.io}]}).run
 end
