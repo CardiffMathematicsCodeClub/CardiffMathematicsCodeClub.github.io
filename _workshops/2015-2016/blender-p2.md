@@ -22,6 +22,6 @@ Topics covered include:
 - Introduction to the video editor
 - Introduction to producing final videos in blender.
 
-Blender is available [here]("http://blender.org") for Windows, Mac and Linux
+Blender is available [here](http://blender.org) for Windows, Mac and Linux
 
 Again a mouse is not necessary but recommended!
