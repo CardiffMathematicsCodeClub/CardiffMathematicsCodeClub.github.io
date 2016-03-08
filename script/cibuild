@@ -4,5 +4,5 @@
 set -e
 
 ./script/link-checker.sh
-bundle exec jekyll build
+bundle exec jekyll build --profile
 #bundle exec htmlproof --url-ignore "http://cardiffmathematicscodeclub.github.io/*" ./_site
