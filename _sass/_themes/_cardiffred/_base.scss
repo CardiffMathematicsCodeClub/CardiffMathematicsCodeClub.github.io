@@ -88,8 +88,13 @@ body {
     }
 }
 
+.page-content {
+    padding-bottom: 50px;
+}
+
 .post-header {
     margin-bottom: 0;
+    padding: 20px;
     position: relative;
     z-index: 1;
     text-shadow: $text-shadow-style;
@@ -104,6 +109,8 @@ body {
    
     margin-left: 5px;
     margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     @include box-style($middle-bg);
     @include border-bottom-left-radius($corner-radius);
@@ -112,13 +119,20 @@ body {
 
     h1,h2 {
         padding: 20px;
+        border-left: solid 5px darken($cardiff-red, 10%);
         z-index: 1;
         background-color: lighten($middle-bg, 10%);
         @include box-shadow($shadow-style);
         text-shadow: $text-shadow-style;
     }
 
+    p {
+        padding-left: 15px;
+    }
+
     pre {
+        margin-left: 15px;
+        margin-right: 15px;
         padding: 10px;
         overflow-y: hidden;
         @include border-radius($corner-radius);
@@ -127,10 +141,15 @@ body {
     }
 }
 
+div#disqus_thread {
+    padding: 20px;
+}
+
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: $middle-bg;
     border-top: $menu-border-style;
+    text-shadow: $text-shadow-style;
 }
 

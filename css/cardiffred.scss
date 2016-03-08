@@ -23,8 +23,8 @@ $background-style: 45deg, $bg-d 25%, $bg-l 25%, $bg-l 50%, $bg-d 50%, $bg-d 75%,
 $middle-bg: #222;
 
 // Other fancy stuff
-$corner-radius: 10px;
-$shadow-style: 5px 5px 3px $black;
+$corner-radius: 4px;
+$shadow-style: 2px 2px 2px $black;
 $menu-border-style: 1px solid $cardiff-red;
 
 // Define the colors for syntax highlighting
@@ -40,7 +40,6 @@ $code-color: $white;
 $code-border-style: solid 1px $white ;
 
 @mixin box-style($bg-color) {
-        padding: 20px;
         background-color: $bg-color;
         @include box-shadow($shadow-style);
 }
