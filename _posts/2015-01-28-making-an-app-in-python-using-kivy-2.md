@@ -20,7 +20,7 @@ Kivy includes examples of how to use each of the widgets. I would recommend
 looking through these to identify the best widget to use for each element of the
 app.
 
-In the [Hello World example][gist] from part 1 we see that on line 5 I imported
+In the Hello World example from part 1 we see that on line 5 I imported
 the label widget, so that it can be used in line 11 to create an label. For each
 widget you want to use it is needed to be imported
 
@@ -65,7 +65,88 @@ if __name__ == '__main__':
     ScreenManagerApp().run()
 ```
 
-The KV code can be found [here][gist1]
+The KV code is as follows
+
+```
+#:import random random.random
+#:import SlideTransition kivy.uix.screenmanager.SlideTransition
+#:import SwapTransition kivy.uix.screenmanager.SwapTransition
+#:import WipeTransition kivy.uix.screenmanager.WipeTransition
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+#:import RiseInTransition kivy.uix.screenmanager.RiseInTransition
+#:import FallOutTransition kivy.uix.screenmanager.FallOutTransition
+#:import NoTransition kivy.uix.screenmanager.NoTransition
+
+<CustomScreen>:
+    hue: random()
+    canvas:
+        Color:
+            hsv: self.hue, .5, .3
+        Rectangle:
+            size: self.size
+
+    Label:
+        font_size: 42
+        text: root.name
+
+    Button:
+        text: 'Next screen'
+        size_hint: None, None
+        pos_hint: {'right': 1}
+        size: 150, 50
+        on_release: root.manager.current = root.manager.next()
+
+    Button:
+        text: 'Previous screen'
+        size_hint: None, None
+        size: 150, 50
+        on_release: root.manager.current = root.manager.previous()
+
+    BoxLayout:
+        size_hint: .5, None
+        height: 250
+        pos_hint: {'center_x': .5}
+        orientation: 'vertical'
+
+        Button:
+            text: 'Use SlideTransition with "up" direction'
+            on_release: root.manager.transition = SlideTransition(direction="up")
+
+        Button:
+            text: 'Use SlideTransition with "down" direction'
+            on_release: root.manager.transition = SlideTransition(direction="down")
+
+        Button:
+            text: 'Use SlideTransition with "left" direction'
+            on_release: root.manager.transition = SlideTransition(direction="left")
+
+        Button:
+            text: 'Use SlideTransition with "right" direction'
+            on_release: root.manager.transition = SlideTransition(direction="right")
+
+        Button:
+            text: 'Use SwapTransition'
+            on_release: root.manager.transition = SwapTransition()
+
+        Button:
+            text: 'Use WipeTransition'
+            on_release: root.manager.transition = WipeTransition()
+
+        Button:
+            text: 'Use FadeTransition'
+            on_release: root.manager.transition = FadeTransition()
+
+        Button:
+            text: 'Use FallOutTransition'
+            on_release: root.manager.transition = FallOutTransition()
+
+        Button:
+            text: 'Use RiseInTransition'
+            on_release: root.manager.transition = RiseInTransition()
+        Button:
+            text: 'Use NoTransition'
+            on_release: root.manager.transition = NoTransition(duration=0)
+```
 
 Here we making the screen manager the root widget with there being 4 screens
 added to the manager. Each of the screens are similar with a different
@@ -126,8 +207,8 @@ There are 6 different [layout widgets][laywidgets] in kivy.
 
 Of the different layouts in our we used boxlayout the most and grid for tables.
 
-In the boxlayout example from part 1, [code can be found here][gist2]. We note
-that size hinting was used here but what does it do?
+In the boxlayout example from part 1. We note that size hinting was used here
+but what does it do?
 
 In the screen manager example we see that just size_hint was used. This took 2
 values the first for the x direction and then for the y direction. But in the
@@ -143,10 +224,8 @@ size_hint_x, so the first and the last buttons are only 40% of the available
 width that they were given. The second button is given 20% of the width. Due to
 the positioning of each button means that they don't overlap.
 
-[gist]: https://gist.github.com/timothyf1/75b20064a50e51651efa
 [smanager]: http://kivy.org/docs/api-kivy.uix.screenmanager.html
 [carouselopt]: http://kivy.org/docs/api-kivy.uix.carousel.html
-[gist1]: https://gist.github.com/timothyf1/1f51fc7cdcf9b7a12694#file-screenmanager-kv
 [mattribute]: http://kivy.org/docs/api-kivy.uix.screenmanager.html#kivy.uix.screenmanager.Screen.manager
 [attribute]: http://kivy.org/docs/api-kivy.uix.screenmanager.html#kivy.uix.screenmanager.ScreenManager.current
 [method]: http://kivy.org/docs/api-kivy.uix.screenmanager.html#kivy.uix.screenmanager.ScreenManager.next
@@ -160,4 +239,3 @@ the positioning of each button means that they don't overlap.
 [Anchor]: http://kivy.org/docs/api-kivy.uix.anchorlayout.html
 [Float]: http://kivy.org/docs/api-kivy.uix.floatlayout.html
 [Relative]: http://kivy.org/docs/api-kivy.uix.relativelayout.html
-[gist2]: https://gist.github.com/timothyf1/adeb2eaa141ac4314981
