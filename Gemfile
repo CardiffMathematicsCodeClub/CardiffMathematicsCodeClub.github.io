@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rake"
 gem "fileutils"
-gem "github-pages"
+gem "github-pages", "~>75"
 gem "rouge"
 gem "jekyll", "~>3.0.3"
 gem "jekyll-paginate"
