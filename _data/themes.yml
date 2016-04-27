@@ -32,3 +32,8 @@
   shortname: solarized
   version: 0.1
   author: Vince
+
+- name: Cardiff Rouge
+  shortname: cardiffrouge
+  version: 0.1
+  author: alex

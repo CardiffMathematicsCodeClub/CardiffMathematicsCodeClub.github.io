@@ -1,0 +1,63 @@
+header.landing {
+
+    .wrap {
+        padding: 0;
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        padding: 20px;
+        text-shadow: $text-shadow-style;
+        @include box-style(lighten($middle-bg, 10%));
+        @include border-top-left-radius($corner-radius);
+        @include border-top-right-radius($corner-radius);
+    }
+
+    img {
+        margin-bottom: 10px;
+        @include box-style(lighten($middle-bg, 10%));
+        @include border-radius(50%);
+    }
+
+    nav {
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu-name {
+        color: $cardiff-red;
+    }
+
+    .menu-item,
+    .menu-name {
+        list-style: none;
+    }
+}
+
+article.landing {
+    .wrap {
+        padding: 0;
+        @include box-style($middle-bg);
+        @include border-radius($corner-radius);
+    }
+
+    .reason {
+        h2 {
+            padding: 20px;
+            margin-bottom: 15px;
+            text-shadow: $text-shadow-style;
+            border-left: solid 5px darken($cardiff-red, 5px);
+
+            &.right-text {
+                border-left: 0;
+                border-right: solid 5px darken($cardiff-red, 5px);
+            }
+            
+            @include box-style(lighten($middle-bg, 10%));
+            @include border-top-left-radius($corner-radius);
+            @include border-top-right-radius($corner-radius);
+        }
+    }
+}
