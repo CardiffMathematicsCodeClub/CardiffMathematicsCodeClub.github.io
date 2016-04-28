@@ -1,0 +1,52 @@
+---
+
+---
+@charset "utf-8";
+
+
+// Variables
+$font: Helvetica, Arial, sans-serif;
+$title-font-size: 42px;
+$menu-font-size: 26px;
+$base-font-size: 16px;
+
+$text-color: #f200ff;
+$link-color: #ff33fd;
+$meta-color: #f200ff;
+$background-color: #ff19fd;
+
+$background-url: url(../res/backround_images/background.png);
+$past-background-url: url(../res/backround_images/background.png);
+$quote-border-style: 4px solid #e8e8e8;
+$menu-border-style: 1px solid $link-color;
+
+// Syntax Highlighting
+$code-color: #000000;
+$code-string: #dd1144;
+$code-numeral: #009999;
+$code-variable: #008080;
+$code-comment: #999988;
+$code-function: #990000;
+$code-type: #445588;
+$code-background: #ff9900;
+$code-border-style: 1px solid #d5d5e9;
+
+$content-width: 800px;
+
+$desktop: $content-width;
+$wide-desktop: 1260px;
+$mobile: 600px;
+
+
+
+@import
+        "_layout",
+
+        "_styles/codesnippets",
+
+        "_themes/_main/base",
+        "_themes/_main/landingpage",
+        "_themes/_main/catmenu",
+        "_themes/_main/post",
+        "_themes/_main/postlists",
+        "_themes/_main/sessions"
