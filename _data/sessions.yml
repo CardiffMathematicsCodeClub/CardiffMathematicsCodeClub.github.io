@@ -70,25 +70,25 @@
         quote  : "Hey Tim, the latest episode of will Travis work is starting shortly"
         author : alex
 
-      - name   : Module Planner rebirth
-        quote  : "Can't believe we have got so far so quickly"
-        author : alex
-
       - name   : Blender pt.1
         quote  : "Hey I have the Goblet of Fire"
         author : geriant
 
-      - name   :
-        quote  : ""
-        author :
+      - name   : Module Planner rebirth
+        quote  : "Can't believe we have got so far so quickly"
+        author : alex
+
+      - name   : The one at the ball
+        quote  : "Well this is nice and quiet"
+        author : tim
 
       - name   : DAS KEYBOARD
         quote  : "Do you need a ruler?"
         author : vince
 
       - name   : The end of an era
-        quote  : ""
-        author :
+        quote  : "This is how Docker works"
+        author : alex
 
 - yname: "2014-2015"
   terms:
