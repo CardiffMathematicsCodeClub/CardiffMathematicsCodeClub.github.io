@@ -50,7 +50,7 @@ laura:
 
 preeti:
   name: Preeti Sidhu
-  title: ''
+  title: 'The Kivy one'
   github-page: https://github.com/preetiks
 
 saml:
@@ -67,6 +67,11 @@ seva:
   name: Seva Zozin
   title: 'The Padawan'
   github-page: https://github.com/chelyabinsk
+
+stephanie:
+    name: Stephanie Angharad
+    title: 'Pixar'
+    github-page: https://github.com/StephanieAngharad
 
 tim:
   name : Tim Standen
