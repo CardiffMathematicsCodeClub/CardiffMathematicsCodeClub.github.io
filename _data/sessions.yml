@@ -70,6 +70,26 @@
         quote  : "Hey Tim, the latest episode of will Travis work is starting shortly"
         author : alex
 
+      - name   :
+        quote  : ""
+        author :
+
+      - name   :
+        quote  : ""
+        author :
+
+      - name   :
+        quote  : ""
+        author :
+
+      - name   : DAS KEYBOARD
+        quote  : "Do you need a ruler?"
+        author : vince
+
+      - name   : My last Code Club
+        quote  : ""
+        author :
+
 - yname: "2014-2015"
   terms:
    autumn:
