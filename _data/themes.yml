@@ -18,6 +18,16 @@
   version: 0.1
   author: Adam
 
+- name: Luigi's Theme
+  shortname: lime
+  version: 0.1
+  author: Adam
+
+- name: DEADPOOL
+  shortname: red
+  version: 0.1
+  author: Adam
+
 - name: Classic Inverted
   shortname: inverted
   version: 0.1
