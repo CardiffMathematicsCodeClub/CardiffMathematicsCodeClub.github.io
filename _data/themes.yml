@@ -13,6 +13,11 @@
   version: 0.1
   author: Sam
 
+- name: Preeti's Theme
+  shortname: PINK
+  version: 0.1
+  author: Adam
+
 - name: Classic Inverted
   shortname: inverted
   version: 0.1
