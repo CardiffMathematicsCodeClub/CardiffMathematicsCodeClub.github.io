@@ -3,7 +3,7 @@ layout: post
 title: "Blender - Part 1"
 leader: Alex
 comments: false
-when: 2016-10-03
+when: 2016-03-10
 software-pre-reqs: "Blender"
 ---
 
