@@ -2,6 +2,10 @@
 <html>
 <head>
   {% include common_head.html %}
+
+  {% if page.layout == 'post' %}
+    {% include twitter_card_post.html %}
+  {% endif %}
 </head>
     <body>
 
