@@ -39,7 +39,7 @@ $(document).ready(function () {
     if (localStorage.theme) {
 	changeTheme(localStorage.theme);
     } else {
-	changeTheme("main");
+	changeTheme("cardiffred");
     }
 
     // Finally this code is only run when the user makes a choice using the
