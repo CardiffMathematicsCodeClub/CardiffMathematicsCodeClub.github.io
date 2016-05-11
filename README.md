@@ -70,7 +70,7 @@ Once docker has successfully built the image you can build and view the site loc
 by running the following
 
 ```
-$ docker run --rm -it -v /full/path/to/this/repository:/site -p 127.0.0.1:4000:4000 jekyll:codeclubweb
+$ docker run --rm -it -v /full/path/to/this/repository:/site -p 4000:4000 jekyll:codeclubweb
 ```
 
 You should see some output from Jekyll saying that it is building and serving the site
@@ -92,7 +92,7 @@ To finish up here is a quick rundown on what that command means above:
   build it. *Note:* It's important that that you include the *full* filepath to this folder. A quicker
   way you could type this part of the command on Linux, would be to use the following `-v $(pwd):/site`
 
-- `-p 127.0.0.1:4000:4000` As well as the site data, our web browser needs to communicate with the
+- `-p 4000:4000` As well as the site data, our web browser needs to communicate with the
   Jekyll process to view the generated website, so this command maps the container's internal port
   4000 to your machine's port 4000 so that your browser can make the connection.
 
