@@ -65,6 +65,10 @@ header.site-header {
     @include border-top-right-radius(5px);
     @include border-top-left-radius(5px);
 
+    .white {
+        display: block;
+    }
+
     .blue {
         display: none;
     }
