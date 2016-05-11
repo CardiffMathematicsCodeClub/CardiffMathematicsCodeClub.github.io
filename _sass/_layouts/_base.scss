@@ -59,6 +59,23 @@ select {
      }
 }
 
+/* Twitter Feed */
+div.sidetab {
+    position: fixed;
+    padding-right: 10px;
+    bottom: 0;
+    right: 10px;
+}
+
+div.tweets {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    max-width: 350px;
+}
+
+
 /* ----------------------------------------------------------*/
 
 /* Site header */
