@@ -75,6 +75,13 @@ header.site-header {
     @include border-top-right-radius(3px);
     @include border-top-left-radius(3px);
 
+    .feed > .dark {
+        display: block;
+    }
+
+    .feed > .light {
+        display: block;
+    }
 }
 
 body {
