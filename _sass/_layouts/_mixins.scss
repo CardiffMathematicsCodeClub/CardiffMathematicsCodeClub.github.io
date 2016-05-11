@@ -11,6 +11,12 @@
   }
 }
 
+@mixin transform($t...) {
+    -webkit-transform: $t;
+       -moz-transform: $t;
+            transform: $t;
+}
+
 @mixin column-count($n) {
     -webkit-column-count: $n;
        -moz-column-count: $n;

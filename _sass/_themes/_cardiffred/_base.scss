@@ -58,6 +58,25 @@ header.site-header {
     }
 }
 
+.sidetab {
+    background-color: lighten($middle-bg, 10%);
+    padding: 10px;
+    @include box-shadow($shadow-style);
+    @include border-top-right-radius(5px);
+    @include border-top-left-radius(5px);
+
+    h3 {
+        text-shadow: $text-shadow-style;
+    }
+}
+
+.tweets {
+    border: 7px solid lighten($middle-bg, 10%);
+    @include border-top-right-radius(3px);
+    @include border-top-left-radius(3px);
+
+}
+
 body {
     @include linear-gradient($background-style);
     background-size: 15px 15px;
