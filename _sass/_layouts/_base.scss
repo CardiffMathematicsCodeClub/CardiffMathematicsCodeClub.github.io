@@ -60,21 +60,27 @@ select {
 }
 
 /* Twitter Feed */
-div.sidetab {
+.sidetab {
     position: fixed;
     padding-right: 10px;
     bottom: 0;
     right: 10px;
+
+    .twitlogo {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+    }
 }
 
-div.tweets {
+.tweets {
     display: none;
     position: fixed;
     bottom: 0;
     right: 10px;
+    max-height: 400px;
     max-width: 350px;
 }
-
 
 /* ----------------------------------------------------------*/
 

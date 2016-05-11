@@ -65,8 +65,8 @@ header.site-header {
     @include border-top-right-radius(5px);
     @include border-top-left-radius(5px);
 
-    h3 {
-        text-shadow: $text-shadow-style;
+    .blue {
+        display: none;
     }
 }
 
