@@ -80,6 +80,10 @@ select {
     right: 10px;
     max-height: 400px;
     max-width: 350px;
+
+    .feed > .dark {
+        display: none;
+    }
 }
 
 /* ----------------------------------------------------------*/
