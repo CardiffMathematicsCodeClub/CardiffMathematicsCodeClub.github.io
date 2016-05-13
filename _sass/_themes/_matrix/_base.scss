@@ -1,0 +1,152 @@
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($link-color, 15%);
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: darken($link-color, 15%);
+
+    &:hover {
+      color: lighten($link-color, 15%);
+    }
+  }
+}
+
+body {
+  font-family: $font;
+  font-size: $base-font-size;
+  color: $text-color;
+  line-height: 1.5;
+  font-weight: 300;
+  background-image: $background-url;
+  background-attachment: fixed;
+}
+
+.disclaimer {
+  font-style: italic;
+}
+
+h1 {
+  font-size: $title-font-size;
+}
+
+h2 {
+  font-size: $title-font-size * 0.75;
+}
+
+h3 {
+  font-size: $title-font-size * 0.60;
+}
+
+h4 {
+  font-size: $title-font-size * 0.50;
+}
+
+
+.post{
+  background-color: $background-color;
+  padding: 10px
+}
+
+.pagination {
+  .prev,
+  .next {
+    background-color: $background-color;
+  }
+}
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  background-color: $background-color;
+
+}
+
+@media screen and (max-width: $desktop) {
+    .site-header {
+        background-color: transparent;
+        border-bottom: none;
+    }
+
+    nav {
+        background-color: $background-color;
+    }
+
+    nav > ul > li {
+        border-left: none;
+        border-bottom: $menu-border-style;
+    }
+
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    border-left: $menu-border-style;
+}
+
+.menu-item > a {
+    color: $text-color;
+
+    &:visited {
+        color: $text-color;
+
+        &:visited {
+            color: $text-color;
+        }
+    }
+
+    &:hover {
+        color: $text-color;
+        text-style: underline;
+    }
+}
+
+/* Twitter Feed */
+.sidetab {
+    background-color: lighten($background-color, 20%);
+    padding: 10px;
+
+    .white {
+        display: none;
+    }
+
+    .blue {
+        display: block;
+    }
+}
+
+.tweets {
+    border: 7px solid lighten($background-color, 20%);
+    @include border-top-right-radius(3px);
+    @include border-top-left-radius(3px);
+
+    .feed > .dark {
+        display: block;
+    }
+
+    .feed > .light {
+        display: none;
+    }
+}
+
+.site-title {
+  &:hover,
+  &:visited {
+    font-size: $menu-font-size;
+    color: #333
+  }
+}
+
+.site-footer {
+  background-color: lighten($background-color, 20%);
+  color: $text-color;
+}
