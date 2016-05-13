@@ -18,6 +18,9 @@ patch_ver=$[ $(git log $(git tag | tail -n 1)..HEAD --pretty=oneline | wc -l) + 
 # Put it all together
 version="${major_ver}.${minor_ver}.${patch_ver}"
 
+# Tell the user
+echo "Bumped to version v$version"
+
 # Finally find and replace in the _config.yml file
 sed -i -- "s/\(version: \)[0-9]*\.[0-9]*\.[0-9]*/\1${version}/" _config.yml
 
