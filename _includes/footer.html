@@ -18,10 +18,13 @@
 
     <div class="column footer-col-3">
       <p>Change Theme:</p>
+
+      {% assign themes = site.data.themes | sort: 'name' %}
+
       <select id="theme-chooser">
-        {% for theme in site.data.themes %}
-	    <option value="{{theme.shortname}}">{{theme.name}}</option>
-	{% endfor %}
+        {% for theme in themes %}
+            <option value="{{theme.shortname}}">{{theme.name}}</option>
+        {% endfor %}
       </select>
     </div>
 
