@@ -10,7 +10,6 @@ $title-font-size: 42px;
 $menu-font-size: 26px;
 $base-font-size: 16px;
 
-$foot-text: #828282;
 $text-color: #34b605;
 $link-color: #000cff;
 $meta-color: #818181;
@@ -45,8 +44,8 @@ $mobile: 600px;
         "_styles/codesnippets",
 
         "_themes/_matrix/landingpage",
+        "_themes/_matrix/base",
 
-        "_themes/_main/base",
         "_themes/_main/catmenu",
         "_themes/_main/post",
         "_themes/_main/postlists",
