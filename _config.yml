@@ -27,6 +27,8 @@ gems:
 collections:
   workshops:
     output: true
+  docs:
+    output: true
   languages:
     output: true
   projects:
