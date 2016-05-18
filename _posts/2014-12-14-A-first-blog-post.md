@@ -2,7 +2,7 @@
 layout     : post
 title      : "A first blog post"
 categories : news
-tags       : blog
+tags       : website
 author     : Vince
 comments   : true
 ---

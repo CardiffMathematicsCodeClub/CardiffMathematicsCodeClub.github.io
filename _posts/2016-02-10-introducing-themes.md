@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Introducing Themes and More!
-categories: news
+category: news
+tags: website
 author: Alex
 comments: true
 ---
