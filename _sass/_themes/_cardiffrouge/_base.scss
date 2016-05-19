@@ -143,7 +143,6 @@ body {
         border-left: solid 5px darken($cardiff-red, 10%);
         z-index: 1;
         background-color: darken($middle-bg, 10%);
-       // @include box-shadow($shadow-style);
         text-shadow: $text-shadow-style;
     }
 
