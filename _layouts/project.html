@@ -13,29 +13,46 @@ layout: default
       <h3>About</h3>
 
       <ul>
-	<li>Project Home: <a href="{{page.github}}">{{page.gitshow}}</a></li>
-	{% if page.link %}
-	<li>Documentation: <a href="{{page.link}}">{{page.link}}</a></li>
-	{% endif %}
+        <li><a href="{{page.github}}">Project Home</a></li>
+        {% if page.link %}
+            <li><a href="{{page.link}}">Documentation</a></li>
+        {% endif %}
       </ul>
 
       {{content}}
 
+
+      <h3>News</h3>
+
+      <p>
+        Here you can find the latest updates and announcements about the project.
+      </p>
+      
+      {% assign news = site.categories["news"]  %}
+
+      <ul>
+        {% for post in news %}
+          {% if post.tags contains {{page.tag}} %}
+            <li>{{page.date | date: "%d-%m-%Y"}}: <a href="{{post.url}}">{{post.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
       <h3>Getting Started</h3>
 
       <p>
-	Want to get involved? Great! Not sure where to start? Don't worry!
-	We have you covered, below is a list of tutorials where you can find out
-	how to get involved. We can't wait for you first pull request!
+        Want to get involved? Great! Not sure where to start? Don't worry!
+        We have you covered, below is a list of tutorials where you can find out
+        how to get involved. We can't wait for you first pull request!
       </p>
 
       {% assign tutorials = site.categories["tutorial"] | sort %}
 
       <ul>
-	{% for post in tutorials %}
-	  {% if post.tags contains {{project.tag}} and post.tags contains "getstarted"%}
-	     <li><a href="{{post.url}}">{{post.title}}</a></li>
-	  {% endif %}
+        {% for post in tutorials %}
+            {% if post.tags contains {{page.tag}} and post.tags contains "getstarted"%}
+                <li><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
         {% endfor %}
       </ul>
 
