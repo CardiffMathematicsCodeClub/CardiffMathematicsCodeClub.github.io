@@ -40,7 +40,7 @@
 
 - name: Cardiff Red
   shortname: cardiffred
-  version: 0.4
+  version: 0.5
   author: Alex
 
 - name: Solarizaed
