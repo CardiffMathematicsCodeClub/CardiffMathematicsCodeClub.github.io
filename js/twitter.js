@@ -21,7 +21,7 @@ $(document).ready(function() {
             $(feed).show("slow");
 
             // Open the tab
-            $(tab).animate({"bottom": "405px"}, "slow", "swing");
+            $(tab).animate({"bottom": "400px"}, "slow", "swing");
 
             // Add the class to indicate it's open
             $(tab).addClass("toggled");
