@@ -6,6 +6,10 @@
   {% if page.layout == 'post' %}
     {% include twitter_card_post.html %}
   {% endif %}
+
+  {% for script in page.script %}
+    <script src="{{script}}" type="text/javascript"></script>    
+  {% endfor %}
 </head>
     <body>
 

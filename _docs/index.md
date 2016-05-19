@@ -1,20 +1,15 @@
 ---
 layout: page
 title: Documentation
+script: 
+  - https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.1/lunr.min.js
+  - /js/docsearch.js
 ---
-
 Welcome to the Code Club Website's Documentation! Here you will find out how
 we build the website, everything from adding blog posts and language pages to
 how the theme changer works!
 
-_Note:_ This part of the website is still very young, so we haven't quite
-figured out how best to structure the documentation yet. Don't worry we are
-working to fix it and should have someting better in the coming months.
+Just use the search box below to get started
 
-<ul>
-  {% for doc in site.docs %}
-    {% unless {{doc.title}} == "Documentation" %}
-      <li><a href="{{doc.url}}">{{doc.title}}</a></li>
-    {% endunless %}
-  {% endfor %}
-</ul>
+<input id="search" placeholder="Search the docs..." type="search">
+<div id="results"></div>
