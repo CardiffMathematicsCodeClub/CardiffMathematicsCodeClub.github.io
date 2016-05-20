@@ -36,6 +36,7 @@ header.site-header {
     .menu-name {
         padding-top: 10px;
         padding-bottom: 10px;
+        padding-left: 5px;
         list-style: none;
         border-left: $menu-border-style; 
 
@@ -56,6 +57,23 @@ header.site-header {
         }
 
     }
+}
+
+.sidetab {
+    background-color: lighten($middle-bg, 10%);
+    border: 1px solid $black;
+    padding: 10px;
+    z-index: 20;
+    @include box-shadow($shadow-style);
+    @include border-top-right-radius(5px);
+    @include border-top-left-radius(5px);
+
+}
+
+.tweets {
+    border: 1px solid $black;
+    @include box-shadow($shadow-style);
+    @include border-top-left-radius(3px);
 }
 
 body {
@@ -94,6 +112,7 @@ body {
 .post-header {
     margin-bottom: 0;
     padding: 20px;
+    border: 1px solid $black;
     position: relative;
     z-index: 1;
     text-shadow: $text-shadow-style;
@@ -110,6 +129,7 @@ body {
     margin-right: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid $black;
     
     @include box-style($middle-bg);
     @include border-bottom-left-radius($corner-radius);
@@ -118,11 +138,16 @@ body {
 
     h1,h2 {
         padding: 20px;
+        border-top: 1px solid $black;
+        border-bottom: 1px solid $black;
         border-left: solid 5px darken($cardiff-red, 10%);
         z-index: 1;
         background-color: darken($middle-bg, 10%);
-        @include box-shadow($shadow-style);
         text-shadow: $text-shadow-style;
+    }
+
+    h3, h4, h5, h6 {
+        padding-left: 10px;
     }
 
     p {

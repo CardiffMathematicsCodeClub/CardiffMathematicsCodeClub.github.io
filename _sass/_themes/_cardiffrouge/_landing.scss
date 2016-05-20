@@ -2,6 +2,7 @@ header.landing {
 
     .wrap {
         padding: 0;
+        border: 1px solid $black;
         @include box-style($middle-bg);
         @include border-radius($corner-radius);
     }
@@ -39,6 +40,7 @@ header.landing {
 article.landing {
     .wrap {
         padding: 0;
+        border: 1px solid $black;
         @include box-style($middle-bg);
         @include border-radius($corner-radius);
     }

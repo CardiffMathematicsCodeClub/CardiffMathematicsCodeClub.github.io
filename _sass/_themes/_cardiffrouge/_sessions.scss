@@ -2,10 +2,13 @@ body#sessions {
     .post-content {
         background: transparent;
         @include box-shadow(none);
+        border: none;
     }
 
     .session-year {
         h4 {
+            padding: 10px;
+            border: 1px solid $black;
             @include box-style(lighten($middle-bg, 10%));
             @include border-radius($corner-radius);
             text-shadow: $text-shadow-style;
@@ -14,6 +17,8 @@ body#sessions {
 
     .session-term {
         h5 {
+            padding: 10px;
+            border: 1px solid $black;
             @include box-style(lighten($middle-bg, 5%));
             @include border-radius($corner-radius);
             text-shadow: $text-shadow-style;
@@ -22,6 +27,7 @@ body#sessions {
 
     .session {
         margin-top: 20px;
+        border: 1px solid $black;
         @include box-style($middle-bg);
         padding-left: 30px;
         @include border-radius($corner-radius);
