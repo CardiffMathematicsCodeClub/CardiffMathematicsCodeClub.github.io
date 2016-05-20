@@ -36,6 +36,7 @@ header.site-header {
     .menu-name {
         padding-top: 10px;
         padding-bottom: 10px;
+        padding-left: 5px;
         list-style: none;
         border-left: $menu-border-style; 
 
@@ -145,7 +146,6 @@ body {
     @include box-style($middle-bg);
     @include border-bottom-left-radius($corner-radius);
     @include border-bottom-right-radius($corner-radius);
-   
 
     h1,h2 {
         padding: 20px;
@@ -154,6 +154,10 @@ body {
         background-color: lighten($middle-bg, 10%);
         @include box-shadow($shadow-style);
         text-shadow: $text-shadow-style;
+    }
+
+    h3, h4, h5, h6 {
+        padding-left: 10px;
     }
 
     p {

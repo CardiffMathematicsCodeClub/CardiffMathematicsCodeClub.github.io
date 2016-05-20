@@ -6,6 +6,7 @@ body#sessions {
 
     .session-year {
         h4 {
+            padding: 10px;
             @include box-style(lighten($middle-bg, 10%));
             @include border-radius($corner-radius);
             text-shadow: $text-shadow-style;
@@ -14,6 +15,7 @@ body#sessions {
 
     .session-term {
         h5 {
+            padding: 10px;
             @include box-style(lighten($middle-bg, 5%));
             @include border-radius($corner-radius);
             text-shadow: $text-shadow-style;
