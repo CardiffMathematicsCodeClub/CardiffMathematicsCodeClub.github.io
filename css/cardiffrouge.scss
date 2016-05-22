@@ -21,8 +21,9 @@ $bg-d: #ccc;
 $middle-bg: #fff;
 
 // Other fancy stuff
-$corner-radius: 4px;
-$shadow-style: 2px 2px 2px $black;
+$corner-radius: 2px;
+$shadow-style: 1px 1px 2px $black;
+$border-style: 1px solid $black;
 $menu-border-style: 1px solid $cardiff-red;
 
 // Define the colors for syntax highlighting
@@ -36,6 +37,7 @@ $code-type: darken($bluish, 20%);
 $code-color: $black;
 
 $code-border-style: solid 1px $black ;
+$code-shadow-style: inset 1px 1px 1px $black;
 
 @mixin box-style($bg-color) {
         background-color: $bg-color;

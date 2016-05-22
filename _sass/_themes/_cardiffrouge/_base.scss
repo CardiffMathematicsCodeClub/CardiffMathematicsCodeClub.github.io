@@ -61,7 +61,7 @@ header.site-header {
 
 .sidetab {
     background-color: lighten($middle-bg, 10%);
-    border: 1px solid $black;
+    border: $border-style;
     padding: 10px;
     z-index: 20;
     @include box-shadow($shadow-style);
@@ -71,7 +71,7 @@ header.site-header {
 }
 
 .tweets {
-    border: 1px solid $black;
+    border: $border-style;
     @include box-shadow($shadow-style);
     @include border-top-left-radius(3px);
 }
@@ -112,7 +112,7 @@ body {
 .post-header {
     margin-bottom: 0;
     padding: 20px;
-    border: 1px solid $black;
+    border: $border-style;
     position: relative;
     z-index: 1;
     text-shadow: $text-shadow-style;
@@ -129,7 +129,7 @@ body {
     margin-right: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid $black;
+    border: $border-style;
     
     @include box-style($middle-bg);
     @include border-bottom-left-radius($corner-radius);
@@ -138,8 +138,8 @@ body {
 
     h1,h2 {
         padding: 20px;
-        border-top: 1px solid $black;
-        border-bottom: 1px solid $black;
+        border-top: $border-style;
+        border-bottom: $border-style;
         border-left: solid 5px darken($cardiff-red, 10%);
         z-index: 1;
         background-color: darken($middle-bg, 10%);
@@ -160,7 +160,7 @@ body {
         padding: 10px;
         overflow-y: hidden;
         @include border-radius($corner-radius);
-        @include box-shadow($shadow-style);
+        @include box-shadow($code-shadow-style);
         border: $code-border-style;
     }
 }
