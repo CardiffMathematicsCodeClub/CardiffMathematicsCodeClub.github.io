@@ -1,54 +1,54 @@
-- name: Code Club Classic
+- name:      Code Club Classic
   shortname: main
-  version: 1.0
-  author: Everyone
+  version:   1.0
+  author:    Everyone
 
-- name: Minimalist
+- name:      Minimalist
   shortname: minimal
-  version: 0.1
-  author: Alex
+  version:   0.1
+  author:    Alex
 
-- name: Geraint's Theme
+- name:      "Geraint's Theme"
   shortname: yellow
-  version: 0.1
-  author: Sam
+  version:   0.1
+  author:    Sam
 
-- name: Princess Peach's Theme
+- name:      "Princess Peach's Theme"
   shortname: pink
-  version: 0.1
-  author: Adam
+  version:   0.1
+  author:    Adam
 
-- name: Luigi's Theme
+- name:      "Luigi's Theme"
   shortname: lime
-  version: 0.1
-  author: Adam
+  version:   0.1
+  author:    Adam
 
-- name: DEADPOOL
+- name:      DEADPOOL
   shortname: red
-  version: 0.1
-  author: Adam
+  version:   0.1
+  author:    Adam
 
-- name: Classic Inverted
+- name:      Classic Inverted
   shortname: inverted
-  version: 0.1
-  author: Adam
+  version:   0.1
+  author:    Adam
 
-- name: The Matrix
+- name:      The Matrix
   shortname: matrix
-  version: 0.3
-  author: Adam
+  version:   0.3
+  author:    Adam
 
-- name: Cardiff Red
+- name:      Cardiff Red
   shortname: cardiffred
-  version: 0.5
-  author: Alex
+  version:   0.5
+  author:    Alex
 
-- name: Solarizaed
+- name:      Solarizaed
   shortname: solarized
-  version: 0.1
-  author: Vince
+  version:   0.1
+  author:    Vince
 
-- name: Cardiff Rouge
+- name:      Cardiff Rouge
   shortname: cardiffrouge
-  version: 0.3
-  author: Alex
+  version:   0.3
+  author:    Alex
