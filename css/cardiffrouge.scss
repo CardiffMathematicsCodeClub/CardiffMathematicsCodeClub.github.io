@@ -27,6 +27,7 @@ $border-style: 1px solid $black;
 $menu-border-style: 1px solid $cardiff-red;
 
 // Define the colors for syntax highlighting
+$code-font: Courier;
 $code-background: #eee;
 $code-comment: lighten($black, 20%);
 $code-string: $cardiff-red;
@@ -50,9 +51,7 @@ $code-shadow-style: inset 1px 1px 1px $black;
 
         "_themes/_cardiffrouge/_base",
         "_themes/_cardiffrouge/_landing",
-        "_themes/_cardiffrouge/_catmenu",
-        "_themes/_cardiffrouge/_posts",
-        "_themes/_cardiffrouge/_sessions.scss"
+        "_themes/_cardiffrouge/_sessions"
 
 
           

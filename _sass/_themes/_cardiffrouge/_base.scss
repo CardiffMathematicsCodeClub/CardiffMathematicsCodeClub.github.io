@@ -1,3 +1,4 @@
+/*  Global Stlyes */ 
 * {
     font-family: $fonts;
 
@@ -24,56 +25,6 @@
     h6 {
         font-size: $title-font-size * 0.6;
     }
-}
-
-header.site-header {
-
-    background-color: $middle-bg;
-    border-bottom: $menu-border-style;
-    @include box-shadow($shadow-style);
-
-    .menu-item,
-    .menu-name {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-        list-style: none;
-        border-left: $menu-border-style; 
-
-        a {
-            color: $text-color;
-
-            &:hover {
-                color: lighten($cardiff-red, 5%);
-            }
-
-            &:visited {
-                color: $text-color;
-
-                &:hover {
-                    color: lighten($cardiff-red, 5%);
-                }
-            }
-        }
-
-    }
-}
-
-.sidetab {
-    background-color: lighten($middle-bg, 10%);
-    border: $border-style;
-    padding: 10px;
-    z-index: 20;
-    @include box-shadow($shadow-style);
-    @include border-top-right-radius(5px);
-    @include border-top-left-radius(5px);
-
-}
-
-.tweets {
-    border: $border-style;
-    @include box-shadow($shadow-style);
-    @include border-top-left-radius(3px);
 }
 
 body {
@@ -109,6 +60,60 @@ body {
     padding-bottom: 50px;
 }
 
+
+/* Menu */
+header.site-header {
+
+    background-color: $middle-bg;
+    border-bottom: $menu-border-style;
+    @include box-shadow($shadow-style);
+
+    .menu-item,
+    .menu-name {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        list-style: none;
+        border-left: $menu-border-style; 
+
+        a {
+            color: $text-color;
+
+            &:hover {
+                color: lighten($cardiff-red, 5%);
+            }
+
+            &:visited {
+                color: $text-color;
+
+                &:hover {
+                    color: lighten($cardiff-red, 5%);
+                }
+            }
+        }
+
+    }
+}
+
+/* Twitter Feed */
+.sidetab {
+    background-color: lighten($middle-bg, 10%);
+    border: $border-style;
+    padding: 10px;
+    z-index: 20;
+    @include box-shadow($shadow-style);
+    @include border-top-right-radius(5px);
+    @include border-top-left-radius(5px);
+
+}
+
+.tweets {
+    border: $border-style;
+    @include box-shadow($shadow-style);
+    @include border-top-left-radius(3px);
+}
+
+/* Page Content */
 .post-header {
     margin-bottom: 0;
     padding: 20px;
@@ -165,10 +170,75 @@ body {
     }
 }
 
-div#disqus_thread {
-    padding: 20px;
+code {
+    font-family: $code-font;
 }
 
+.meta,
+.post-date {
+    color: #000;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+/* Blog */ 
+div#disqus_thread {
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: $border-style;
+    @include border-radius($corner-radius);
+    @include box-style($middle-bg);
+}
+
+div.blog-cats {
+
+    padding: 0;
+    margin-left: 5px;
+
+    h5 {
+        padding: 15px;
+        background-color: lighten($middle-bg, 10%);
+        position: relative;
+        z-index: 1;
+        text-shadow: $text-shadow-style;
+        border: $border-style;
+        @include box-shadow($shadow-style);
+        @include border-top-left-radius($corner-radius);
+        @include border-top-right-radius($corner-radius);
+    }
+    
+    ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: $border-style;
+        @include box-style($middle-bg);
+        @include border-bottom-left-radius($corner-radius);
+        @include border-bottom-right-radius($corner-radius);
+    }
+
+    ul > li {
+        padding-top: 5px;
+        padding-left: 5px;
+        list-style: none;
+    }
+    
+}
+
+div.prev,
+div.next {
+    @include box-style($middle-bg);
+    @include border-radius($corner-radius);
+    border: $border-style;
+
+    &:hover {
+        @include box-shadow(none);
+    }
+}
+
+/* Site Footer */
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -176,4 +246,3 @@ footer {
     border-top: $menu-border-style;
     text-shadow: $text-shadow-style;
 }
-
