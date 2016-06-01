@@ -1,35 +1,35 @@
 ---
 layout: language
 language: c
-title: C
 ---
 
 ### Overview
 
 C is one the oldest languages still in active use today, first created 1972 by
-Dennis Ritchie at [Bell Labs][bell-labs] and has gone through many revisions as
+Dennis Ritchie at [Bell Labs][bell-labs] it has gone through many revisions as
 the years have progressed with the most recent edition [C11][c11] released early
 in 2011.
 
-However due to the way C is developed, where a committee drafts a standard with
-C's rules and features and it's up to the compiler developers to implement them.
-This mean that many of the more recent features are still not available for
-certain compilers/platforms so many people try to adhere to the [C99][c99]
-or even [ANSI][ansi-c] (the original release) standards to increase portability.
+The language is developed by committee who write a standard which compiler
+developers then use as a basis for their implementations. This usually means
+different features are supported to different extents depending on your choice
+of compiler. This sometimes means that developers adhere to the [C99][c99] or
+[ANSI][ansi-c] standards to maximize support across platforms
 
 C has been a hugely influential language and has inspired the design of many of
-newer languages including C++, Java, Go, Python and many, many more. C has and
-still is so popular due to the fact it is extremely portable, chances are a
-compiler exists for almost any processor architecture out there and produces
-extremely fast executables.
+the newer languages including C++, Java, Go, Python and many, many more. C has
+been and still is so popular due to the fact it is extremely portable, chances
+are a compiler exists for almost any processor architecture out there. C is also
+one of the fastest languages in existence and you will often see benchmarks for
+new languages compare themselves with it.
 
 But that speed comes at a cost, anything but the simplest of tasks are left to
 the programmer. This means when programming in C you have to manage your own
 memory, perform bound checks on arrays and more. If you forget to ensure you
-don't actually access memory you have to right to at best you can introduce a
-bug that will crash your program, however a hacker can exploit this and inject
-malicious code into your program and basically hi-jacking you or your clients'
-machine...
+don't accidentally access memory you have no right to you can introduce a bug
+that will crash your program. Or worse still a hacker can exploit this bug and
+inject malicious code into your program and get the computer to do nearly
+anything they want
 
 If you would like more information about the history or evolution of this
 language then you can follow [this][cwiki] link
@@ -37,7 +37,7 @@ language then you can follow [this][cwiki] link
 ### Applications
 
 C is heavily used for working with hardware, so many device drivers and
-operating systems such as Linux are implemented in C. It's performance means
+operating systems such as Linux are implemented in C. Its performance means
 it's a popular choice for real-time systems and applications such as video
 games. Also languages such as Python, Perl and PHP all have their interpreters
 written in C.

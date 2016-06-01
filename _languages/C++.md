@@ -1,7 +1,6 @@
 ---
 layout: language
 language: c++
-title: C++
 ---
 
 <b><u>Overview </u></b>

@@ -29,7 +29,7 @@ However there are many more than that! Below is just a sample of them.
     <ul>
         {% for page in site.languages %}
 	        {% unless page.tags contains "forfun" %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.url }}">{{ page.language | capitalize }}</a></li>
 	        {% endunless %}
         {% endfor %}
     </ul>
@@ -50,7 +50,7 @@ a long list of these languages!
     <ul>
         {% for page in site.languages %}
 	        {% if page.tags contains "forfun" %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.url }}">{{ page.language | capitalize }}</a></li>
 	        {% endif %}
         {% endfor %}
     </ul>
