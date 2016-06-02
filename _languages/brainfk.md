@@ -1,6 +1,5 @@
 ---
 layout: language
-language: bf
-title: Brainf**k
+language: brainf**k
 tags: forfun
 ---
