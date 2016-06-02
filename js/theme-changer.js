@@ -15,39 +15,39 @@ $(document).ready(function () {
     //             - If the facility is available, saving the user preference
     var changeTheme = function(shortname) {
 
-	// Change the stylesheet
-	$(stylesheet).attr("href", "/css/" + shortname + ".css");
+        // Change the stylesheet
+        $(stylesheet).attr("href", "/css/" + shortname + ".css");
 
-	// Hide all theme details
-	$(themenames).hide();
+        // Hide all theme details
+        $(themenames).hide();
 
-	// Unhide the relevant theme
-	$(themenames + "#" + shortname).show();
+        // Unhide the relevant theme
+        $(themenames + "#" + shortname).show();
 
-	// Update the dropdown
-	$(themechooser).val(shortname);
+        // Update the dropdown
+        $(themechooser).val(shortname);
 
-	// If local storage is available, save the theme so the change
-	// is persistent both accross page loads and entire sessions
-	if (typeof(Storage) !== undefined) {
-	    localStorage.setItem("theme", shortname);
-	}
+        // If local storage is available, save the theme so the change
+        // is persistent both accross page loads and entire sessions
+        if (typeof(Storage) !== undefined) {
+            localStorage.setItem("theme", shortname);
+        }
     };
 
     // In case there already is a saved preference, load that theme
     // otherwise load the default
     if (localStorage.theme) {
-	changeTheme(localStorage.theme);
+        changeTheme(localStorage.theme);
     } else {
-	changeTheme("cardiffred");
+        changeTheme("cardiffred");
     }
 
     // Finally this code is only run when the user makes a choice using the
     // dropdown in the footer
     $(themechooser).change(function() {
 
-	var new_theme = $(themechooser).val();
-	changeTheme(new_theme);
+        var new_theme = $(themechooser).val();
+        changeTheme(new_theme);
 
     });
 });
