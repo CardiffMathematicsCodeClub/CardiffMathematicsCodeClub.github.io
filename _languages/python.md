@@ -1,4 +1,5 @@
 ---
-layout: language
+layout: reference
+title: Python
 language: python
 ---

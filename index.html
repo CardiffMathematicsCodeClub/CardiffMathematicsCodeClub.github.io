@@ -1,5 +1,7 @@
 ---
-layout: landingpage
+layout: base
+nomenu: true
+nonstandard: true
 ---
 <header class="landing">
     <div class="wrap">
@@ -10,7 +12,15 @@ layout: landingpage
         <p>Every Thursday 17:00 - 19:00</p>
 
         <nav class="landing">
-           {% include menu.html %}
+            <ul id="menu">
+                <li class="menu-name">Menu</li> 
+
+                {% for item in site.data.menu %}
+                    <li class="menu-item">
+                        <a href="{{item.url}}">{{item.text}}</a>
+                    </li>
+                {% endfor %}
+            </ul> 
         </nav>
     </div>
 

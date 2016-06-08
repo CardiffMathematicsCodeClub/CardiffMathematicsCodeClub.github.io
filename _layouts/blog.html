@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+menu: true
+pageid: blog
+nonstandard: true
+---
+<!-- Category Menu -->
+    <div class="cat-wrapper">
+        <div class="blog-cats">
 
-  {% include common_head.html %}
-<body id="blog">
+            <h5>Posts by Category</h5>
 
-    {% include header.html %}
-    {% include catmenu.html %}
+            <ul>
+                <li><a href="/blog/index.html">All Posts</a> ({{site.posts.size}})</li>
+            {% assign catlist = site.categories | sort %}
+            {% for cat in catlist %}
+                <li><a href="/blog/{{cat | first}}.html">{{cat | first | capitalize>}}</a> ({{cat[1] | size}})</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
 
+<!-- Main Content -->
     <div class="page-content">
      <div class="wrap">
       <div class="post">
@@ -25,13 +39,13 @@
                <ul class="posts">
                    {% if page.title %}
                      {% for post in paginator.posts %}
-                        {% include post_link.html %}
+                        <li>{% include post_link.html post=post %}</li>
                      {% endfor %}
                    {% endif %}
 
                    {% if page.category %}
                      {% for post in site.categories[page.category] %}
-                        {% include post_link.html %}
+                        <li>{% include post_link.html post=post %}</li>
                      {% endfor %}
                    {% endif %}
                </ul>
@@ -39,14 +53,31 @@
       </div>
 
       {% if page.title %}
-        {% include pagination_nav.html %}
+        <div class="pagination">
+            <div class="buttons">
+                <div class="prev">
+                    {% if paginator.previous_page %}
+                        <a href="{{paginator.previous_page_path}}">
+                            <h4>Previous</h4>
+                        </a>
+                    {% else %}
+                            <h4>Previous</h4>
+                    {% endif %}
+                </div>
+
+                <div class="next">
+                    {% if paginator.next_page %}
+                        <a href="{{paginator.next_page_path}}">
+                            <h4>Next</h4>
+                        </a>
+                    {% else %}
+                            <h4>Next</h4>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
       {% endif %}
 
      </div>
     </div>
 
-    {% include twitter_feed.html %}
-
-    {% include footer.html %}
-</body>
-</html>

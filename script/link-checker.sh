@@ -4,10 +4,8 @@ set -e
 
 files=("./*.html"
        "./*.md"
-       "_includes/catmenu.html"
-       "_includes/post_link.html"
-       "_layouts/*.html"
        "_posts/*.md"
+       "_docs/*.md"
        "_tools/*.md"
        "_languages/*.md"
        "_workshops/*/*.md"

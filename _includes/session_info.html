@@ -1,15 +1,17 @@
-<li>
-    <p>
-        <span class="session-week">Week {{forloop.index}}:</span>
-        <span class="session-name">{{session.name}}</span>
-    </p>
+{% assign session = include.session %}
+{% assign week = include.week %}
+{% assign author = include.author %}
 
-    <p>
-        <span class="session-qots">Quote of the session:</span>
-        <span class="session-quote">{{session.quote}}</span>
-    </p>
-    
-    <p class="session-author">
-        {{person.title | default: session.author}}
-    </p>
-</li>
+<p>
+    <span class="session-week">Week {{week}}:</span>
+    <span class="session-name">{{session.name}}</span>
+</p>
+
+<p>
+    <span class="session-qots">Quote of the session:</span>
+    <span class="session-quote">{{session.quote}}</span>
+</p>
+
+<p class="session-author">
+    {{author.title | default: session.author}}
+</p>
