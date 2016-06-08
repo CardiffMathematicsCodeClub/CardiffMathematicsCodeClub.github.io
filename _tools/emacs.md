@@ -58,7 +58,7 @@ Some popular starter kits include:
 
 [elisp]: https://en.wikipedia.org/wiki/Emacs_Lisp
 [emacs]: https://www.gnu.org/s/emacs/
-[emacs-pinky]: ergoemacs.org/emacs/emacs_pinky.html
+[emacs-pinky]: http://ergoemacs.org/emacs/emacs_pinky.html
 [evil]: http://www.emacswiki.org/emacs/Evil
 [evil-leader]: https://github.com/cofi/evil-leader
 [init-el]: https://github.com/alcarney/emacs.d/blob/master/init.el
