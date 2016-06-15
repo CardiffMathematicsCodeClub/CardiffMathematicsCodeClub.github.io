@@ -17,7 +17,8 @@ Every once in a while during code club someone will run a quick (usually about
 30 minutes long) workshop to get you introduced to a particular tool or concept.
 Here you can find any upcoming workshops:
 
-{%capture workshops%}{% for ws in site.workshops %}{% assign now = "now" | date: "%s" %}{% assign wsdate = ws.when | date: "%s" %}{% if wsdate > now %}<li>{{ws.when}}: <a href="{{ws.url}}">{{ws.title}}</a> by {{ws.leader}}</li>{% endif %}{% endfor %}{%endcapture %}
+{% assign timeshift = 86400%}
+{%capture workshops%}{% for ws in site.workshops %}{% assign now = "now" | date:"%s" | times: 1%}{% assign wsdate = ws.when | date: "%s" | plus: timeshift%}{% if wsdate >= now %}<li>{{ws.when}}: <a href="{{ws.url}}">{{ws.title}}</a> by {{ws.leader}}</li>{% endif %}{% endfor %}{%endcapture %}
 
 {% if workshops.size > 0 %}
 <div class="session-list">
