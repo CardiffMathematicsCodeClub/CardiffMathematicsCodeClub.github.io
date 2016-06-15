@@ -10,7 +10,8 @@ would otherwise not learn.
 Here are the all of the workshops that have been/will be done during a Code Club
 session:
 
-{% for ws in site.workshops | sort: 'when' %}
+{% assign shops = site.workshops | sort: 'when' | reverse%}
+{% for ws in shops %}
 - {{ws.when}}: [{{ws.title}}]({{ ws.url }}) by {{ws.leader}}
 
   {% if ws.software-pre-reqs %}_Software requirements: ({{ ws.software-pre-reqs }})_ {% endif %}
