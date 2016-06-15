@@ -1,5 +1,5 @@
 ---
-layout: tools
+layout: reference
 title: Emacs
 ---
 
