@@ -15,7 +15,11 @@ dead!)
 <ul class="posts">
  {% for project in site.projects %}
   {% if project.active %}
-    {% include project_link.html %}
+    <li>
+       <p class="project-name">{{project.name}}</p>
+       <p class="project-desc">{{project.description}}</p>
+       <p><a href="{{project.url}}">More Info</a></p>
+    </li>
   {% endif %}
 {% endfor %}
 </ul>

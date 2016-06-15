@@ -1,6 +1,7 @@
 ---
-layout: language
+layout: reference
 language: haskell
+title: Haskell
 ---
 
 ### Overview 

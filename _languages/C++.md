@@ -1,5 +1,6 @@
 ---
-layout: language
+layout: reference
+title: C++
 language: c++
 ---
 

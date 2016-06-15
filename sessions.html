@@ -1,7 +1,8 @@
 ---
-layout: sessions
-title: Sessions
-categories: sessions
+layout: page
+title: Past Sessions
+script: /js/sessions.js
+pageid: sessions
 ---
 
 {% for year in site.data.sessions %}
@@ -15,7 +16,7 @@ categories: sessions
     {% for term in year.terms %}
 
     {% assign this-term = term[0] %}
-    
+
     <div class="session-term {{this-term}} {{this-year}}">
 
         <h5 class="{{this-term}} {{this-year}}">{{this-term | capitalize}}</h5>
@@ -25,14 +26,14 @@ categories: sessions
 
             {% assign person = site.data.contributors[session.author] %}
             <div class="session">
-                {% include session_info.html  %}
+                <li>{% include session_info.html session=session
+                       week=forloop.index author=person %}</li>
             </div>
 
         {% endfor %}
 
         </ul>
     </div>            
-   {% endfor %}
+{% endfor %}
 </div>
 {% endfor %}
-
