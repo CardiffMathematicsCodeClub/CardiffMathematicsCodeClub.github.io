@@ -18,9 +18,9 @@ layout: page
 
 {% assign tutorials = site.categories["tutorial"] %}
 
-{% capture lang_tutorials %}{% for tutorial in tutorials %}{% if tutorial.tags contains {{page.language}} %}{% unless tutorial.tags contains "getstarted" %}<li><a href="{{tutorial.url}}">{{tutorial.title}}</a></li>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+{% capture lang_tutorials %}{% for tutorial in tutorials %}{% if tutorial.tags contains page.language %}{% unless tutorial.tags contains "getstarted" %}<li><a href="{{tutorial.url}}">{{tutorial.title}}</a></li>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
 
-{% capture getstarted_tutorials %}{% for tutorial in tutorials %}{% if tutorial.tags contains {{page.language}} and tutorial.tags contains "getstarted" %}<li><a href="{{tutorial.url}}">{{tutorial.title}}</a></li>{% endif %}{% endfor %}{% endcapture %}
+{% capture getstarted_tutorials %}{% for tutorial in tutorials %}{% if tutorial.tags contains page.language and tutorial.tags contains "getstarted" %}<li><a href="{{tutorial.url}}">{{tutorial.title}}</a></li>{% endif %}{% endfor %}{% endcapture %}
 
 <h3>Getting Started</h3>
 

@@ -24,7 +24,7 @@ Here you can find the latest updates and announcements about the project.
 
 <ul>
 {% for post in news %}
-    {% if post.tags contains {{page.tag}} %}
+    {% if post.tags contains page.tag %}
     <li>{{post.date | date: "%d-%m-%Y"}}: <a href="{{post.url}}">{{post.title}}</a></li>
     {% endif %}
 {% endfor %}
@@ -42,7 +42,7 @@ how to get involved. We can't wait for you first pull request!
 
 <ul>
 {% for post in tutorials %}
-    {% if post.tags contains {{page.tag}} and post.tags contains "getstarted"%}
+    {% if post.tags contains page.tag and post.tags contains "getstarted"%}
         <li><a href="{{post.url}}">{{post.title}}</a></li>
     {% endif %}
 {% endfor %}

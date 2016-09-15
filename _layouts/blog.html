@@ -11,7 +11,7 @@ layout: base
                 <li><a href="/blog/index.html">All Posts</a> ({{site.posts.size}})</li>
             {% assign catlist = site.categories | sort %}
             {% for cat in catlist %}
-                <li><a href="/blog/{{cat | first}}.html">{{cat | first | capitalize>}}</a> ({{cat[1] | size}})</li>
+                <li><a href="/blog/{{cat | first}}.html">{{cat | first | capitalize}}</a> ({{cat[1] | size}})</li>
             {% endfor %}
             </ul>
         </div>
