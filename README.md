@@ -7,7 +7,7 @@ curricular club open to all.
 The website for code club is located here -
 http://cardiffmathematicscodeclub.github.io/
 
-Meeting time: Tuesday's 17:00-19:00 in room M/0.35.
+Meeting time: Tuesday's 17:00-19:00 in room M/0.33.
 
 ## Runing the website locally
 
