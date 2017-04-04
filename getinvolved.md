@@ -48,12 +48,11 @@ get unstuck!
   Mathematics homepage.
 
 
-Here is a video that shows the various contributors so far (as of 4th of
-December 2014):
+Here is a video that shows the various contributors so far as of April 2017
 
 <div class="video">
     <figure>
-        <iframe width="560" height="315" align='middle' src="//www.youtube.com/embed/UdbXWZJSwnE" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvMSZ3eVgQ4" frameborder="0" allowfullscreen></iframe>
     </figure>
 </div>
 
