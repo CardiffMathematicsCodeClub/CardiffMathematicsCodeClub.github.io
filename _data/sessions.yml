@@ -179,3 +179,8 @@
       - name: A possible renaissance
         quote: "Vince stop doing dumb stuff"
         author: Vince
+    spring:
+      - name: Code-club? More like chat-club
+        quote: "Too much freedom is problematic"
+        author: Michalis
+   
